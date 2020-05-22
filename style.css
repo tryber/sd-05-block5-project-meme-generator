@@ -8,3 +8,18 @@
   margin-left: 5px;
   border: 2px dashed black;
 }
+
+#meme-insert {}
+
+#meme-image-container {
+  border: 1px solid black;
+  background-color: white
+}
+
+#meme-image {}
+
+#meme-text {
+  text-shadow: 5px 5px 5px black;
+  font-size: 30px;
+  color: white;
+}
