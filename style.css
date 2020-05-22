@@ -1,3 +1,17 @@
+.earth {
+  background-color: green;
+  border-color: black;
+  border-style: groove;
+  border-width: 6px;
+}
+
+.fire {
+  background-color: red;
+  border-color: black;
+  border-style: dashed;
+  border-width: 3px;
+}
+
 .meme-image {
   height: 100%;
   width: 100%;
@@ -17,10 +31,18 @@
 }
 
 .meme-text {
+  font-family: Impact;
   color: white;
   font-size: 30px;
   left: 30px;
   position: absolute;
   text-shadow: 5px 5px 5px black;
   top: 200px;
+}
+
+.water {
+  background-color: blue;
+  border-color: black;
+  border-style: double;
+  border-width: 5px;
 }
