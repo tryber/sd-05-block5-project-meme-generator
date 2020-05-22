@@ -10,3 +10,19 @@ textInput.addEventListener('change', readText);
 function readText() {
   memeText.innerHTML = textInput.value;
 }
+
+memeInput.addEventListener('change', function() {
+  readURL(this);
+});
+
+function readURL(input) {
+  if(input.files && input.files[0]) {
+    let reader = new FileReader();
+
+    reader.onload = function(event) {
+      memeImage.setAttribute('src', event.target.result);
+    }
+
+    reader.readAsDataURL(input.files[0]);
+  }
+}
