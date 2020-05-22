@@ -1,4 +1,4 @@
-#meme-image-container{
+#meme-container{
   width: 300px;
   height: 300px;
   border: solid 1px black;
@@ -7,5 +7,11 @@
 }
 
 #meme-text{
+  position: absolute;
+}
+
+#meme-image-container{
+  width: 300px;
+  height: 300px;
   position: absolute;
 }
