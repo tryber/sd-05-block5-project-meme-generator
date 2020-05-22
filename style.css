@@ -4,13 +4,17 @@
 }
 
 #meme-image-container {
-  width: 400px;
-  height: 380px;
+  background-color: white;
   border: 1px black solid;
+  max-height: 380px;
+  max-width: 400px;
+  height: auto;
+  width: auto;
 }
 
 #meme-text {
   color: white;
   font-size: 30px;
+  position: absolute;
   text-shadow: black 5px 5px 5px;
 }
