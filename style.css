@@ -38,8 +38,46 @@ header {
 
 .fundos {
   clear: both;
-  margin-top: 2rem;
-  margin-left: 20%;
-  padding-top: 1in;
- }
- 
+  margin-top: 20px;
+  margin-left: 30%;
+  padding: 15px;
+}
+.bordas {
+  align-content: center;
+  margin-left: 30%;
+} 
+
+#fire {
+  background-color: red;
+  padding:10px;
+}
+
+#water {
+  background-color: blue;
+  padding:10px;
+}
+
+#earth {
+  background-color: green;
+  padding:10px;
+}
+
+#meme-1{
+  width: 83px;
+  height: 83px;
+}
+
+#meme-2{
+  width: 83px;
+  height: 83px;
+}
+
+#meme-3{
+  width: 83px;
+  height: 83px;
+}
+
+#meme-4{
+  width: 83px;
+  height: 83px;
+}
