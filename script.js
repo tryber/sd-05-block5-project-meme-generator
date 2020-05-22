@@ -8,7 +8,7 @@ function getText() {
 }
 
 
-document.getElementById("meme-insert").addEventListener("change", readImage, false);
+document.querySelector("#meme-insert").addEventListener("change", readImage, false);
 function readImage(event) {
   if (event.target.files && event.target.files[0]) {
       let file = new FileReader();
