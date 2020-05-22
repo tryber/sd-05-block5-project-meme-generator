@@ -13,3 +13,35 @@
 #meme-insert{
     margin: 40px;
 }
+input[type='file'] {
+    display: none
+  }
+
+  .form-image label {
+    background-color: rgb(44, 158, 72);
+    border: none;
+    font-family: 'Special Elite', cursive;
+    font-size: 15pt;
+    margin: 5px;
+    padding: 5px 20px;
+  }
+  .meme-image-container {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid black;
+    margin: 15px 0px;
+  }
+
+  .meme-image {
+    max-width: 900px;
+  }
+
+  .meme-text {
+    color: gray;
+    font-size: 25pt;
+    font-weight: 900;
+    margin-top: -150px;
+    position: absolute;
+    text-align: center;
+    word-wrap: break-word;
+    max-width: 800px;
+  }
