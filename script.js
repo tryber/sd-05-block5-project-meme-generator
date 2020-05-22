@@ -23,19 +23,19 @@ function readImage(event) {
 let buttonFire = document.getElementById("fire");
 buttonFire.addEventListener('click', changeColor1);
 function changeColor1() {
-  document.getElementById("meme-image-container").style.border = "1px solid orange";
+  document.getElementById("meme-image-container").style.border = "3px double red";
 }
 
 let buttonWater = document.getElementById("water");
 buttonWater.addEventListener('click', changeColor2);
 function changeColor2() {
-  document.getElementById("meme-image-container").style.border = "1px solid blue";
+  document.getElementById("meme-image-container").style.border = "5px double blue";
 }
 
 let buttonEarth = document.getElementById("earth");
 buttonEarth.addEventListener('click', changeColor);
 function changeColor() {
-  document.getElementById("meme-image-container").style.border = "1px solid brown";
+  document.getElementById("meme-image-container").style.border = "6px double green";
 }
 
 // Load memes the are already done
