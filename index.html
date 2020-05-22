@@ -10,10 +10,22 @@
   <body>
     <div id = meme-image-container>
       <input type="text" id="text-input">
-      <p id="meme-text"></p>
+      <div id="meme-text"></div>
     </div>
+    
 
- 
+  <script>
+
+    let memeText = document.getElementById("meme-image-container");
+    memeText.addEventListener("keyup", function () {
+      let textInput = document.getElementById("text-input").value;
+      document.getElementById("meme-text").innerHTML = textInput;
+    });
+
+    
+
+
+  </script>
         
 
   </body>
