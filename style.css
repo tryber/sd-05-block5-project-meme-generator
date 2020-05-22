@@ -26,9 +26,10 @@ input[type='file'] {
     padding: 5px 20px;
   }
   .meme-image-container {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: white;
     border: 1px solid black;
     margin: 15px 0px;
+    max-width: 950px;
   }
 
   .meme-image {
