@@ -18,3 +18,5 @@ textInput.addEventListener('keyup', criaTxtDoMeme);
 imgInput.addEventListener('input', function () {
   memeImage.src = URL.createObjectURL(this.files[0]);
 });
+
+
