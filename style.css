@@ -1,8 +1,5 @@
 .header {
-  /* margin-left: auto; */
-  /* margin-left: auto; */
   border-style: dashed;
-  /* vertical-align: middle; */
   position: relative;
   height: 10em;
 }
@@ -22,19 +19,28 @@
 }
 .meme-generator {
   border-style: dotted;
-  height: 20em;
+  height: auto;
 }
 
-.meme-image-container {
-  height: 70%;
-  border-left: auto;
-  border-right: auto;
-  border-style: dotted;
+#meme-image-container {
+  position: relative;
   border-style: solid;
   border-color: black;
   border-width: 1px;
+  background-color: white;
 }
 
 #meme-text {
-  text-shadow: black;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  z-index: 2;
+  left: 200px;
+  bottom: 10px;
+}
+#meme-image {
+  z-index: 1;
+  width: 400px;
+  height: auto;
 }
