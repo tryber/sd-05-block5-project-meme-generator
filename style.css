@@ -1,13 +1,13 @@
 .meme-image {
-  background-color: white;
-  border-style: solid;
-  border-color: black;
-  border-width: 1px;
   height: 100%;
   width: 100%;
 }
 
 .meme-image-container {
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
   height: 400px;
   width: 400px;
 }
@@ -17,8 +17,8 @@
 }
 
 .meme-text {
+  color:white;
+  left: 30px;
   position: absolute;
   top: 200px;
-  left: 30px;
-  color:white
 }
