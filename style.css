@@ -1,12 +1,14 @@
 #meme-image-container{
   height: 300px;
   width: 300px;
-  border: 1px solid;
+  border: solid 1px black;
+
+
 
 }
 #meme-text{
-  width: 100%;
-  border: solid 1px;
-  text-align: center;
-  display: block;
+  width: 300px;
+  border: solid 1px black;
+  
+  
 }
