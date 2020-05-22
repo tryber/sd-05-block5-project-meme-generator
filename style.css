@@ -13,15 +13,20 @@ label{
 
 /*Inicio do conteirner/mensagem de texto*/
 #meme-image-container{
-    width: 200px;
-    height: 200px;
-    border: 1px solid;
+    width: 300px;
+    height: 199px;
+    border: 3px solid;
 }
 #meme-text {
     position: relative;
-    top: 135px;
-    margin: auto;
+    bottom:  60px;
+    margin-left: 10px;
     width: 200px;
     height: 46px;
+}
+#meme-image{
+    width: 297px;
+    height: 195px;
+    border: 2px solid teal;
 }
 /*Fim de conteiner/mensagem de texto*/
