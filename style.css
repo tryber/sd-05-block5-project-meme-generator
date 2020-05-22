@@ -2,6 +2,7 @@
   border: 1px solid black;
   background-color: white;
   width: 20%;
+  height: 300px;
 }
 
 #meme-text {
@@ -12,4 +13,5 @@
 #meme-image {
   display: block;
   width: 100%;
+  height: 100%;
 }
