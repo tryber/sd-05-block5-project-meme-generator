@@ -1,3 +1,16 @@
 #meme-text {
     position: absolute;
+    z-index: 1;
+}
+
+#meme-image {
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#meme-image-container {
+    height: 400px;
+    width: 400px;
 }
