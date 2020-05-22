@@ -8,23 +8,34 @@
   </head>
 
   <body>
+    <h1>MEME GENERATOR</h1>
+    <div>
+    Text: <input type="text" id="text-input"><br>
+    Image: <input type="file" id="meme-insert">
+    </div>
     <div id = meme-image-container>
-      <input type="text" id="text-input">
       <div id="meme-text"></div>
+      <img id="meme-image"></img>
     </div>
     
 
   <script>
+    //Meme Text
+let memeText = document.getElementById("meme-text");
+let textInput = document.getElementById("text-input");
 
-    let memeText = document.getElementById("meme-image-container");
-    memeText.addEventListener("keyup", function () {
-      let textInput = document.getElementById("text-input").value;
-      document.getElementById("meme-text").innerHTML = textInput;
-    });
-
-    
+textInput.addEventListener("keyup", function () {
+ memeText.innerHTML = textInput.value;
+});
 
 
+//Meme Image
+let memeImage = document.getElementById("meme-image");
+let memeInsert = document.getElementById("meme-insert");
+
+memeInsert.addEventListener("input", function() {
+    memeImage.src = URL.createObjectURL(this.files[0]);
+})
   </script>
         
 
