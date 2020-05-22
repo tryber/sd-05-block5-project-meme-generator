@@ -19,10 +19,24 @@
     </label>
 
     <div id="meme-image-container">
-        <div id="meme-image">
 
-        </div>
-        <p id="meme-text">Deus é  mais que Fiel</p>
+        <div id="meme-image"></div>
+        <div id="meme-text">Deus é  mais que Fiel</div>
+        
     </div>  
+
+    <script>
+        let textoVl = document.getElementById('text-input');
+        let resposta = document.getElementById('meme-text');
+       
+        textoVl.addEventListener("keyup",function(){
+           resposta.innerHTML = textoVl.value;       
+       })
+    </script>
+
+    <script>
+
+
+    </script>
 </body>
 </html>
