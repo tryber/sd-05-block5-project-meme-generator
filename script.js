@@ -9,10 +9,10 @@ const imgInput = document.getElementById("meme-insert");
 const fogo = document.getElementById("fire");
 const agua = document.getElementById("water");
 const terra = document.getElementById("earth");
-const badluck = document.getElementById("img4");
-const yellowsuit = document.getElementById("img3");
-const work = document.getElementById("img2");
-const spider = document.getElementById("img1");
+const badluck = document.getElementById("meme-4");
+const yellowsuit = document.getElementById("meme-3");
+const work = document.getElementById("meme-2");
+const spider = document.getElementById("meme-1");
 
 // Functions
 
@@ -44,16 +44,16 @@ function trocaBorda() {
 }
 function changePic() {
   if (event.target === badluck) {
-    memeImage.src = "badluck.jpg";
+    memeImage.src = "imgs/meme4.png";
   }
   if (event.target === yellowsuit) {
-    memeImage.src = "yellowsuit.jpg";
+    memeImage.src = "imgs/meme3.png";
   }
   if (event.target === work) {
-    memeImage.src = "work.jpg";
+    memeImage.src = "imgs/meme2.png";
   }
   if (event.target === spider) {
-    memeImage.src = "spida.jpg";
+    memeImage.src = "imgs/meme1.png";
   }
 }
 // eventListeners
