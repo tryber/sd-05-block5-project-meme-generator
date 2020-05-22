@@ -1,4 +1,11 @@
-let textoVisivel = document.getElementById('text-input')
 
-//meme-text
-console.log(textoVisivel)
+<script>
+let textoVl = document.getElementById('text-input');
+let resposta = document.getElementById('meme-text');
+
+textoVl.addEventListener("keyup",function(){
+  
+  resposta.innerHTML = textoVl.value;
+
+})
+</script>
