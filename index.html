@@ -12,15 +12,15 @@
     </header>
     <article class="meme-generator">
       <label>Coloque seu texto aqui!: 
-        <input id="meme-text" type="text" maxlength=60>
+        <input id="text-input" type="text" maxlength=60>
       </label>
-      <label id="choose-file">
-        <input type="file" name="file" id="meme-input">
+      <label for="meme-insert" id="choose-file">
+        <input type="file" name="file" id="meme-insert">
       </label>
-      <section class="meme-image-container">
-        <label class="center" id="meme-text">Texto</label>
-        <img class="center" alt="Imagem do meme!" id="meme-image">
-      </section>
+      <div id="meme-image-container">
+        <p id="meme-text"></p>
+        <img alt="Imagem do meme!" id="meme-image">
+      </div>
     </article>
     <script src="script.js"></script>
 
