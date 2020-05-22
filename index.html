@@ -4,27 +4,29 @@
   <meta charset="UTF-8">
   <title>Gerador de Memes</title>
   <link rel="stylesheet" href="style.css"/>
+  <script src=sript.js></script>
 
 </head>
 <body>
-  
+
   <header id="cabecalho">
     <h1>Gerador de Memes</h1>
     <p>Projeto de JavaScript</p>
   </header>
 
   <div id="texto_foto">
-    <td><strong>Texto: </strong></td> 
-    <input id="text-input" type="text" name="meme" size="20"/><br> <!--Caixa de Texto-->
+    <td><strong>Texto: </strong></td>
+    <input id="text-input" type="text" name="memename" size="20" maxlength=59/><br> <!--Caixa de Texto-->
     <br>
     <td><strong>Foto: </strong></td>
     <button id="meme-insert">Choose file</button> <!--Botão para inserir imagem-->
   </div>
   <br>
-    <div class="bloco-imagem">
-    <input id="meme-image-container" type="image" type="text"/>
+    <div id="meme-image-container"> <!--Container para imagem e texto-->
+    <input id="meme-image" type="image" type="text"/>
+    <p id="meme-text"></p>
     </div>
 
-  
+
 </body>
 </html>

@@ -1,10 +1,16 @@
-#cabecalho{
+#cabecalho {
   font-size: large;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
-  .bloco-imagem{
-    width: 400px;
-    height: 380px;
-    border: black solid;
-  }
+#meme-image-container {
+  width: 400px;
+  height: 380px;
+  border: 1px black solid;
+}
+
+#meme-text {
+  color: white;
+  font-size: 30px;
+  text-shadow: black 5px 5px 5px;
+}
