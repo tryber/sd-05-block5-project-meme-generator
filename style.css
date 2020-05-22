@@ -32,6 +32,10 @@ h1 {
 }
 
 #meme-text {
-  z-index: 3;
   position: absolute;
+  top: 550px;
+  text-shadow: 5px 5px 5px black;
+  font-size: 30px;
+  color: white;
+  z-index: 3;
 }
