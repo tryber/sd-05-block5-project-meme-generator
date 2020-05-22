@@ -7,7 +7,7 @@ function getText() {
   document.querySelector("#meme-text").innerHTML = memeText;
 }
 
-
+// The image uploaded by the user is loaded inside the container
 document.querySelector("#meme-insert").addEventListener("change", readImage, false);
 function readImage(event) {
   if (event.target.files && event.target.files[0]) {
@@ -19,4 +19,21 @@ function readImage(event) {
   }
 }
 
+// use the buttons to change the color of the container's border
+let buttonFire = document.getElementById("fire");
+buttonFire.addEventListener('click', changeColor1);
+function changeColor1() {
+  document.getElementById("meme-image-container").style.border = "1px solid orange";
+}
 
+let buttonWater = document.getElementById("water");
+buttonWater.addEventListener('click', changeColor2);
+function changeColor2() {
+  document.getElementById("meme-image-container").style.border = "1px solid blue";
+}
+
+let buttonEarth = document.getElementById("earth");
+buttonEarth.addEventListener('click', changeColor);
+function changeColor() {
+  document.getElementById("meme-image-container").style.border = "1px solid brown";
+}
