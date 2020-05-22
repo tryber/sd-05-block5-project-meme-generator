@@ -7,9 +7,6 @@ const imgInput = document.getElementById('meme-insert');
 // Functions
 
 function criaTxtDoMeme() {
-  if (textInput.value.length > 60) {
-    textInput.value = textInput.value.slice(0, 60);
-  }
   caixaTxtDoMeme.innerText = textInput.value;
 }
 
