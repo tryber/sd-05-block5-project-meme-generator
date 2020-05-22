@@ -18,13 +18,13 @@ function getImage(element) {
   // document.querySelector("#meme-image-container").style.backgroundImage = "url(" + memeIMG + ")";
 }*/
 
-function readImage() {
-  if (this.files && this.files[0]) {
-      var file = new FileReader();
+function readImage(event) {
+  if (event.target.files && event.target.files[0]) {
+      let file = new FileReader();
       file.onload = function(e) {
-          document.getElementById("image").src = e.target.result;
+          document.getElementById("meme-image-container").src = e.target.result;
       };       
-      file.readAsDataURL(this.files[0]);
+      file.readAsDataURL(event.target.files[0]);
   }
 }
 document.getElementById("img-input").addEventListener("change", readImage, false);
