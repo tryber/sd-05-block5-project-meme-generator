@@ -4,21 +4,19 @@
 
 // colocar texto na foto:
 function colocatextomeme() {
-let col = document.getElementById("text-input").value;
-document.getElementsByTagName("h2")[0].innerHTML = col;
+  let coloca = document.getElementById('text-input').value;
+  document.getElementsByTagName('h2')[0].innerHTML = coloca;
 }
 
-document.getElementById("text-input").addEventListener("keyup", colocatextomeme)
+document.getElementById('text-input').addEventListener('keyup', colocatextomeme);
 
 // colocar nova foto
 
-document.getElementById("meme-insert").addEventListener("change", trocaFoto)
-
 function trocaFoto(event) {
-  var selectedFile = event.target.files[0];
-  var reader = new FileReader();
+  let selectedFile = event.target.files[0];
+  let reader = new FileReader();
 
-  var imgtag = document.getElementById("meme-image");
+  let imgtag = document.getElementById('meme-image');
   
   reader.onload = function(event) {
     imgtag.src = event.target.result;
@@ -26,3 +24,5 @@ function trocaFoto(event) {
 
   reader.readAsDataURL(selectedFile);
 }
+
+document.getElementById('meme-insert').addEventListener('change', trocaFoto);
