@@ -1,0 +1,27 @@
+.header {
+  /* margin-left: auto; */
+  /* margin-left: auto; */
+  border-style: dashed;
+  /* vertical-align: middle; */
+  position: relative;
+  height: 10em;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.header h1 {
+  top: 40%;
+}
+
+.header p {
+  top: 70%;
+}
+.meme-image-container {
+  border-style: dashed;
+  height: 20em;
+  
+}
