@@ -8,11 +8,11 @@ function insereTexto () {
 }
 
 caixaTexto.addEventListener('keyup',insereTexto);
-function insereImg(){
-  let arq= document.getElementById('meme-insert').files[0];
-  console.log(arq)
-  container.style.backgroundImg='';
-}
-imagemInput.addEventListener("input", function(){
-  memeImage.src = URL.createObjectURL(this.files[0]);
-}
+// function insereImg(){
+//   let arq= document.getElementById('meme-insert').files[0];
+//   console.log(arq)
+//   container.style.backgroundImg='';
+// }
+// imagemInput.addEventListener("input", function(){
+//   memeImage.src = URL.createObjectURL(this.files[0]);
+// }
