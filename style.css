@@ -2,6 +2,7 @@
   height: max-content;
   width: fit-content;
   word-break: break-all;
+
   /* QUEBRA PALAVRAS GRANDES NO TAMANHO DA DIV*/
 }
 
@@ -34,4 +35,5 @@ img {
 #meme-text{
   color: aliceblue;
   size: 14px;
+  
 }
