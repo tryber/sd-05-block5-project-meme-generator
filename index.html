@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=
     , initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media='screen' >
 </head>
 <body>
   <header class="titulo">
@@ -13,36 +14,39 @@
 </header>
 <section class="inputz">
   <form>
+    <label for="meme-insert">Selecione uma imagem:</label>
+    <input size="60" maxlength="60" type="file" id="meme-insert" name="meme-insert">
+  </form>
+  <br>
+  <form>
     <label for="text-input">Adicione seu texto:</label>
     <input type="text" id="text-input" name="text-input">
-  </form>
-<br>
-  <form>
-    <label for="meme-insert">Selecione uma imagem:</label>
-    <input type="file" id="meme-insert" name="meme-insert">
   </form>
 </section>
 
 <!--A imagem deve estar totalmente contida dentro do elemento identificado como meme-image-container ("totalmente contida" quer dizer que não deve sobrar espaço entre o container e a imagem, e a imagem não deve ultrapassar o tamanho do container);-->
 
-
-
 <section id="meme-image-container">
-    <img id="meme-image">
-    <h1 id="meme-text"></h1>
+    <h2 id="meme-text">texto!</h2>
+    <img id="meme-image" src="imgs/meme-1.png">
 </section>
 
 <section class="fundos">
-  <img id="meme-1">
-  <img id="meme-2">
-  <img id="meme-3">
-  <img id="meme-4">
+  <img id="meme-1" src="imgs/meme-1.png">
+  <img id="meme-2" scr="imgs/meme-2.png">
+  <img id="meme-3" scr="imgs/meme-3.png">
+  <img id="meme-4" scr="imgs/meme-4.png">
 </section>
 
-<section class ="fundos"></section>
+<section class ="bordas">
+  <button id="fire"></button>
+  <button id="water"></button>
+  <button id="earth"></button>
 
-<script>
-  src=script.js
-</script>
+
+</section>
+
+<script src=script.js></script>
+
 </body>
 </html>
