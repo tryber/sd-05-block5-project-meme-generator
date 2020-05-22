@@ -40,12 +40,12 @@ const buttonEarth = document.getElementById('earth');
 buttonEarth.addEventListener('click', changeColor);
 
 // Load memes the are already done
+const loadMeme1 = document.getElementById('meme-1').firstChild;
+loadMeme1.addEventListener('click', loadMemeDone1);
 function loadMemeDone1() {
   document.getElementById('meme-image').src = loadMeme1.src;
   document.getElementById('meme-text').innerHTML = 'É o que que está acontencendo?';
 }
-const loadMeme1 = document.getElementById('meme-1').firstChild;
-loadMeme1.addEventListener('click', loadMemeDone1);
 
 function loadMemeDone2() {
   document.getElementById('meme-image').src = loadMeme2.src;
