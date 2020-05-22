@@ -23,7 +23,7 @@ function displayImage(event) {
   picMeme.src = URL.createObjectURL(file);
   // URL.revokeObjectURL(picMeme.src); //linha extra para liberar memoria, aparadamente boa pratica 
 }
-picInput.addEventListener("input", displayImage);
+picInput.addEventListener("change", displayImage);
 
 
 
