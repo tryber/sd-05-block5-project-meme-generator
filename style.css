@@ -1,21 +1,24 @@
-#meme-text {
-  position: absolute;
-  top: 200px;
-  left: 30px;
-  color:white
-}
-
-#meme-image {
-  width: 100%;
+.meme-image {
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
   height: 100%;
-  border: solid black 1px;
+  width: 100%;
 }
 
-#meme-image-container {
+.meme-image-container {
   height: 400px;
   width: 400px;
 }
 
-#meme-insert {
+.meme-insert {
   width: 90px;
+}
+
+.meme-text {
+  position: absolute;
+  top: 200px;
+  left: 30px;
+  color:white
 }
