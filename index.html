@@ -4,19 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meme generator</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css"> 
 </head>
 <body>
   <header>
     <h1>MEME GENERATOR</h1>
-      <article>
+      <article id="container">
         <section>
           <!--********INPUTS*********-->
           <div id="inputs">
             <form>
-              <label>
+              <label> Texto:
                 <input type="text" id="text-input">
-              </label>
-              <label>
+              </label><br>
+              <label> Foto:
                 <input type="file"  id="meme-insert">
               </label>
             </form>
@@ -24,9 +26,10 @@
           <!--********MEME GENERATOR*********-->
           <div id="meme-image-container">
             <div id="meme-image">
-              <div id="meme-text">
-
-              </div>
+                <img src="#">
+                <div id="meme-text">
+                  <p>Meme text</p>
+                </div>
             </div>
           </div>
           <!--********CUSTOMIZACAO*********-->
@@ -34,16 +37,16 @@
             <p>Estilos customizados:</p>
             <button id="fire">Fire</button>
             <button id="water">Water</button>
-            <button id="Earth">Earth</button>            
+            <button id="Earth">Earth</button>         
           </div>
         </section>
         <aside>
           <div>
             <p>Memes pré-prontos:</p>
-            <img href="#" id="meme-1">
-            <img href="#" id="meme-2">
-            <img href="#" id="meme-3">
-            <img href="#" id="meme-4">
+            <img src="#" id="meme-1">
+            <img src="#" id="meme-2">
+            <img src="#" id="meme-3">
+            <img src="#" id="meme-4">
           </div>
         </aside>
       </article>
