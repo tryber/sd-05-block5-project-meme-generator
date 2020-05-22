@@ -6,4 +6,3 @@ txt.addEventListener("keyup", function() {
   document.querySelector("#meme-text").innerHTML = txt.value;
 })
 
-console.log(txt);
