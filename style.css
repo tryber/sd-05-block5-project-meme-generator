@@ -1,20 +1,30 @@
-.text_meme{ width: fit-content;
-height:max-content;
-word-break:break-all; /* QUEBRA PALAVRAS GRANDES NO TAMANHO DA DIV*/
+.text_meme {
+  height: max-content;
+  width: fit-content;
+  word-break: break-all;
+  /* QUEBRA PALAVRAS GRANDES NO TAMANHO DA DIV*/
 }
 
-.tamanho_conteiner_imagem_e_texto{
-  width: 300px;
-  height: 450px;
-  border: 1px solid black;
-  position: relative;
+.tamanho_conteiner_imagem_e_texto {
   background-color: white;
+  border: 1px solid black;
+  height: 450px;
+  position: relative;
+  width: 600px;
 }
-.location_text_meme{
-  position: absolute;
+
+.location_text_meme {
   bottom: 0px;
+  position: absolute;
   vertical-align: bottom;
 }
-.style_text_meme{
+
+.style_text_meme {
   font-size: 2em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
 }
