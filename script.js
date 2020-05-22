@@ -11,7 +11,7 @@ function readText() {
   memeText.innerHTML = textInput.value;
 }
 
-memeInput.addEventListener('change', function() {
+memeInput.addEventListener('keyup', function() {
   readURL(this);
 });
 
