@@ -1,13 +1,13 @@
 .earth {
   background-color: green;
-  border-color: black;
+  border-color: lightgreen;
   border-style: groove;
   border-width: 6px;
 }
 
 .fire {
   background-color: red;
-  border-color: black;
+  border-color: lightcoral;
   border-style: dashed;
   border-width: 3px;
 }
@@ -31,18 +31,33 @@
 }
 
 .meme-text {
-  font-family: Impact;
   color: white;
+  font-family: Impact,sans-serif;
   font-size: 30px;
-  left: 30px;
+  left: 60px;
   position: absolute;
   text-shadow: 5px 5px 5px black;
   top: 200px;
 }
 
+.meme-text-bottom {
+  color: white;
+  font-family: Impact,sans-serif;
+  font-size: 30px;
+  left: 230px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  top: 300px;
+}
+
+.presetimg {
+  height: 90px;
+  width: 90px;
+}
+
 .water {
   background-color: blue;
-  border-color: black;
+  border-color: lightblue;
   border-style: double;
   border-width: 5px;
 }

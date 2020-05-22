@@ -1,42 +1,72 @@
 // definição de variaveis
-const memeImage = document.getElementById('meme-image');
-const textInput = document.getElementById('text-input');
-const imgContainer = document.getElementById('meme-image-container')
-const caixaTxtDoMeme = document.getElementById('meme-text');
-const imgInput = document.getElementById('meme-insert');
-const fogo = document.getElementById('fire');
-const agua = document.getElementById('water');
-const terra = document.getElementById('earth');
+const memeImage = document.getElementById("meme-image");
+const textInput = document.getElementById("text-input");
+const textInput2 = document.getElementById("text-input2");
+const imgContainer = document.getElementById("meme-image-container");
+const caixaTxtDoMeme = document.getElementById("meme-text");
+const caixaTxtDoMeme2 = document.getElementById("meme-text2");
+const imgInput = document.getElementById("meme-insert");
+const fogo = document.getElementById("fire");
+const agua = document.getElementById("water");
+const terra = document.getElementById("earth");
+const badluck = document.getElementById("img4");
+const yellowsuit = document.getElementById("img3");
+const work = document.getElementById("img2");
+const spider = document.getElementById("img1");
 
 // Functions
 
 function criaTxtDoMeme() {
-  caixaTxtDoMeme.innerText = textInput.value;
+  if (event.target === textInput) {
+    caixaTxtDoMeme.innerText = textInput.value;
+  }
+  if (event.target === textInput2) {
+    caixaTxtDoMeme2.innerText = textInput2.value;
+  }
 }
 
 function trocaBorda() {
-  if (event.target == fogo) {
+  if (event.target === fogo) {
     imgContainer.style.borderColor = "red";
     imgContainer.style.borderWidth = "3px";
     imgContainer.style.borderStyle = "dashed";
   }
-  if (event.target == agua) {
+  if (event.target === agua) {
     imgContainer.style.borderColor = "blue";
     imgContainer.style.borderWidth = "5px";
     imgContainer.style.borderStyle = "double";
   }
-  if (event.target == terra) {
+  if (event.target === terra) {
     imgContainer.style.borderColor = "green";
     imgContainer.style.borderWidth = "6px";
     imgContainer.style.borderStyle = "groove";
   }
-
+}
+function changePic() {
+  if (event.target === badluck) {
+    memeImage.src = "badluck.jpg";
+  }
+  if (event.target === yellowsuit) {
+    memeImage.src = "yellowsuit.jpg";
+  }
+  if (event.target === work) {
+    memeImage.src = "work.jpg";
+  }
+  if (event.target === spider) {
+    memeImage.src = "spida.jpg";
+  }
 }
 // eventListeners
-textInput.addEventListener('keyup', criaTxtDoMeme);
-imgInput.addEventListener('input', function () {
+textInput.addEventListener("keyup", criaTxtDoMeme);
+textInput2.addEventListener("keyup", criaTxtDoMeme);
+
+imgInput.addEventListener("input", function () {
   memeImage.src = URL.createObjectURL(this.files[0]);
 });
-fogo.addEventListener('click', trocaBorda);
-agua.addEventListener('click', trocaBorda);
-terra.addEventListener('click', trocaBorda);
+fogo.addEventListener("click", trocaBorda);
+agua.addEventListener("click", trocaBorda);
+terra.addEventListener("click", trocaBorda);
+badluck.addEventListener("click", changePic);
+work.addEventListener("click", changePic);
+yellowsuit.addEventListener("click", changePic);
+spider.addEventListener("click", changePic);
