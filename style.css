@@ -15,7 +15,9 @@ label{
 #meme-image-container{
     width: 300px;
     height: 199px;
-    border: 3px solid;
+    border: 1px solid black;
+    background-color: white;
+    
 }
 #meme-text {
     position: relative;
@@ -25,8 +27,9 @@ label{
     height: 46px;
 }
 #meme-image{
-    width: 297px;
-    height: 195px;
-    border: 2px solid teal;
+    width: 298px;
+    height: 197px;
+    border: 1px solid teal;
+    
 }
 /*Fim de conteiner/mensagem de texto*/
