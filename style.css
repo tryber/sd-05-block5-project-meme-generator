@@ -1,4 +1,10 @@
-  #cabecalho{
-    font-size: large;
+#cabecalho{
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+}
 
+  .bloco-imagem{
+    width: 400px;
+    height: 380px;
+    border: black solid;
   }

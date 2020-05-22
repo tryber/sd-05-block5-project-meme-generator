@@ -2,9 +2,9 @@
 <html lang="pt">
 <head>
   <meta charset="UTF-8">
-  <style src="style.css"></style>
   <title>Gerador de Memes</title>
-  
+  <link rel="stylesheet" href="style.css"/>
+
 </head>
 <body>
   
@@ -13,10 +13,18 @@
     <p>Projeto de JavaScript</p>
   </header>
 
-  <div>
+  <div id="texto_foto">
     <td><strong>Texto: </strong></td> 
-    <td><input id="text-input" type="text" name="meme" size="20" /></td>
+    <input id="text-input" type="text" name="meme" size="20"/><br> <!--Caixa de Texto-->
+    <br>
+    <td><strong>Foto: </strong></td>
+    <button id="meme-insert">Choose file</button> <!--Botão para inserir imagem-->
   </div>
+  <br>
+    <div class="bloco-imagem">
+    <input id="meme-image-container" type="image" type="text"/>
+    </div>
+
   
 </body>
 </html>
