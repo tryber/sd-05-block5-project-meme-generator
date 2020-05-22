@@ -36,8 +36,9 @@ input[type='file'] {
   }
 
   .meme-text {
-    color: gray;
-    font-size: 25pt;
+    text-shadow: black 5px 5px 5px;
+    color:white;
+    font-size: 30px;
     font-weight: 900;
     margin-top: -150px;
     position: absolute;
