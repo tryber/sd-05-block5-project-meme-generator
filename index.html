@@ -9,11 +9,11 @@
   <h1>Meme Generator</h1>
   <ul>
     <li>Texto: <input id="text-input"></li>
-    <li>Imagem: <input id="meme-insert" type="file"></li>
+    <li>Imagem: <input id="meme-insert" type="file" accept="image*/" onchange="loadFile(event)"></li>
   </ul>
   <div id="meme-image-container">
     <div id="meme-text"></div>
-    <div id="meme-image"></div>
+    <img id="meme-image">
   </div>
   <script type="text/javascript" src="script.js"></script>
 </body>
