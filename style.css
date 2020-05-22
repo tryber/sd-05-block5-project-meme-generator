@@ -8,7 +8,7 @@
 .tamanho_conteiner_imagem_e_texto {
   background-color: white;
   border: 1px solid black;
-  height: 450px;
+  height: auto;
   position: relative;
   width: 600px;
 }
@@ -23,8 +23,15 @@
   font-size: 2em;
 }
 
+.container_image{
+  border: 1px solid black;
+}
 img {
   display: block;
   max-width: 100%;
   max-height: 100%;
+}
+#meme-text{
+  color: aliceblue;
+  size: 14px;
 }
