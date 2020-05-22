@@ -1,0 +1,10 @@
+#text-input {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.caixa-texto {
+  width: 45%;
+  margin-left: 5px;
+  border: 2px dashed black;
+}
