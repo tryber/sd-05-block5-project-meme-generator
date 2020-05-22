@@ -1,9 +1,26 @@
+* {
+  margin: 0,9em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.mainTitle {
+  text-align: center;
+}
+
 #text-input {
   width: 100px;
 }
 
 #meme-image-container {
-  border: 1px solid black;
   background-color: white;
-  margin: 10px 30% 10px;
+  border: 1px solid black;
+  margin: 10px 30%;
+  width: auto;
+  height: 400px;
+}
+
+#meme-text {
+  color: white;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px black;
 }
