@@ -9,6 +9,11 @@
 #meme-text {
     position: absolute;
     float: left;
+    color: white;
+    font-family: fantasy;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px black;
+
 }
 
 img {
@@ -22,7 +27,9 @@ img {
 
 /* 4 - O texto que será inserido sobre a imagem deve ter uma cor, sombra e tamanho específicos.
 As seguintes verificações serão feitas:
-O texto do elemento meme-text deve ter uma sombra preta, de 5 pixels na horizontal, 5 pixels na vertical e um raio de desfoque de 5 pixels;
+O texto do elemento meme-text deve ter uma sombra preta, de 5 pixels na horizontal, 
+5 pixels na vertical
+ e um raio de desfoque de 5 pixels;
 
 O texto do elemento meme-text deve ter a fonte com o tamanho de 30 pixels;
 
