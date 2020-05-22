@@ -1,5 +1,5 @@
 
-let txtimput= document.querySelector("#imp");
+let txtimput= document.querySelector("#text-input");
 
 let textMeme = document.querySelector("#meme-text");
 
