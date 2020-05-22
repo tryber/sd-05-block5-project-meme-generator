@@ -1,17 +1,10 @@
-let corActual = 'black';
-function aplicaCorAtual(id) {
-  let caixasPixelBoard = document.querySelector(`.${id}`);
-  caixasPixelBoard.style.backgroundColor = corActual;
-}
-function selecionaPreto() {
-  corActual = 'black';
-}
-function selecionaAmarelo() {
-  corActual = 'yellow';
-}
-function selecionaAzul() {
-  corActual = 'blue';
-}
-function selecionaVerde() {
-  corActual = 'green';
+let loadFile = function (event) {
+  let image = document.getElementById('meme-image');
+  image.src = URL.createObjectURL(event.target.files[0]);
+};
+
+function escreveCaixaImagem() {
+  let caixaTexto = document.getElementById('text-input');
+  let tagP = document.getElementById('meme-text');
+  tagP.innerText = caixaTexto.value;
 }
