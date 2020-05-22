@@ -8,14 +8,14 @@ let picInput = document.getElementById("meme-insert");
 let textMeme = document.getElementById("meme-text");
 let picMeme = document.getElementById("meme-image");
 
-//function e addEventListener para pegar o input e fazê-lo aparecer
+//function para pegar o input e fazê-lo aparecer
 
 let userTextMeme = "";
 function getTextInput () {
   userTextMeme = textInput.value;
   textMeme.innerHTML = userTextMeme;
 }
-
+//Listener para ativar a function anterior
 textInput.addEventListener("keyup", getTextInput);
 
 //
