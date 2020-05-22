@@ -13,5 +13,6 @@ function insereImg(){
   console.log(arq)
   container.style.backgroundImg='';
 }
-imagemInput.addEventListener('mouseover',insereImg)
-
+imagemInput.addEventListener("input", function(){
+  memeImage.src = URL.createObjectURL(this.files[0]);
+}
