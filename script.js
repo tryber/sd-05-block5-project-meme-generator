@@ -5,13 +5,13 @@ let memeText = document.getElementById('meme-text');
 
 
 
-textInput.addEventListener('change', readText);
+textInput.addEventListener('keyup', readText);
 
 function readText() {
   memeText.innerHTML = textInput.value;
 }
 
-memeInput.addEventListener('keyup', function() {
+memeInput.addEventListener('change', function() {
   readURL(this);
 });
 
