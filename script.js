@@ -7,15 +7,14 @@ const imgInput = document.getElementById('meme-insert');
 // Functions
 
 function criaTxtDoMeme() {
+  if (textInput.value.length > 10) {
+    textInput.value = textInput.value.slice(0, 10);
+  }
   caixaTxtDoMeme.innerText = textInput.value;
-  if (caixaTxtDoMeme.value.length > 10) {
-    caixaTxtDoMeme.value = caixaTxtDoMeme.value.slice(0, 10);
 }
-}
-
+  
 // eventListeners
 textInput.addEventListener('keyup', criaTxtDoMeme);
-
 imgInput.addEventListener('input', function () {
   memeImage.src = URL.createObjectURL(this.files[0]);
 });
