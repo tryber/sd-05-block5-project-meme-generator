@@ -10,15 +10,17 @@
       <h1 class="center">Meme Generator Plus Tabajara</h1>
       <p class="center">Fazendo memes com équiu.</p>
     </header>
-    <article class="meme-image-container">
+    <article class="meme-generator">
       <label>Coloque seu texto aqui!: 
-        <input id="text-input" type="text">
+        <input id="meme-text" type="text" maxlength=60>
       </label>
       <label id="choose-file">
         <input type="file" name="file" id="meme-input">
       </label>
-      <label id="meme-text">Texto</label>
-      <img src="" alt="Imagem do meme!" id="meme-image">
+      <section class="meme-image-container">
+        <label class="center" id="meme-text">Texto</label>
+        <img class="center" alt="Imagem do meme!" id="meme-image">
+      </section>
     </article>
 
   </body>

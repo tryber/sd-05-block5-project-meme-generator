@@ -20,8 +20,21 @@
 .header p {
   top: 70%;
 }
-.meme-image-container {
-  border-style: dashed;
+.meme-generator {
+  border-style: dotted;
   height: 20em;
-  
+}
+
+.meme-image-container {
+  height: 70%;
+  border-left: auto;
+  border-right: auto;
+  border-style: dotted;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+#meme-text {
+  text-shadow: black;
 }
