@@ -1,18 +1,20 @@
+window.onload = function (){
 let container=document.querySelector('#meme-text');
 let caixaTexto= document.getElementById('text-input');
-let imagemInput = document.getElementById('meme-insert');
-console.log(container);
-console.log(caixaTexto);
+
+let memeInput = document.getElementById('meme-insert');
+let meme2 = document.getElementById('meme-image');
+
+//Inserir texto
 function insereTexto () {
   container.innerText = caixaTexto.value;
 }
 
 caixaTexto.addEventListener('keyup',insereTexto);
-// function insereImg(){
-//   let arq= document.getElementById('meme-insert').files[0];
-//   console.log(arq)
-//   container.style.backgroundImg='';
-// }
-// imagemInput.addEventListener("input", function(){
-//   memeImage.src = URL.createObjectURL(this.files[0]);
-// }
+
+//Inserir imagem
+memeInput.addEventListener("input", (event) => {
+  meme2.src = URL.createObjectURL(event.target.files[0]);
+});
+
+}
