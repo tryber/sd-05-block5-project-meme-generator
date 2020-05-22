@@ -6,19 +6,27 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>MEME GENERATOR</title>
  <link rel="stylesheet" href="/style.css">
- <script defer src="/script.js"></script>
+ <script src="/script.js"></script>
 </head>
 
 <body>
  <header>
   <h1>MEME GENERATOR</h1>
  </header>
-  <input type="text" id="text-input" class="text-input" maxlength="60"/>
-  <input type="file" id="meme-insert" class="meme-insert">
- <section id="meme-image-container" class="meme-image-container">
-  <div id="meme-text" class="meme-text"></div>
-  <div id="meme-image" class="meme-image"></div>
+ <section class="container">
+  <section class="input-list">
+   <label for="text-input">Input Text</label><br>
+   <input type="text" id="text-input" class="text-input" maxlength="60" /><br><br>
+   <label for="meme-insert">Pick your image!</label><br>
+   <input type="file" id="meme-insert" class="meme-insert" multiple><br><br>
+  </section>
+  <section id="meme-image-container" class="meme-image-container">
+   <div id="meme-text" class="meme-text"></div>
+   <img id="meme-image" class="meme-image" src="" alt="meme">
+  </section>
+
  </section>
+
 </body>
 
 </html>

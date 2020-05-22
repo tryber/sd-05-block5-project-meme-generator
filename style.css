@@ -1,13 +1,43 @@
+body {
+ width:1366px;
+ height: 768px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.container {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ pad: 10px;
+}
+
+h1 {
+ text-align: center;
+ padding: 0px 10px 0px;
+}
 .meme-image-container {
  background-color: white;
  border: 1px solid black;
  width: 500px;
  height: 500px;
- overflow: hidden;
+ display: flex;
 }
 
 .meme-text {
  text-shadow: 5px 5px 5px black;
  font-size: 30px;
  color: white;
+ position: absolute;
+ margin-top: 380px;
+ margin-left: 10px;
+ margin-right: 80px;
+ text-align: center;
+ word-break: break-all;
+}
+
+.meme-image {
+ width: inherit;
+ background-position: center;
 }
