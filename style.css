@@ -1,0 +1,57 @@
+* {
+  margin : 0;
+  padding : 0;
+}
+
+body {
+  background-color: darkslategrey;
+  padding: 70px;
+}
+
+#content {
+  background-color: white;
+  width: 600px;
+  height: 500px;
+  margin: auto;
+  padding: 15px 5px;
+  border-radius: 3%;
+}
+
+#inputs {
+  width: 400px;
+  margin: 20px auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+#inputs input[type=text]{
+  width: 300x;
+  height: 28px;
+  margin: 5px 15px;
+  font-size: 22px;
+}
+
+#meme-image-container {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  text-align: center;
+  border: black solid 1px;
+  background-color: white;
+  overflow: hidden;
+}
+
+#meme-image-container img{
+  height: 400px;
+}
+
+#meme-text{
+  font-family: 'Holtwood One SC', serif;
+  color: white;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px black; 
+  position: absolute;
+  top: 300px;
+  left: 640px;
+  width: 250px;
+}
