@@ -1,0 +1,22 @@
+.container-frame {
+  border-width: "1 px";
+  border-color: black;
+  border-style: solid;
+  background-color: white;
+  width: "1366px";
+  height: "768px";
+}
+
+.meme-text {
+  /* //css text shadow */
+  text-shadow: 5px 5px 5px black;
+  font-size: "30px";
+  color: white;
+}
+
+.text-input {
+  /* limitar em 60 caracteres */
+}
+
+
+
