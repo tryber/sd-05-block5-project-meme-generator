@@ -3,3 +3,12 @@
     background-color: white;
 
 }
+
+#meme-text {
+    position: absolute;
+    float: left;
+}
+
+img {
+    width: 500px;
+}
