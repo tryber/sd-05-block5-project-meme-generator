@@ -1,5 +1,5 @@
 //Primeiro, interagir com o input de texto do usuario.
-//declarar as 2 var interessantes aqui + 
+//declarar as 2 var interessantes aqui
 let textInput = document.getElementById("text-input");
 let textMeme = document.getElementById("meme-text");
 //+ escrever function para pegar o input e fazê-lo aparecer quando o user digita o texto:
@@ -21,9 +21,9 @@ let picMeme = document.getElementById("meme-image");
 function displayImage(event) {
   let file = event.target.files[0];
   picMeme.src = URL.createObjectURL(file);
-  URL.revokeObjectURL(picMeme.src); // linha extra para liberar memoria, aparadamente boa pratica 
+  // URL.revokeObjectURL(picMeme.src); //linha extra para liberar memoria, aparadamente boa pratica 
 }
-picInput.addEventListener("change", displayImage);
+picInput.addEventListener("input", displayImage);
 
 
 
