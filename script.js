@@ -1,11 +1,11 @@
 
 let txtimput= document.querySelector("#text-input");
 
-let textMeme = document.querySelector("#meme-text");
+let textMeme = document.querySelector("#printtxt");
 
 txtimput.addEventListener("keyup", function(){
   
-  let cont = textMeme.innerHTML.length
+  let cont = textMeme.innerHTML.length;
 
   if(textMeme.innerHTML.length < 60){
     textMeme.innerHTML = txtimput.value;
