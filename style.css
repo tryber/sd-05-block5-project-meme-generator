@@ -1,4 +1,21 @@
 #meme-text {
   position: absolute;
-  margin-left: 200px;
+  top: 200px;
+  left: 30px;
+  color:white
+}
+
+#meme-image {
+  width: 100%;
+  height: 100%;
+  border: solid black 1px;
+}
+
+#meme-image-container {
+  height: 400px;
+  width: 400px;
+}
+
+#meme-insert {
+  width: 90px;
 }
