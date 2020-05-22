@@ -12,6 +12,7 @@
   font-size: 30px;
   color: white;
   text-shadow: 5px 5px 5px black;
+  max-width: 300px;
 }
 
 #meme-image{
@@ -30,4 +31,18 @@
 
 #earth{
   background-color: brown;
+}
+
+#memes-done img{
+  height: 60px;
+  width: 60px;
+}
+
+#memes-done div{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#memes-done{
+  margin-top: 20px;
 }

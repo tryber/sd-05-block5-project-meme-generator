@@ -37,3 +37,32 @@ buttonEarth.addEventListener('click', changeColor);
 function changeColor() {
   document.getElementById("meme-image-container").style.border = "1px solid brown";
 }
+
+// Load memes the are already done
+let loadMeme1 = document.getElementById("meme-1").firstChild;
+loadMeme1.addEventListener('click', loadMemeDone1);
+function loadMemeDone1(){
+  document.getElementById("meme-image").src = loadMeme1.src;
+  document.getElementById("meme-text").innerHTML = "É o que que está acontencendo?";
+}
+
+let loadMeme2 = document.getElementById("meme-2").firstChild;
+loadMeme2.addEventListener('click', loadMemeDone2);
+function loadMemeDone2(){
+  document.getElementById("meme-image").src = loadMeme2.src;
+  document.getElementById("meme-text").innerHTML = "Ehhhh... Melhor não";
+}
+
+let loadMeme3 = document.getElementById("meme-3").firstChild;
+loadMeme3.addEventListener('click', loadMemeDone3);
+function loadMemeDone3(){
+  document.getElementById("meme-image").src = loadMeme3.src;
+  document.getElementById("meme-text").innerHTML = "Cri cri cri";
+}
+
+let loadMeme4 = document.getElementById("meme-4").firstChild;
+loadMeme4.addEventListener('click', loadMemeDone4);
+function loadMemeDone4(){
+  document.getElementById("meme-image").src = loadMeme4.src;
+  document.getElementById("meme-text").innerHTML = "Não peguei a referencia";
+}
