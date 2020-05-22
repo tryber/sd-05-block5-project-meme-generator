@@ -25,12 +25,3 @@ img {
 
 
 
-/* 4 - O texto que será inserido sobre a imagem deve ter uma cor, sombra e tamanho específicos.
-As seguintes verificações serão feitas:
-O texto do elemento meme-text deve ter uma sombra preta, de 5 pixels na horizontal, 
-5 pixels na vertical
- e um raio de desfoque de 5 pixels;
-
-O texto do elemento meme-text deve ter a fonte com o tamanho de 30 pixels;
-
-O texto do elemento meme-text deve estar na cor branca; */
