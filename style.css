@@ -5,3 +5,7 @@
   margin: auto;
   margin-top: 20px;
 }
+
+#meme-text{
+  position: absolute;
+}

@@ -7,3 +7,14 @@ function getText(){
   document.querySelector("#meme-text").innerHTML = memeText;
 }
 
+let inpputIMG = document.getElementById("img-input");
+let memeIMG = "";
+inpputIMG.addEventListener('change', getImage);
+function getImage(element){
+  memeIMG = element.target.result;
+  //memeIMG = inpputIMG.value;
+  console.log(memeIMG);
+  document.getElementsByTagName("img")[0].src = memeIMG;
+  //document.querySelector("#meme-image-container").style.backgroundImage = "url(" + memeIMG + ")";
+}
+
