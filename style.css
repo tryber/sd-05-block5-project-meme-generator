@@ -1,6 +1,27 @@
-#meme-image-container{
-    border: 1px solid;
-    width: 250px;
-    height:300px;
-    background-color: white;
+/* css do label e  da caixa de texto*/
+label{
+    font-size: 12px;
+    display: block;
+    margin-bottom: 5px;
 }
+
+#text-input{
+    width: 100px;
+    height: 6px;
+}
+/* fim do estilo label/texto*/
+
+/*Inicio do conteirner/mensagem de texto*/
+#meme-image-container{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+}
+#meme-text {
+    position: relative;
+    top: 135px;
+    margin: auto;
+    width: 200px;
+    height: 46px;
+}
+/*Fim de conteiner/mensagem de texto*/
