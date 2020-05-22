@@ -1,15 +1,14 @@
-// var personName = "";
-// function complainMessage() {
-//   alert("I told you not to do that " + personName);
+//Primeiro, interagir com o input de texto do usuario.
 
-// let buttonDont = document.getElementsByTagName("button")[1];
-// buttonDont.addEventListener("click", complainMessage);
+//declarar todas as 4 var interessantes aqui
 
 let textInput = document.getElementById("text-input");
 let picInput = document.getElementById("meme-insert");
 
 let textMeme = document.getElementById("meme-text");
 let picMeme = document.getElementById("meme-image");
+
+//function e addEventListener para pegar o input e fazê-lo aparecer
 
 let userTextMeme = "";
 function getTextInput () {
@@ -19,6 +18,7 @@ function getTextInput () {
 
 textInput.addEventListener("keyup", getTextInput);
 
+//
 
 
 
