@@ -7,7 +7,8 @@ txt.addEventListener('keyup', function () {
 });
 
 // load image
-function loadFile(event) {
+const inputImg = document.getElementById('meme-insert');
+inputImg.onchange = function (event) {
   const output = document.getElementById('meme-image');
   output.src = URL.createObjectURL(event.target.files[0]);
   output.onload = function () {
