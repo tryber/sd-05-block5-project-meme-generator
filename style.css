@@ -3,12 +3,10 @@
 }
 
 #earth {
-  border: 6px groove green;
   background-color: green;
 }
 
 #fire {
-  border: 3px dashed red;
   background-color: red;
 }
 
@@ -34,6 +32,5 @@
 }
 
 #water {
-  border: 5px double blue;
   background-color: blue;
 }

@@ -15,9 +15,19 @@ function loadFile(event) {
   };
 }
 
-// create variables to get the buttons that style borders
-const earth = document.getElementById("earth");
-const fire = document.getElementById("fire");
-const water = document.getElementById("water");
+// create variables to get the buttons that style borders and the image
+const earthButton = document.getElementById("earth");
+const fireButton = document.getElementById("fire");
+const waterButton = document.getElementById("water");
+const ctnr = document.getElementById("meme-image-container");
 
-// add event listener to the buttons that change border
+// add event listener to the buttons that change border and apply the style to meme-image-container's border
+earthButton.addEventListener("click", function () {
+  ctnr.style.border = "6px groove green";
+});
+fireButton.addEventListener("click", function () {
+  ctnr.style.border = "3px dashed red";
+});
+waterButton.addEventListener("click", function () {
+  ctnr.style.border = "5px double blue";
+});
