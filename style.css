@@ -3,6 +3,7 @@
 }
 
 #meme-image-container {
+    position: absolute;
     border: 1px solid black;
     float: left;
     margin: 15px;
