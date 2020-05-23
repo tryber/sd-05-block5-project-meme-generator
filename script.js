@@ -24,7 +24,7 @@ window.onload = function (){
   let memeIC= document.querySelector('#meme-image-container');
 
   bFire.addEventListener('click',function(){
-    memeIC.style.border='3px dashed';
+    memeIC.style.border='3px dashed red';
   });
   bWater.addEventListener('click',function(){
     memeIC.style.border='5px double blue';
