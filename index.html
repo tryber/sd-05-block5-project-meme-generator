@@ -13,16 +13,10 @@
   <h1><strong>MEME GENERATOR</strong></h1>
 </header>
 
-  <form>
-    <div>
-      <label for="text-input">Texto: </label><br>
-      <input type="text" id="text-input" maxlength="60" onkeyup="textInput(event)">
-    </div>
-    <div>
-      <label for="meme-insert">Imagem: </label><br>
-      <input id="meme-insert" type="file" accept="image/*" onchange="imageInput(event)">
-    </div>
-  </form>
+  <div id="user-input">
+    <div>Texto: <br><input type="text" id="text-input" maxlength="60" onkeyup="textInput(event)"></div><br> 
+    <div> Imagem: <br> <input id="meme-insert" type="file" accept="image/*" onchange="imageInput(event)"></div>
+  </div>
 
   <div id="meme-image-container">
     <div id="meme-text"></div>
