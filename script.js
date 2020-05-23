@@ -16,7 +16,7 @@ function insertText() {
 }   
 
 imagem.addEventListener('change', insertImage);
-textBox.addEventListener('change', insertText);
+textBox.addEventListener('keyup', insertText);
 
 
 
