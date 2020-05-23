@@ -39,3 +39,26 @@ let sextoMeme = document.getElementById('meme-6');
 sextoMeme.addEventListener('click', function memeseis() {
     sendImg.src = sextoMeme.src;
 });
+
+
+
+let bordaAgua = document.getElementById('water');
+bordaAgua.addEventListener('click', function borda1() {
+    imgContainer.style.borderColor = "blue";
+    imgContainer.style.borderStyle = "double";
+    imgContainer.style.borderWidth = "5px";
+});
+
+let bordaFogo = document.getElementById('fire');
+bordaFogo.addEventListener('click', function borda2() {
+    imgContainer.style.borderColor = "red";
+    imgContainer.style.borderStyle = "dotted";
+    imgContainer.style.borderWidth = "5px";
+});
+
+let bordaTerra = document.getElementById('earth');
+bordaTerra.addEventListener('click', function borda3() {
+    imgContainer.style.borderColor = "brown";
+    imgContainer.style.borderStyle = "dashed";
+    imgContainer.style.borderWidth = "5px";
+});
