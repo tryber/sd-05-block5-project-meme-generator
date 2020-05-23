@@ -9,18 +9,7 @@ window.onload = function () {
   text_input.addEventListener("change", function(el){
     let txt = (el.target.value);
     let meme_text = document.querySelector("#meme-text");
-
-    while(meme_text.firstChild) {
-      meme_text.removeChild(meme_text.lastChild);
-    }
-
-    [...txt].forEach((letter, i) => {
-      if(i%13 == 0){
-        var p = document.createElement("p");
-        meme_text.appendChild(p);
-      }
-      if(i < 26) meme_text.children[meme_text.children.length-1].innerHTML += letter;
-    });
+    meme_text.innerHTML = txt;
   });
 
   function process(element){
