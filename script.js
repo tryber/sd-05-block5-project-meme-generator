@@ -1,14 +1,12 @@
 let imagem = document.querySelector("#img2");
 let texBox = document.querySelector("#text-input");
-let buttonImg = document.querySelector("#img");
 let div = document.querySelector("div");
 let imgTag = document.createElement("img")
+div.appendChild(imgTag);
 
 function insertImage () {
-    div.appendChild(imgTag);
-    imgTag.src = imagem.value;
-    imgTag.width = "50px"
+    imgTag.src = URL.createObjectURL(imagem.files[0]);
 }
 
-buttonImg.addEventListener('change', insertImage);
+imagem.addEventListener('change', insertImage);
 
