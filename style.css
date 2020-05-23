@@ -1,12 +1,12 @@
 * {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .mainTitle {
   text-align: center;
 }
 
-#text-input {
+.text-input {
   width: 100px;
 }
 
@@ -24,11 +24,40 @@
 
 .meme-text {
   color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 30px;
+  font-weight: bold;
+  left: 60px;
   position: absolute;
   text-shadow: 5px 5px 5px black;
   top: 450px;
-  left: 60px;
   width: 300px;
   word-wrap: break-word;
+}
+
+.fireButton {
+  background-color: red;
+  border: 3px dashed red;
+  color: white;
+  height: 30px;
+  margin-top: 10px;
+  width: 60px;
+}
+
+.waterButton {
+  background-color: blue;
+  border: 5px double blue;
+  color: white;
+  height: 30px;
+  margin-top: 10px;
+  width: 60px;
+}
+
+.earthButton {
+  background-color: green;
+  border: 6px groove green;
+  color: white;
+  height: 30px;
+  margin-top: 3px;
+  width: 60px;
 }
