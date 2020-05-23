@@ -1,5 +1,5 @@
 
-let imageInput = document.querySelector("#meme-insert");
-imageInput.addEventListener("change", function() {
-  console.log("Qualquer coisa");
-})
+let imageInput = function(event) {
+  let memeImage = document.getElementById("meme-image");
+  memeImage.src = URL.createObjectURL(event.target.files[0]);
+}

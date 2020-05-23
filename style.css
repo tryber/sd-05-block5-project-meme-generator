@@ -1,12 +1,25 @@
 @charset "UTF-8";
 
 #meme-image-container {
+  display: flex;
+  width: 600px;
+  height: 400px;
   background-color: white;
-  border: 1px, solid, black;
+  border: 1px solid black;
+  margin: auto;
+
 }
 
 #meme-text {
+  position: absolute;
   color: white;
   font-size: 30px;
   text-shadow: 5px 5px 5px black;
+  max-width: 600px;
+}
+
+#meme-image {
+  position: absolute;
+  width: 600px;
+  height: 400px;
 }

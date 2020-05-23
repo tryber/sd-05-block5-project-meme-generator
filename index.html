@@ -14,13 +14,19 @@
 </header>
 
   <form>
-    <div>Texto: <input type="text" id="text-input" maxlength="60"></div>
-    <div>Imagem: <input id="meme-insert" type="file"></div>
+    <div>
+      <label for="text-input">Texto: </label><br>
+      <input type="text" id="text-input" maxlength="60">
+    </div>
+    <div>
+      <label for="meme-insert">Imagem: </label><br>
+      <input id="meme-insert" type="file" accept="image/*" onchange="imageInput(event)">
+    </div>
   </form>
 
   <div id="meme-image-container">
+    <img id="meme-image" src="">
     <div id="meme-text"></div>
-    <div><img id="meme-image" src=""></div>
   </div>
   
   <script src="script.js"></script>
