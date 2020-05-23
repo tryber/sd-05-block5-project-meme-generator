@@ -1,0 +1,69 @@
+#meme-image-container {
+  border: 1px solid black;
+  box-sizing: border-box;
+  height: 400px;
+  width: 400px;
+  background-color: white;
+}
+#meme-text{
+  text-shadow:5px 5px 5px black;
+  font-size: 30px;
+  font-family: Verdana;
+  color:white;
+  position: absolute;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 768px;
+  width: 1366px;
+}
+#meme-image {
+  background-position: center;
+  width: inherit;
+}
+#fire{
+  background-color: red;
+  margin-top: 10px;
+  width: 70px;
+  color: silver
+}
+#water{
+  background-color: blue;
+  margin-top: 10px;
+  width: 70px;
+  color: silver
+}
+#earth{
+  background-color: green;
+  margin-top: 10px;
+  width: 70px;
+  color: silver
+}
+#text-input{
+  margin-bottom: 10px;
+}
+#meme-insert{
+  margin-bottom: 10px;
+}
+#meme-1{
+  margin-right: 10px;
+  background-image: url(imgs/meme1.png);
+}
+#meme-2{
+  margin-right: 10px;
+  background-image: url(imgs/meme2.png);
+}
+#meme-3{
+  margin-right: 10px;
+  background-image: url(imgs/meme3.png);
+}
+#meme-4{
+  margin-right: 10px;
+  background-image: url(imgs/meme4.png);
+}
+.memeTratados{
+  background-size: cover;
+  width: 75px;
+  height: 75px;
+}

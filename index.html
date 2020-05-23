@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>MEME GENERATOR</h1>
+  </header>
+  <section>
+    <label>Texto:
+    <input type="text" id="text-input" maxlength="60" placeholder="Digite aqui">
+    </label>
+    <form>
+      <label>Foto:</label>
+      <input type='file' id='meme-insert'>
+    </form>
+  </section>
+  <section id="meme-image-container">
+      <div id='meme-text'></div>
+      <img id='meme-image'src='' alt='Imagem do meme'>
+  </section>
+  <section>
+    <h3>Estilos customizados</h3>
+    <button id="fire">Fire</button>
+    <button id="water">Water</button>
+    <button id="earth">Earth</button>
+  </section>
+  <section>
+    <h3>Memes famosos</h3>
+    <button id='meme-1'class= 'memeTratados'></button>
+    <button id='meme-2'class= 'memeTratados'></button>
+    <button id='meme-3'class= 'memeTratados'></button>
+    <button id='meme-4'class= 'memeTratados'></button>
+  </section>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
