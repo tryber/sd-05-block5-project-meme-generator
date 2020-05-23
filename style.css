@@ -30,13 +30,15 @@
   border-width: 1px;
   margin: auto;
   min-height: 400px;
+  position: relative;
   text-align: center;
   width: 400px;
+
 }
 
 .meme-img {
-  max-height: 100%;
-  max-width: 100%;
+  height: 400px;
+  width: 400px;
   vertical-align: middle;
 }
 
