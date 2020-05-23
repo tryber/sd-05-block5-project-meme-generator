@@ -27,4 +27,8 @@
   font-size: 30px;
   position: absolute;
   text-shadow: 5px 5px 5px black;
+  top: 450px;
+  left: 60px;
+  width: 300px;
+  word-wrap: break-word;
 }
