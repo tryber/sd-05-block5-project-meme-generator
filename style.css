@@ -8,6 +8,9 @@
     border: 1px solid black;
     margin: 15px;
     background-color: white;
+    font-size: 50px;
+    color: red;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
 
 }
 #meme-image  {
