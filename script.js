@@ -21,8 +21,9 @@ txtimput.value = "";
 }); 
 //------------------------------------------------------------
 let addMeme = document.querySelector("#meme-insert");
-let myimg= document.querySelector("meme-image");
+let myimg= document.querySelector("#meme-image");
 console.log(addMeme.file)
 addMeme.addEventListener("change", function(){
   console.log(addMeme.files[0].name);
+  myimg.src = URL.createObjectURL(addMeme.files[0]);
 });

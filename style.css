@@ -1,14 +1,13 @@
+body{
+  background-color: yellowgreen;
+}
 #meme-image-container{
   height: 300px;
   width: 300px;
   border: solid 1px black;
-
-
-
+  background-color: white;
 }
 #printtxt{
   width: 300px;
-  border: solid 1px black;
-  
-  
 }
+meme image 
