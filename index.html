@@ -7,6 +7,7 @@
     <title>Projeto gerador de Memes</title>
 </head>
 <body>
+ <div id="meme-image-container">
     <h3>MEME GENERATOR</h3>
 
     <label>
@@ -15,15 +16,16 @@
     </label>
     <label>
         Foto:
-        <input type="file" id="myFile" name="filename">
+        <input type="file" id="meme-insert" name="filename">
     </label>
 
-    <div id="meme-image-container">
+    
 
         <div id="meme-image"></div>
         <div id="meme-text">Deus é  mais que Fiel</div>
         
     </div>  
+</div>
 
     <script>
         let textoVl = document.getElementById('text-input');
@@ -35,8 +37,11 @@
     </script>
 
     <script>
-
+        let rcImagem = document.getElementById('myFile')
+        let grImagem = document.getElementById('meme-image')
+          
 
     </script>
+    <img src="" alt="">
 </body>
 </html>
