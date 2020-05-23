@@ -1,6 +1,6 @@
 .meme-image-container {
   background-color: white;
-  border: 1px solid black;
+  border: 3px dashed rgb(255, 0, 0);
   margin-left: 30px; 
   width: fit-content;
   word-wrap: break-word;
