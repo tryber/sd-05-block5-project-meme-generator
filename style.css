@@ -2,13 +2,13 @@ body {
   font-family: Anton, sans-serif;
 }
 
-#text-input {
+.text-input {
   border: 1px solid black;
   margin-left: 10px;
-  width: 250px;  
+  width: 250px;
 }
 
-#meme-image-container {
+.meme-image-container {
   background-color: white;
   border: 1px solid black;
   height: 400px;
@@ -16,21 +16,21 @@ body {
   width: 400px;
 }
 
-#meme-image {
+.meme-image {
   height: 100%;
   width: 100%;
 }
 
-#meme-text {
-  font-family: 'Anton', sans-serif;
+.meme-text {
+  color: white;
+  font-family: Anton, sans-serif;
+  font-size: 30px;
+  height: 150px;
   position: absolute;
   margin-left: 10px;
   margin-top: 230px;
-  width: 320px;
-  height: 150px;
   text-align: center;
-  font-size: 30px;
-  color: white;
   text-shadow: 5px 5px 5px black;
+  width: 320px;
   word-wrap: break-word;
 }
