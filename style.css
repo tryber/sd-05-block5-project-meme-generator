@@ -13,13 +13,14 @@
   }
 
   #meme-text {
-    width: 535px;
+    top: 450px;
+    left: 30px;
+    width: 500px;
     word-wrap: break-word;
     text-shadow: 5px 5px 5px;
     font-size: 30px;
     color: white;
     position: absolute;
-    float: left;
   }
 
   input[type=text] {
