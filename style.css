@@ -1,3 +1,17 @@
+#borders li {
+  display: inline-block;
+}
+
+#earth {
+  border: 6px groove green;
+  background-color: green;
+}
+
+#fire {
+  border: 3px dashed red;
+  background-color: red;
+}
+
 #meme-image {
   display: block;
   width: 100%;
@@ -19,3 +33,7 @@
   color: white;
 }
 
+#water {
+  border: 5px double blue;
+  background-color: blue;
+}

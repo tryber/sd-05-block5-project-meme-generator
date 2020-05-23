@@ -12,5 +12,12 @@ function loadFile(event) {
   output.src = URL.createObjectURL(event.target.files[0]);
   output.onload = function () {
     URL.revokeObjectURL(output.src);
-  }
+  };
 }
+
+// create variables to get the buttons that style borders
+const earth = document.getElementById("earth");
+const fire = document.getElementById("fire");
+const water = document.getElementById("water");
+
+// add event listener to the buttons that change border
