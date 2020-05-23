@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MEME GENERATOR</title>
-    <link href="style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
     <header><strong>MEME GENERATOR</strong></header>
-    <article class="user-container">
-      <div>Texto: <input type="text" maxlength="60" id="text-input"></div>
+    <section class="meme-container">
+      <div>Texto: <input type="text" id="text-input" maxlength="60"></div>
       <div>Foto: <input type="file" id="img-input" accept=".jpg, .png, .jpeg"></div>
-    </article>
+    </section>
     <div id="meme-image-container" class="image-container">
-      <div id="meme-text"></div>
+        <div id="meme-text"></div>
+        <img id="meme-image" src="meme-generator.gif">
     </div>
+
   </body>
   <script src="script.js"></script>
 </html>

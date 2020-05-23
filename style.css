@@ -8,10 +8,6 @@ header {
   margin: 30px;
 }
 
-.user-container {
-  padding: 20px;
-}
-
 .image-container {
   background-color: white;
   border: black solid 1px;
@@ -19,4 +15,9 @@ header {
   margin: 15px;
   overflow: hidden;
   width: 400px;
+}
+
+
+.meme-image {
+  height: 400px;
 }
