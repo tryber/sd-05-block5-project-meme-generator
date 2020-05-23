@@ -33,6 +33,10 @@ label {
     margin-left: 25px;
     width: 200px;
     height: 46px;
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+        0 0 0.2em #87F;
+    font-size: 20px;
+        
 }
 #meme-image{
     position: relative;
@@ -45,3 +49,6 @@ label {
     
 }
 /*Fim de conteiner/mensagem de texto*/
+#meme-insert{
+    height: 20px;
+}
