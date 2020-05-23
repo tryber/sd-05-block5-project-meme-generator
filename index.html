@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8 />
+    <link rel="stylesheet" href="style.css">
+    <title>Meme Generator Plus Tabajara</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="center cabecalho">Meme Generator Plus Tabajara</h1>
+      <p class="center">Fazendo memes com équiu.</p>
+    </header>
+    <article class="meme-generator">
+      <label>Coloque seu texto aqui!:
+        <input id="text-input" type="text" maxlength=60 class="memes-inputs">
+      </label>
+      <label for="meme-input" id="choose-file" class="memes-inputs">
+        <input type="file" name="file" id="meme-insert" class="memes-inputs" accept="image/*">
+      </label>
+    </article>
+    <section id="meme-image-container" class="meme-container">
+      <p id="meme-text" class="meme-text">Sua frase memística!</p>
+      <img alt="Imagem do meme!" id="meme-image" class="meme-img" src="">
+    </section>
+    <script src="script.js"></script>
+
+  </body>
+
+</html>
