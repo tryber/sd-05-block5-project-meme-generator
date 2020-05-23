@@ -1,7 +1,7 @@
 window.onload = function () {
   let file_input = document.querySelector("#meme-insert");
   let meme_image = document.querySelector("#meme-image");
-  let text_input = document.querySelector("#text-input");
+  let text_input = document.getElementById("text-input");
 
   let utils = new this.Utils()
   file_input.addEventListener("change", process);
