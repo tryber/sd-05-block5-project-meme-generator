@@ -14,7 +14,7 @@ inputImg.onchange = function (event) {
   output.onload = function () {
     URL.revokeObjectURL(output.src);
   };
-}
+};
 
 // create variables to get the buttons that style borders and the image
 const earthButton = document.getElementById('earth');
