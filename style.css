@@ -1,8 +1,12 @@
+body{
+    background-color: darkred;
+    color: white;
+}
 #meme-image-container{
     border-width: 1px;
     border-style: solid;
     border-color: black;
     background-color: white;
     box-sizing: border-box;
-
+    padding: 50em;
 }
