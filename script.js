@@ -31,9 +31,34 @@ function changeBorderStyle() {
 };
 
 function clickButton(button) {
-button.addEventListener("click", changeBorderStyle)
+  button.addEventListener("click", changeBorderStyle)
 };
 
 clickButton(fire);
 clickButton(water);
 clickButton(earth);
+
+//Meme Image Click
+let meme1 = document.getElementById("meme-1");
+let meme2 = document.getElementById("meme-2");
+let meme3 = document.getElementById("meme-3");
+let meme4 = document.getElementById("meme-4");
+
+function clickImage (meme) {
+  meme.addEventListener("click", function() {
+    if(event.target === meme1) {
+      memeImage.src="imgs/meme-1.png";
+    } else if(event.target === meme2) {
+      memeImage.src="imgs/meme-2.png";
+    } else if(event.target === meme3) {
+      memeImage.src="imgs/meme-3.png"
+    } else if(event.target === meme4) {
+      memeImage.src="imgs/meme-4.png"
+    }
+  })
+}
+
+clickImage(meme1);
+clickImage(meme2);
+clickImage(meme3);
+clickImage(meme4);
