@@ -30,11 +30,8 @@ var Utils = function () {
   this.files = [];
   accepted_extensions = {};
   this.processFile = function (e) {
-
     ext_accepted = e.target.accept.replace(/ |\./g, '').split(',');
-
     let f = e.target.files || e.dataTransfer.files;
-
     for(let i=0; i<f.length; i++){
       let ext = f[i].name.split('.')[1];
       let ext_verified = false;
@@ -43,7 +40,6 @@ var Utils = function () {
           ext_verified = true;
         }
       });
-
       if(!ext_verified){
         return false;
       }
