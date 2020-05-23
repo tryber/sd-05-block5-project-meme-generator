@@ -1,0 +1,8 @@
+body {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  background-color: rgb(247, 247, 247);
+}
+#meme-image-container {
+  max-width: 1366px;
+  max-height: 768;
+}
