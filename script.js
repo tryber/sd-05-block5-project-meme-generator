@@ -4,4 +4,4 @@ function addMemeText() {
 }
 
 const textInput = document.querySelector("#text-input");
-textInput.addEventListener("change", addMemeText);
+textInput.addEventListener("keyup", addMemeText);
