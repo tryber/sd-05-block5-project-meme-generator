@@ -22,6 +22,7 @@ body {
 }
 
 .meme-text {
+  bottom: 400px;
   color: white;
   font-family: Anton, sans-serif;
   font-size: 30px;
@@ -29,5 +30,4 @@ body {
   position: absolute;
   text-align: center;
   text-shadow: 5px 5px 5px black;
-  bottom: 400px;  
 }
