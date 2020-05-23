@@ -1,4 +1,4 @@
-const memeInput = document.getElementById('meme-input');
+const memeInput = document.getElementById('meme-insert');
 const memeImage = document.getElementById('meme-image');
 const textInput = document.getElementById('text-input');
 const memeText = document.getElementById('meme-text');
