@@ -1,5 +1,6 @@
 const fileInput = document.querySelector('#meme-insert');
 const memeImage = document.querySelector('#meme-image');
+const memeText = document.querySelector('#meme-text');
 const textInput = document.getElementById('text-input');
 
 window.onload = function () {
@@ -9,7 +10,6 @@ window.onload = function () {
 
   textInput.addEventListener('keyup', function(el) {
     let txt = (el.target.value);
-    let memeText = document.querySelector('#meme-text');
     memeText.innerText = txt;
   });
 
