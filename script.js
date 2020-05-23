@@ -47,13 +47,13 @@ let meme4 = document.getElementById("meme-4");
 function clickImage (meme) {
   meme.addEventListener("click", function() {
     if(event.target === meme1) {
-      memeImage.src="imgs/meme-1.png";
+      memeImage.src="imgs/meme1.png";
     } else if(event.target === meme2) {
-      memeImage.src="imgs/meme-2.png";
+      memeImage.src="imgs/meme2.png";
     } else if(event.target === meme3) {
-      memeImage.src="imgs/meme-3.png"
+      memeImage.src="imgs/meme3.png"
     } else if(event.target === meme4) {
-      memeImage.src="imgs/meme-4.png"
+      memeImage.src="imgs/meme4.png"
     }
   })
 }
