@@ -9,7 +9,7 @@ function getText() {
 }
 textInput.addEventListener('keyup', getText);
 
-function getImage () {
+memeInput.addEventListener('input', function () {
   memeImage.src = URL.createObjectURL(this.files[0]);
-}
-memeInput.addEventListener('input', getImage);
+});
+
