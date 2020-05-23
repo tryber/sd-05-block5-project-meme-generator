@@ -3,7 +3,7 @@ window.onload = function (){
   let caixaTexto= document.getElementById('text-input');
 
   let memeInput = document.getElementById('meme-insert');
-  let meme2 = document.getElementById('meme-image');
+  let memeImg = document.getElementById('meme-image');
 
   //Inserir texto
   function insereTexto () {
@@ -14,7 +14,7 @@ window.onload = function (){
 
   //Inserir imagem
   memeInput.addEventListener("input", (evento) => {
-    meme2.src = URL.createObjectURL(evento.target.files[0]);
+    memeImg.src = URL.createObjectURL(evento.target.files[0]);
   });
 
 //Botões
@@ -33,4 +33,23 @@ window.onload = function (){
     memeIC.style.border='6px groove green';
   });
 
+//Memes famosos
+  let meme1 = document.getElementById('meme-1');
+  let meme2 = document.getElementById('meme-2');
+  let meme3 = document.getElementById('meme-3');
+  let meme4 = document.getElementById('meme-4');
+
+  meme1.addEventListener('click',function(){
+    memeImg.src='imgs/meme1.png';
+  });
+  meme2.addEventListener('click',function(){
+    memeImg.src='imgs/meme2.png';
+  });
+  meme3.addEventListener('click',function(){
+    memeImg.src='imgs/meme3.png';
+  });
+  meme4.addEventListener('click',function(){
+    memeImg.src='imgs/meme4.png';
+  });  
+  
 }
