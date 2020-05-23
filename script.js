@@ -10,7 +10,7 @@ window.onload = function () {
   textInput.addEventListener('keyup', function(el) {
     let txt = (el.target.value);
     let memeText = document.querySelector('#meme-text');
-    memeText.innerHTML = txt;
+    memeText.innerText = txt;
   });
 
   function process(element) {
