@@ -1,55 +1,55 @@
-/*Made By Lizzard*/
+/* Made By Lizzard */
 
-let Utils = function () {
+const Utils = function () {
   this.files = [];
-  accepted_extensions = {};
   this.processFile = function (e) {
-    ext_accepted = e.target.accept.replace(/ |\./g, '').split(',');
+    let extAccepted = e.target.accept.replace(/ |\./g, '').split(',');
     let f = e.target.files || e.dataTransfer.files;
-    for(let i=0; i<f.length; i++){
-      let ext = f[i].name.split('.')[1];
-      let ext_verified = false;
-      ext_accepted.forEach((exta) => {
-        if(exta == ext){
-          ext_verified = true;
+    for(let i=0 ; i<f.length ; i++){
+      const ext = f[i].name.split('.')[1];
+      let extValid = false;
+      extAccepted.forEach((exta) => {
+        if(exta === ext){
+          extValid = true;
         }
       });
-      if(!ext_verified){
+      if(!extValid) {
         return false;
       }
     }
     compressAndPreloadImages(f, 400);
+    return true;
   };
 
-  compressAndPreloadImages = (f_array, max_w) => {
-    let process_files = (fl) => {
-      var reader = new FileReader();
+  const compressAndPreloadImages = (fileArray, maxWidth) => {
+    const runFiles = (fl) => {
+      let reader = new FileReader();
       reader.onload = ((e) => {
         var image = new Image();
         image.src = e.target.result;
         image.onload = (() => {
           const elem = document.createElement('canvas');
-          let new_width = Math.min(max_w, image.width);
-          const scaleFactor = new_width / image.width;
-          elem.width = new_width;
+          let newWidth = Math.min(maxWidth, image.width);
+          const scaleFactor = newWidth / image.width;
+          elem.width = newWidth;
           elem.height = image.height * scaleFactor;
           const ctx = elem.getContext('2d');
           ctx.drawImage(image, 0, 0, elem.width, elem.height);
-            ctx.canvas.toBlob((blob) => {
-              file = new File([blob], "temp", {
+            ctx.canvas.toBlob(blob => {
+              let file = new File([blob], "temp", {
                 type: 'image/jpeg',
-                    lastModified: Date.now()
+                lastModified: Date.now()
               });
-              let r = new FileReader();
+              const r = new FileReader();
               r.onload = ((ec) => {
                 this.files.push(ec.target.result);
               });
               r.readAsDataURL(file);
-            }, 'image/jpeg', .7);
+            }, 'image/jpeg', 0.7);
         });
       });
     reader.readAsDataURL(fl);
     };
-    [].forEach.call(f_array, process_files);
+    [].forEach.call(fileArray, runFiles);
   };
 }
