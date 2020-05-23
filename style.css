@@ -17,7 +17,21 @@ header {
   width: 400px;
 }
 
+.meme-text{
+  color: white;
+  font-family: cursive;
+  font-size: 30px;
+  height: 160px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black; 
+  top: 400px;
+  width: 360px;
+  z-index: 1;
+}
 
 .meme-image {
   height: 400px;
+  z-index: 0;
 }
+
