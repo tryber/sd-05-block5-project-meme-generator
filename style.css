@@ -21,8 +21,9 @@ label {
     position: relative;
     left: 200px;
     width: 320px;
-    height: 340px;
+    height: 450px;
     border: 1px solid black;
+    border-radius: 5px;
     background-color: white;
 
     
@@ -41,8 +42,8 @@ label {
 #meme-image{
     position: relative;
     top:5px;
-    left: 10px;
-    width: 300px;
+    left: 20px;
+    width: 280px;
     height: 150px;
     /*background-color: black;*/
     border: 1px solid teal;
@@ -51,4 +52,26 @@ label {
 /*Fim de conteiner/mensagem de texto*/
 #meme-insert{
     height: 20px;
+}
+
+.stl{
+    position: relative;
+    left: 60px;
+    bottom: 70px;
+    margin-right: 20px;
+}
+p{
+    position: relative;
+    bottom: 65px;
+    left: 20px;
+}
+.memespr{
+    position: relative;
+    bottom: 70px;
+    left: 25px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    margin-left: 10px;
 }
