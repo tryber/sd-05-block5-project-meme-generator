@@ -12,6 +12,9 @@ body{
 }
 #meme-text{
   position: relative;
+  color: white;
+  text-shadow: 5px 5px 5px ;
+  font-size: 30px;
 }
 img{
   height: 300px;
