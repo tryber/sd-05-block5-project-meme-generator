@@ -8,16 +8,11 @@ header {
   margin: 30px;
 }
 
-.text-input {
-  visibility: visible;
-}
-
 .meme-image-container {
   background-color: white;
   border: black solid 1px;
   height: 400px;
   margin: 15px;
-  overflow: hidden;
   width: 400px;
 }
 
@@ -26,12 +21,14 @@ header {
   font-size: 30px;
   overflow: hidden;
   position: absolute;
+  text-align: center;
   text-shadow: 5px 5px 5px black;
   z-index: 1;
-  visibility: visible;
 }
 
 .meme-image {
   height: 400px;
+  position: absolute;
+  width: 400px;
   z-index: 0;
 }
