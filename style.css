@@ -31,10 +31,6 @@ input[type=text]{
   width: 400px;
 }
 
-.meme-image{
-  height: 400px;
-}
-
 .meme-text{
   color: white;
   font-family: 'Holtwood One SC', serif;
@@ -46,5 +42,8 @@ input[type=text]{
   text-shadow: 5px 5px 5px black; 
   top: 400px;
   width: 360px;
-  z-index: 1;
+}
+
+.meme-image{
+  height: 400px;
 }
