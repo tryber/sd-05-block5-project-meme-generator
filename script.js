@@ -58,25 +58,25 @@ function bterra() {
 const fundo = document.getElementById('meme-image');
 
 function fmeme1() {
-  fundo.src= 'imgs/meme-1.png';
+  fundo.src= 'imgs/meme1.png';
 }
 
 document.getElementById('meme-1').addEventListener('click', fmeme1);
 
 function fmeme2() {
-  fundo.src= 'imgs/meme-2.png';
+  fundo.src= 'imgs/meme2.png';
 }
 
 document.getElementById('meme-2').addEventListener('click', fmeme2);
   
 function fmeme3() {
-  fundo.src= 'imgs/meme-3.png';
+  fundo.src= 'imgs/meme3.png';
 }
 
 document.getElementById('meme-3').addEventListener('click', fmeme3);
   
 function fmeme4() {
-  fundo.src= 'imgs/meme-4.png';
+  fundo.src= 'imgs/meme4.png';
 }
 
 document.getElementById('meme-4').addEventListener('click', fmeme4);
