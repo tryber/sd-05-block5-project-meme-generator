@@ -1,5 +1,5 @@
-let textInput = document.getElementById("text-input");
-let memeText = document.getElementById("meme-text");
+const textInput = document.getElementById("text-input");
+const memeText = document.getElementById("meme-text");
 
 function insereTexto() {
   memeText.innerHTML = textInput.value;
@@ -7,12 +7,9 @@ function insereTexto() {
 
 textInput.addEventListener("keyup", insereTexto);
 
-let memeInsert = document.getElementById("meme-insert");
-let memeImage = document.getElementById("meme-image");
+const memeInsert = document.getElementById("meme-insert");
+const memeImage = document.getElementById("meme-image");
 
-memeInsert.addEventListener("input", function() {
+memeInsert.addEventListener("input", function () {
   memeImage.src = URL.createObjectURL(this.files[0]);
 });
-
-
-
