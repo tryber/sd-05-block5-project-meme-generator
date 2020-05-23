@@ -13,10 +13,10 @@ header {
 }
 
 .image-container {
-    background-color: white;
-    border: black solid 1px;
-    height: 400px;
-    margin: 15px;
-    overflow: hidden;
-    width: 400px;
-  }
+  background-color: white;
+  border: black solid 1px;
+  height: 400px;
+  margin: 15px;
+  overflow: hidden;
+  width: 400px;
+}
