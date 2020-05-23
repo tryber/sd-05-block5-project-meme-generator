@@ -12,23 +12,23 @@
 
 #meme-image {
   display: block;
-  width: 100%;
   height: 100%;
+  width: 100%;
 }
 
 #meme-image-container {
-  border: 1px solid black;
   background-color: white;
-  width: 20%;
+  border: 1px solid black;
   height: 300px;
+  width: 20%;
 }
 
 #meme-text {
-  position: absolute;
-  z-index: 1;
-  text-shadow: 5px 5px 5px black;
-  font-size: 30px;
   color: white;
+  font-size: 30px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  z-index: 1;
 }
 
 #water {
