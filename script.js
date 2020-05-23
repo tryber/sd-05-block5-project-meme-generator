@@ -6,7 +6,7 @@ window.onload = function () {
   let utils = new this.Utils()
   file_input.addEventListener("change", process);
 
-  text_input.addEventListener("change", function(el){
+  text_input.addEventListener("keyup", function(el){
     let txt = (el.target.value);
     let meme_text = document.querySelector("#meme-text");
     meme_text.innerHTML = txt;
