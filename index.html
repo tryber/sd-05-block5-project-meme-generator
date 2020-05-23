@@ -16,7 +16,7 @@
   <form>
     <div>
       <label for="text-input">Texto: </label><br>
-      <input type="text" id="text-input" maxlength="60" onchange="textInput(event)">
+      <input type="text" id="text-input" maxlength="60" onkeyup="textInput(event)">
     </div>
     <div>
       <label for="meme-insert">Imagem: </label><br>
@@ -25,8 +25,8 @@
   </form>
 
   <div id="meme-image-container">
-    <img id="meme-image" src="">
     <div id="meme-text"></div>
+    <img id="meme-image" src="">
   </div>
   
   <script src="script.js"></script>
