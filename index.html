@@ -5,91 +5,53 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meme generator</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <style>
-    body {
-      background-color: white;
-    }
-
-    #container {
-      background-color: white;
-    }
-
-    #inputs {
-      background-color: white;
-    }
-
-    #text-input {
-
-    }
-
-    #meme-insert {
-
-    }
-
-    #meme-image-container {
-      width: 400px;
-      height: 350px;
-
-    }
-
-    #meme-image {
-
-    }
-
-    #meme-text {
-      font-size: 30px;
-      color: white;
-      text-shadow:rgba(75, 73, 73, 0.76);
-    }
-
-  </style>
+  <link rel="stylesheet" type="text/css" href="sytle.css">
 </head>
 
 <body>
   <header>
     <h1>MEME GENERATOR</h1>
-    <article id="container">
-      <section>
-        <!--********INPUTS*********-->
-        <div id="inputs">
-          <form>
-            <label> Texto:
-              <input type="text" id="text-input">
-            </label><br>
-            <label> Foto:
-              <input type="file" id="meme-insert" accept=".jpeg">
-            </label>
-          </form>
-        </div>
-        <!--********MEME GENERATOR*********-->
-        <div id="meme-image-container">
-          <div id="meme-image">
-            <img src="#">
-            <div id="meme-text">
-              <p>Meme text</p>
-            </div>
+  </header>
+  <article id="container">
+    <section>
+      <!--********INPUTS*********-->
+      <div id="inputs">
+        <form>
+          <label> Texto:
+            <input type="text" maxlength="60" id="text-input" value="digite o texto aqui">
+          </label><br><br>
+          <label> Foto:
+            <input type="file" id="meme-insert" accept=".jpeg">
+          </label><br><br>
+        </form>
+      </div>
+      <!--********MEME GENERATOR*********-->
+      <div id="meme-image-container">
+        <div id="meme-image">
+          <img src="#">
+          <div id="meme-text">
+            <p>Meme text</p>
           </div>
         </div>
-        <!--********CUSTOMIZACAO*********-->
-        <div id="customize">
-          <p>Estilos customizados:</p>
-          <button id="fire">Fire</button>
-          <button id="water">Water</button>
-          <button id="earth">Earth</button>
-        </div>
-      </section>
-      <aside>
-        <div>
-          <p>Memes pré-prontos:</p>
-          <img src="#" id="meme-1">
-          <img src="#" id="meme-2">
-          <img src="#" id="meme-3">
-          <img src="#" id="meme-4">
-        </div>
-      </aside>
-    </article>
-  </header>
-</body>
+      </div>
+      <!--********CUSTOMIZACAO*********-->
+      <div id="customize">
+        <p id="preprontos">Estilos customizados</p>
+        <button id="fire">Fire &#x1F525;</button>
+        <button id="water">Water &#x1F4A6;</button>
+        <button id="earth">Earth &#x1F34F;</button>
+      </div>
+    </section>
+    <aside>
+      <div>
+        <p>Memes pré-prontos:</p>
+        <img src="#" id="meme-1">
+        <img src="#" id="meme-2">
+        <img src="#" id="meme-3">
+        <img src="#" id="meme-4">
+      </div>
+    </aside>
+  </article>
+  </body>
 
 </html>
