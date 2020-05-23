@@ -1,19 +1,21 @@
-window.onload = () => {
-    //Variables
-    const memeImage = document.getElementById("meme-image"); //box image
-    const memeInsert = document.getElementById("meme-insert"); //select image
-    const memeText = document.getElementById("meme-text"); //text image
-    const textInput = document.getElementById("text-input"); //box text
-  
-    //Event + Function uploadImage
-    memeInsert.addEventListener("input", () => memeImage.src = URL.createObjectURL(memeInsert.files[0]));
-  
-    //Event + Function textImage
-    textInput.addEventListener("input", () => memeText.innerHTML = textInput.value);
-  };
+//variaveis
 
+const memeImage = document.querySelector("#meme-image");
+const textInput = document.querySelector("#text-input");
+const imgContainer = document.querySelector("#meme-image-container");
+const caixaTextoDoMeme = document.querySelector("#meme-text");
+const imgInput = document.querySelector("#meme-insert");
 
-  
-  function openImage(image) {
-    document.getElementById("meme-image").src = image
-  };
+//função
+
+function textoMeme(){
+  caixaTextoDoMeme.innerText = textInput.value;
+}
+
+//eventos
+
+textInput.addEventListener("keyup", textoMeme);
+
+imgInput.addEventListener("input", function () {
+  memeImage.src = URL.createObjectURL(this.files[0]);
+});

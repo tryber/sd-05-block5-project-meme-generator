@@ -8,23 +8,12 @@
 </head>
 <body>
     <header id="title">Meme Generator</header>
-    <form class="form-image">
-        <label for="meme-insert" class="select-img">Selecione sua imagem</label>
-        <input type="file" id="meme-insert">
-    </form>
-    <div class='main'>
-        <div class='img-txt'>
-          <form>
-            <label for='text-input' class='text-input-for'></label><br>
-            <input type='text' id='text-input' class='text-input' maxlength='60' autocomplete='off' placeholder="Coloque seu texto aqui">
-          </form>
-        </div>
-        <div id='meme-image-container' class='meme-image-container'>
-          <img id='meme-image' class='meme-image' src='' alt='image' width=650px>
-          <p id='meme-text' class='meme-text'></p>
-        </div>
-      </div>
-
+    <input type="text" maxlength="60" id="text-input" placeholder="Digite seu texto aqui">
+    <input type="file" id="meme-insert" class="meme-insert">
+    <div id="meme-image-container" class="meme-image-container">
+      <img id="meme-image" class="meme-image">
+      <div id="meme-text" class="meme-text"></div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
