@@ -1,15 +1,16 @@
 .header {
   border-style: dashed;
-  position: relative;
   height: 10em;
+  position: relative;
 }
 
 .center {
-  position: absolute;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%);
+  position: absolute;
+  transform: translate(-50% , -50%);
 }
+
 .header h1 {
   top: 40%;
 }
@@ -17,40 +18,40 @@
 .header p {
   top: 70%;
 }
+
 .meme-generator {
   height: auto;
 }
 
 #meme-image-container {
-  position: relative;
-  border-style: solid;
-  border-color: black;
-  border-width: 1px;
   background-color: white;
-  width: 400px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
   margin: auto;
   min-height: 400px;
+  position: relative;
   text-align: center;
+  width: 400px;
 }
 
 #meme-image {
-  max-width: 100%;
   max-height: 100%;
+  max-width: 100%;
   vertical-align: middle;
 }
 
 #meme-text {
-  position: absolute;
-  font-size: 30px;
+  bottom: 0;
   color: white;
+  font-size: 30px;
+  position: absolute;
   text-shadow: 5px 5px 5px black;
   width: 400px;
-  bottom: 0;
   word-wrap: normal;
-  
 }
 
 #meme-input {
-  margin-top: 10px;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
