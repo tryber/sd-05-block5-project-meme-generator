@@ -33,8 +33,7 @@ label {
     margin-left: 25px;
     width: 200px;
     height: 46px;
-    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
-        0 0 0.2em #87F;
+    text-shadow: 0 0 0.5em black, 0 0 0.5em black,0 0 0.5em black;        
     font-size: 20px;
         
 }
