@@ -40,10 +40,10 @@ const meme4 = document.getElementById('meme-4');
 
 // add event listener to select the image
 meme1.addEventListener('click', function () {
-  document.getElementById("meme-image").src = meme1.src;
+  document.getElementById('meme-image').src = meme1.src;
 });
 meme2.addEventListener('click', function () {
-  document.getElementById("meme-image").src = meme2.src;
+  document.getElementById('meme-image').src = meme2.src;
 });
 meme3.addEventListener('click', function () {
   document.getElementById('meme-image').src = meme3.src;
