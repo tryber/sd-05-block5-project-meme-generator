@@ -31,3 +31,23 @@ fireButton.addEventListener("click", function () {
 waterButton.addEventListener("click", function () {
   ctnr.style.border = "5px double blue";
 });
+
+// create variables to get each meme sample
+const meme1 = document.getElementById("meme-1");
+const meme2 = document.getElementById("meme-2");
+const meme3 = document.getElementById("meme-3");
+const meme4 = document.getElementById("meme-4");
+
+// add event listener to select the image
+meme1.addEventListener("click", function () {
+  document.getElementById("meme-image").src = meme1.src;
+});
+meme2.addEventListener("click", function () {
+  document.getElementById("meme-image").src = meme2.src;
+});
+meme3.addEventListener("click", function () {
+  document.getElementById("meme-image").src = meme3.src;
+});
+meme4.addEventListener("click", function () {
+  document.getElementById("meme-image").src = meme4.src;
+});
