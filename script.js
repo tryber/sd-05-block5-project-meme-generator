@@ -6,7 +6,7 @@ function addMemeText() {
 const textInput = document.querySelector('#text-input');
 textInput.addEventListener('keyup', addMemeText);
 
-function readImage(event) {
+function changeImg(event) {
   if (event.target.files && event.target.files[0]) {
     const file = new FileReader();
     file.onload = function (e) {
@@ -17,4 +17,4 @@ function readImage(event) {
 }
 
 const memeInsert = document.querySelector('#meme-insert');
-memeInsert.addEventListener('change', readImage, false);
+memeInsert.addEventListener('change', changeImg, false);
