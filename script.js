@@ -36,17 +36,17 @@ function changeBorderE() {
 earthButton.addEventListener('click', changeBorderE);
 
 memeOne.addEventListener('click', function () {
-  memeImage.src = 'chloe-meme.jpg';
+  memeImage.src = 'imgs/meme1.png';
 });
 
 memeTwo.addEventListener('click', function () {
-  memeImage.src = 'little-creepy.jpg';
+  memeImage.src = 'imgs/meme2.png';
 });
 
 memeThree.addEventListener('click', function () {
-  memeImage.src = 'idknow.jpg';
+  memeImage.src = 'imgs/meme3.png';
 });
 
 memeFour.addEventListener('click', function () {
-  memeImage.src = 'yao-ming.jpg';
+  memeImage.src = 'imgs/meme4.png';
 });
