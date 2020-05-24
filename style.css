@@ -30,7 +30,7 @@ label {
 }
 #meme-text {
     
-    position: static absolute;
+    position:absolute;
     bottom: 180px;
     left: 30px;
     width: 281px;
