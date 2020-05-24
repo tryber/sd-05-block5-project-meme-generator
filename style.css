@@ -1,12 +1,17 @@
-#text-input {
+body {
+  background-color: brown;
+}
 
+#text-input {
+border: 1px solid black;
 }
 
 #meme-image-container {  
-width: 500px;
+width: 225px;
 height: auto;
 border: 1px solid black;
 position: relative;
+background-color: white;
 }
 
 img {
@@ -21,5 +26,16 @@ img {
 }
 
 .meme-text {
+color: white;
+font-size: 30px;
+text-shadow: 5px 5px 5px black;
+height: max-content;
+width: fit-content;
+word-break: break-all;
 
+}
+
+.meme {
+  width: 50px;
+  position: relative;
 }
