@@ -123,8 +123,12 @@ height: 50px;
 }
 #fire {
     position: relative;
+    width: 80px;
     bottom: 68px;
     left: 30px;
+    color: white;
+    border: 3px dashed rgb(255, 0, 0);
+    background-color:red;
 } 
 #water {
     position: relative;
