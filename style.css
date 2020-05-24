@@ -23,6 +23,6 @@
   word-wrap: break-word;
 }
 
-input[type=text] {
+input[ type = 'text' ] {
   width: 454px;
 }
