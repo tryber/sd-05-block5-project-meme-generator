@@ -33,11 +33,21 @@ label{
     height: 192px;
 }
 #meme-text {
-    position: relative;
+    position: fixed;
     top: 127px;
     left: 26px;
     font-size: 25px;
     width: 282px;
     height: 64px;
     margin: 0;
+}
+#meme-text {
+    position: absolute;
+    top: 127px;
+    left: 32px;
+    font-size: 25px;
+    width: 282px;
+    height: 64px;
+    margin: 0;
+    z-index: 3;
 }
