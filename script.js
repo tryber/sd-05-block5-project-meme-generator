@@ -7,7 +7,7 @@ const textoCarregando = document.getElementById('text-input');
 const textoSalvo = document.getElementById('meme-text');
 // adicionando uma escuta no elemento que irar receber o arquivo escolhido pelo usuario
 imagemCarregando.addEventListener('change', carregaImagem);
-textoCarregando.addEventListener('input', carregaTexto)
+textoCarregando.addEventListener('keyup', carregaTexto)
 // funcao para manipular os elementos depois da interacao do usuario
 function carregaImagem(e){
     if(FileReader){                                          // verificacao se existe uma funcao FileReader( )  no browser que ler arquivos do usuario 
