@@ -2,7 +2,40 @@ body {
   font-family: Montserrat, Helvetica, Arial, sans-serif;
   background-color: rgb(247, 247, 247);
 }
-#meme-image-container {
-  max-width: 1366px;
-  max-height: 768;
+h1 {
+  display: block;
+  margin: 20px;
+}
+#text-selector, #meme-selector {
+  margin: 20px;
+}
+fieldset#meme-image-container {
+  /*display inline-block para poder declarar o tamanho da box do container*/
+  display: inline-block;
+  width: 450px;
+  height: 400px;
+  margin: 20px;
+  padding: 0px;
+  border: 1px solid black;
+  background-color: white;
+}
+#meme-image {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+#meme-text {
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  font-size: 30px;
+  color: rgb(255 , 255 , 255);
+  text-shadow:
+    /* horizontal, vertical e raio */
+    5px 5px 5px rgb(0 , 0 , 0),
+    /* usei outros 3 para fazer uma borda */
+    1px -1px 0 rgb(0 , 0 , 0),
+    -1px 1px 0 rgb(0 , 0 , 0),
+    1px 1px 0 rgb(0 , 0 , 0);
 }
