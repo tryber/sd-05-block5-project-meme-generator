@@ -1,31 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="eng">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Meme Generator</title>
   </head>
   <body>
     <h1 class="mainTitle">MEME GENERATOR</h1>
-    <p>Texto: <input id="text-input" class="text-input" type="text" maxlength="60"></p>
-    <p>Foto: <input id="meme-insert" type="file"></p>
+    <div class="allOptions">
+      <section class="infoSection">
+        <h2 class="subTitle">Let's make a cool MEME!</h2>
+        <p>Type here your text: <input id="text-input" class="text-input" type="text" maxlength="60" placeholder="Your text must be less than 60 characters"></p>
+        <p>Choose your photo: <input id="meme-insert" type="file"></p>
+      </section>
+      <section class="buttonSection">
+        <p>Select a border: </p>
+        <button id="fire" class="fireButton">Fire</button>
+        <button id="water" class="waterButton">Water</button>
+        <button id="earth" class="earthButton">Earth</button>
+      </section>
+      <section class="famousMemes">
+        <p>Don't know what photo use?<br> Try to start using one of these famous MEMES and have fun!</p>
+        <img id="meme-1" class="miniPic" src="imgs/meme1.png">
+        <img id="meme-2" class="miniPic" src="imgs/meme2.png">
+        <img id="meme-3" class="miniPic" src="imgs/meme3.png">
+        <img id="meme-4" class="miniPic" src="imgs/meme4.png">
+      </section>
+    </div>
     <div id="meme-image-container" class="meme-image-container">
       <img id="meme-image" class="meme-image"></img>
       <div id="meme-text" class="meme-text"></div>
-    </div>
-    <div>
-      <p>Estilos customizados: </p>
-      <button id="fire" class="fireButton">Fire</button>
-      <button id="water" class="waterButton">Water</button>
-      <button id="earth" class="earthButton">Earth</button>
-    </div>
-    <div>
-      <p>Memes pré-prontos, clique e divirta-se:</p>
-      <img id="meme-1" class="miniPic" src="imgs/meme1.png">
-      <img id="meme-2" class="miniPic" src="imgs/meme2.png">
-      <img id="meme-3" class="miniPic" src="imgs/meme3.png">
-      <img id="meme-4" class="miniPic" src="imgs/meme4.png">
     </div>
   </body>
   <script src="script.js"></script>
