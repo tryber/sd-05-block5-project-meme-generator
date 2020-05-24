@@ -24,9 +24,9 @@
 
 .meme-text {
   color: white;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, Arial Narrow Bold, sans-serif;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 700;
   left: 60px;
   position: absolute;
   text-shadow: 5px 5px 5px black;
@@ -60,4 +60,10 @@
   height: 30px;
   margin-top: 3px;
   width: 60px;
+}
+
+.miniPic {
+  margin-top: 10px;
+  height: 100px;
+  width: 100px;
 }
