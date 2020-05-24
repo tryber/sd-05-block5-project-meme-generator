@@ -27,15 +27,11 @@ fieldset#meme-image-container {
 }
 #meme-text {
   position: absolute;
-  top: 70%;
-  left: 5%;
+  top: 450px;
+  left: 50px;
   font-size: 30px;
   color: rgb(255 , 255 , 255);
-  text-shadow:
-    /* horizontal, vertical e raio */
-    5px 5px 5px rgb(0 , 0 , 0),
-    /* usei outros 3 para fazer uma borda */
-    1px -1px 0 rgb(0 , 0 , 0),
-    -1px 1px 0 rgb(0 , 0 , 0),
-    1px 1px 0 rgb(0 , 0 , 0);
+  text-shadow: 5px 5px 5px rgb(0 , 0 , 0);
+  width: 420px;
+  word-wrap: break-word;
 }

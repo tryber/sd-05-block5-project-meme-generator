@@ -12,7 +12,7 @@
 </header>
 <form id="text-selector">
   <label for="text-input">Texto do meme: </label>
-  <input id="text-input" type="text" size="45" maxlength="60" onchange="insert()" placeholder="digite aqui">
+  <input id="text-input" type="text" size="45" maxlength="60" oninput="insert()" placeholder="digite aqui">
 </form>
 <form id="meme-selector">
   <labe for="meme-insert">Imagem do meme: </labe>
@@ -21,7 +21,7 @@
   <!-- Para type "file" usei o atributo accept para definir os tipos de arquivo que o controle pode selecionar. -->
 </form>
 <fieldset id="meme-image-container">
-    <p id="meme-text"></p>
+    <div id="meme-text"></div>
     <img id="meme-image"></img>
 </fieldset>
 <script src="script.js"></script>
