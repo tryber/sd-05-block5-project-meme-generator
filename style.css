@@ -27,10 +27,16 @@ img{
 }
 #water{
   background-color: blue;
-  border: none
+  border: none;
 
 }
 #earth{
   background-color: green;
-  border: none
+  border: none;
+}
+.images-finais{
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  border: none;
 }

@@ -46,3 +46,25 @@ earthbtn.addEventListener("click", function(){
   memeCont.style.border = "6px groove green";
 
 });
+//----------------------------------------------------
+
+let meme1 = document.querySelector("#meme-1").children[0];
+let meme2 = document.querySelector("#meme-2").children[0];
+let meme3 = document.querySelector("#meme-3").children[0];
+let meme4 = document.querySelector("#meme-4").children[0];
+meme1.addEventListener("click", function(){
+  myimg.src = meme1.src;
+
+});
+meme2.addEventListener("click", function(){
+  myimg.src = meme2.src;
+
+});
+meme3.addEventListener("click", function(){
+  myimg.src = meme3.src;
+
+});
+meme4.addEventListener("click", function(){
+  myimg.src = meme4.src;
+
+});
