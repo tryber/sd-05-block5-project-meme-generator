@@ -1,9 +1,9 @@
-//Variáveis de entrada 
-const memeImage = document.getElementById('meme-image');
-const textoInput = document.getElementById('text-input');
-const containerLimite = document.getElementById('meme-image-container');
-const textoMeme = document.getElementById('meme-text');
-const inputImg = document.getElementById('meme-insert');
+//Variáveis de entrada referente ao texto
+let textoMeme = document.getElementById('meme-text');
+let textoInput = document.getElementById('text-input');
+//Variáveis de entrada referente a imagem
+let memeImage = document.getElementById('meme-image');
+let inputImg = document.getElementById('meme-insert');
 
 /*Definição da função para adicionar o texto sobre a imagem
 verifica se o evento do target for igual ao texto de entrada,
