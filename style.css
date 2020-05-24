@@ -1,5 +1,6 @@
 .titulo {
-  color: black solid;
+  color: black;
+  font-style: solid;
   font-size: 60px;
 }
 
@@ -25,7 +26,7 @@
 
 .meme-text {
   color: white;
-  font-family: Fantasy;
+  font-family: fantasy;
   font-size: 30px;
   left: 60px;
   position: absolute;
