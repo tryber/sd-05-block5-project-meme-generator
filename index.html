@@ -16,10 +16,14 @@
     </label>
     <label>
         Foto:
-        <input type="file" id="meme-insert" name="filename">
+        <input type="file" id="meme-insert" accept="/*" onchange="loadFile(event)">
+        
+        
     </label>
         
-        <div id="meme-image"></div>
+        <div id="meme-image">
+            <img id="output" width="280" height="150"/>
+        </div>
         <div id="meme-text">Deus é  mais que Fiel</div>
        
         
@@ -94,7 +98,17 @@
         })
         
 </script>
-   
+<script>
+let loadFile = function(event){
+    let reader = new FileReader();
+    reader.onload = function(){
+        let output = document.getElementById('output')
+            output.src = reader.result
+    }
+    reader.readAsDataURL(event.target.files[0])
+
+}
+</script>
    
 </body>
 </html>
