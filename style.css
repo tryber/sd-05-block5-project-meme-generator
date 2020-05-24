@@ -6,7 +6,7 @@ label {
     font-size: 18px;
     display: block;
     margin-bottom: 5px;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 #text-input{
@@ -30,7 +30,7 @@ label {
 }
 #meme-text {
     
-    position:absolute;
+    position:fixed;
     bottom: 180px;
     left: 30px;
     width: 281px;
