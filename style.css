@@ -2,6 +2,7 @@
     background-color: white;
     border: 1px;
     border: solid;
+    border-color: black;
     margin: auto;
     width: 400px;
     height: 400px;
@@ -11,7 +12,6 @@
 #meme-image {
     width: 400px;
     height: 400px;
-    top: 104px;
     background-color: white;
 }
 
