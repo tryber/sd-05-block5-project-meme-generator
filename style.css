@@ -1,18 +1,19 @@
-#titulo {
+.titulo {
   font-size: 60px;
-  font-style: black solid;
+  font-style: solid;
+  color: black;
 }
 
-#text-input {
+.text-input {
   margin-bottom: 30px;
   margin-left: 5px;
 }
 
-#meme-insert {
+.meme-insert {
   margin-left: 5px;
 }
 
-#meme-image-container {
+.meme-image-container {
   margin-top: 15px;
   border: 1px solid black;
   background-color: white;
@@ -20,44 +21,44 @@
   height: 400px;
 }
 
-#meme-text {
+.meme-text {
+  color: white;
   font-size: 30px;
-  color: black;;
-  position:absolute;
-  z-index: 1;
-  top: 500px;
   left: 60px;
+  position:absolute;
+  top: 500px;
+  z-index: 1;
 }
 
-#output {
-  width: 100%;
+.output {
   height: 100%;
+  width: 100%;
   z-index: 2;
 }
 
-#fire {
+.fire {
   border: 3px dashed;
- background-color: red;
- margin-top: 8px; 
- margin-left: 30px;
- font-size: 30px;
- color: white;
+  background-color: red;
+  margin-top: 8px;
+  margin-left: 30px;
+  font-size: 30px;
+  color: white;
 }
 
-#water {
+.water {
   border: 5px double;
   background-color: blue;
-  margin-top: 8px;
-  margin-left: 30px; 
-  font-size: 30px;
   color: white;
+  font-size: 30px;
+  margin-top: 8px;
+  margin-left: 30px;
 }
 
-#earth {
+.earth {
   border: groove 6px;
   background-color: green;
-  margin-top: 8px;
-  margin-left: 30px; 
-  font-size: 30px;
   color: white;
+  font-size: 30px;
+  margin-top: 8px;
+  margin-left: 30px;
 }

@@ -7,19 +7,19 @@
       <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body style="padding:5px;">
-  <header id="titulo">MEME Generator</header>
+  <header class="titulo">MEME Generator</header>
   <br>
-  Texto:<input type="text" maxlength="60" id="text-input" onchange="setTextInput(event)">
+  Texto:<input type="text" maxlength="60" class="text-input" onchange="setTextInput(event)">
   <br>
-  Imagem:<input type="file" id="meme-insert" accept="image/*" onchange="loadFile(event)">
+  Imagem:<input type="file" class="meme-insert" accept="image/*" onchange="loadFile(event)">
   <br>
-  <div id="meme-image-container">
-    <image id="output"> </image>
-    <div id="meme-text" input maxlength="60"></div>
+  <div class="meme-image-container">
+    <image class="output"> </image>
+    <div class="meme-text" input maxlength="60"></div>
     <br>
-    <button id="earth">Earth</button>
-    <button id="fire">Fire</button>
-    <button id="water">Water</button>
+    <button class="earth">Earth</button>
+    <button class="fire">Fire</button>
+    <button class="water">Water</button>
   </div>
   <br><br>
   <script src="script.js"></script>
