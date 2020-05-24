@@ -7,7 +7,7 @@ let inputImg = document.getElementById("meme-insert");
 
 //Interação com o usuário, adição de texto e imagem
 textoInput.addEventListener("keyup", function(){
-  textoMeme.innerHTML = textoInput.nodeValue;
+  textoMeme.innerHTML = textoInput.value;
 });
 
 inputImg.addEventListener("input", function () {
