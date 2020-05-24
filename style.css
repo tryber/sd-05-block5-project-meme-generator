@@ -1,6 +1,6 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
   background-color: lightcyan;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .allOptions {
@@ -43,7 +43,7 @@ body {
 
 .meme-text {
   color: white;
-  font-family: Impact, Haettenschweiler, Arial Narrow Bold, sans-serif;
+  font-family: Impact, Haettenschweiler, Arial Bold, sans-serif;
   font-size: 30px;
   font-weight: 700;
   left: 60px;
@@ -88,7 +88,7 @@ body {
 
 .miniPic {
   border: 1px solid black;
-  margin-top: 10px;
   height: 100px;
+  margin-top: 10px;
   width: 100px;
 }
