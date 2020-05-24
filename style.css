@@ -15,17 +15,16 @@ h1{
   /*  position: relative;*/
     background-color: white;
     border: 2px solid black;
+    z-index: 0;
    /* max-width: resolution 1366px;
     max-height: resolution 768;
     margin-bottom: 0px;*/
 }
 #meme-text{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    position: absolute;
-    bottom: 250px;
-    right: 500px;
+    position: relative;
+    bottom: 100px;
     width: 450px;
-    margin: auto;
     color: white;
     font-size: 30px;
     text-shadow: 5px 5px 5px black;
