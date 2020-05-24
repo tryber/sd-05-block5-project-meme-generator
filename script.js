@@ -6,11 +6,10 @@ const memeInsert = document.getElementById('meme-insert');
 const fire = document.getElementById('fire');
 const water = document.getElementById('water');
 const earth = document.getElementById('earth');
-const memeUm = document.getElementById('meme1');
-const memeDois = document.getElementById('meme2');
-const memeTres = document.getElementById('meme3');
-const memeQuatro = document.getElementById('meme4');
-const caixaTxtDoMeme = document.getElementById('meme-text');
+const memeUm = document.getElementById('meme-1');
+const memeDois = document.getElementById('meme-2');
+const memeTres = document.getElementById('meme-3');
+const memeQuatro = document.getElementById('meme-4');
 
 function caixaTxt() {
   memeText.textContent = textInput.value;
