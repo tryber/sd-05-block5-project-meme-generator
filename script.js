@@ -6,6 +6,10 @@ const fireButton = document.getElementById('fire');
 const waterButton = document.getElementById('water');
 const earthButton = document.getElementById('earth');
 const memeContainer = document.getElementById('meme-image-container');
+const memeOne = document.getElementById('meme-1');
+const memeTwo = document.getElementById('meme-2');
+const memeThree = document.getElementById('meme-3');
+const memeFour = document.getElementById('meme-4');
 
 function getText() {
   memeText.innerHTML = textInput.value;
@@ -30,3 +34,19 @@ function changeBorderE() {
   memeContainer.style.border = '6px groove green';
 }
 earthButton.addEventListener('click', changeBorderE);
+
+memeOne.addEventListener('click', function () {
+  memeImage.src = 'chloe-meme.jpg';
+});
+
+memeTwo.addEventListener('click', function () {
+  memeImage.src = 'little-creepy.jpg';
+});
+
+memeThree.addEventListener('click', function () {
+  memeImage.src = 'idknow.jpg';
+});
+
+memeFour.addEventListener('click', function () {
+  memeImage.src = 'yao-ming.jpg';
+});
