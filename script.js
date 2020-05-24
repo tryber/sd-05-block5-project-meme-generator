@@ -1,11 +1,12 @@
 function insert() {
-  let texto = document.getElementById("text-input").value;
-  document.getElementById("meme-text").innerHTML = texto;
+  const texto = document.getElementById('text-input').value;
+  document.getElementById('meme-text').innerHTML = texto;
 }
+insert();
 
 // porque usar "event" como parâmetro?
-let loadImage = function(event) {
-  let memeImage = document.getElementById("meme-image");
+const loadImage = function (event) {
+  const memeImage = document.getElementById('meme-image');
   // O método estático URL.createObjectURL() cria um DOMString
   // contendo uma URL que representa o objeto fornecido no parâmetro.
   // O tempo de vida da URL está vinculado ao documento na janela
@@ -17,9 +18,11 @@ let loadImage = function(event) {
   // este atributo especifica uma URL para a localização de uma
   // imagem a ser exibida no botão gráfico; caso contrário,
   // este atributo é ignorado.
-  memeImage.onload = function() {
+  memeImage.onload = function () {
     // onload para deixar a box em branco enquanto espera um input.
-    URL.revokeObjectURL(memeImage.src) // Para resetar a memória e não ficar imagens gravadas quando trocá-las.
-  }
-}
+    URL.revokeObjectURL(memeImage.src);
+    // Para resetar a memória e não ficar imagens gravadas quando trocá-las.
+  };
+};
+
 
