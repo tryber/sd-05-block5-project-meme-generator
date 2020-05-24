@@ -51,7 +51,11 @@ label {
 }
 /*Fim de conteiner/mensagem de texto*/
 #meme-insert{
+    width: 200px;
     height: 20px;
+    background-color: white;
+    color: teal;
+    border-radius: 10px;
 }
 
 .stl{
@@ -65,7 +69,7 @@ p{
     bottom: 5px;
     left: 20px;
 }
-#memi-1{
+#meme-1{
     position: relative;
     bottom: 5px;
     left: 25px;
@@ -75,7 +79,7 @@ p{
     border: 2px solid;
     margin-left: 10px;
 }
-#memi-2{
+#meme-2{
     position: relative;
     bottom: 5px;
     left: 25px;
@@ -85,7 +89,7 @@ p{
     border: 2px solid;
     margin-left: 10px;
 }
-#memi-3{
+#meme-3{
     position: relative;
     bottom: 5px;
     left: 25px;
@@ -95,7 +99,7 @@ p{
     border: 2px solid;
     margin-left: 10px;
 }
-#memi-4 {
+#meme-4 {
     position: relative;
     bottom: 5px;
     left: 26px;
@@ -105,19 +109,19 @@ p{
     border: 2px solid;
     margin-left: 10px;
 }
-#memi-1 img{
+#meme-1 img{
     width: 50px;
     height: 50px;
 }
-#memi-2 img{
+#meme-2 img{
     width: 50px;
     height: 50px;
 }
-#memi-3 img{
+#meme-3 img{
     width: 50px;
     height: 50px;
 }
-#memi-4 img{
+#meme-4 img{
     width: 50px;
     height: 50px;
 }
