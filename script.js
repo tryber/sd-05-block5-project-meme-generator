@@ -42,3 +42,33 @@ function borda() {
 fire.addEventListener('click', borda);
 water.addEventListener('click', borda);
 earth.addEventListener('click', borda);
+
+const meme1 = document.getElementById('meme-1');
+const meme2 = document.getElementById('meme-2');
+const meme3 = document.getElementById('meme-3');
+const meme4 = document.getElementById('meme-4');
+
+function mudaMeme1() {
+  if(event.target === meme1);
+  memeImage.src = 'imgs/meme1.png';
+}
+
+function mudaMeme2() {
+  if(event.target === meme2);
+  memeImage.src = 'imgs/meme2.png';
+}
+
+function mudaMeme3() {
+  if(event.target === meme3);
+  memeImage.src = 'imgs/meme3.png';
+}
+
+function mudaMeme4() {
+  if(event.target === meme4);
+  memeImage.src = 'imgs/meme4.png';
+}
+
+meme1.addEventListener('click', mudaMeme1);
+meme2.addEventListener('click', mudaMeme2);
+meme3.addEventListener('click', mudaMeme3);
+meme4.addEventListener('click', mudaMeme4);
