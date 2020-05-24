@@ -63,44 +63,48 @@ function changePic() {
     caixaTxtDoMeme2.style.width = '340px'; //----------------------------------------------------------------------------
   }
   if (event.target === yellowsuit) {
-    memeImage.src = 'imgs/meme3.png';
-    caixaTxtDoMeme.style.left = '40px';
-    caixaTxtDoMeme.style.top = '80px';
-    caixaTxtDoMeme.style.width = '340px';
-    caixaTxtDoMeme2.style.visibility = 'visible';
-    caixaTxtDoMeme2.style.left = '40px';
-    caixaTxtDoMeme2.style.top = '400px';
-    caixaTxtDoMeme2.style.width = '340px';
+    // verifica qual imagem foi clicada, se for o meme3...
+    memeImage.src = 'imgs/meme3.png'; // troca a imagem dentro do container para imagem clicada
+    caixaTxtDoMeme.style.left = '40px'; //-------------------------------------------------------------------------------
+    caixaTxtDoMeme.style.top = '80px'; //
+    caixaTxtDoMeme.style.width = '340px'; //
+    caixaTxtDoMeme2.style.visibility = 'visible'; // arruma posição dos text box de acordo com a imagem selecionada
+    caixaTxtDoMeme2.style.left = '40px'; //
+    caixaTxtDoMeme2.style.top = '400px'; //
+    caixaTxtDoMeme2.style.width = '340px'; //-------------------------------------------------------------------------------
   }
   if (event.target === work) {
-    memeImage.src = 'imgs/meme2.png';
-    caixaTxtDoMeme.style.left = '40px';
-    caixaTxtDoMeme.style.top = '80px';
-    caixaTxtDoMeme.style.width = '340px';
-    caixaTxtDoMeme2.style.visibility = 'hidden';
+    // verifica qual imagem foi clicada, se for o meme2...
+    memeImage.src = 'imgs/meme2.png'; // troca a imagem dentro do container para imagem clicada
+    caixaTxtDoMeme.style.left = '40px'; //-------------------------------------------------------------------------------
+    caixaTxtDoMeme.style.top = '80px'; //
+    caixaTxtDoMeme.style.width = '340px'; // arruma posição dos text box de acordo com a imagem selecionada
+    caixaTxtDoMeme2.style.visibility = 'hidden'; //-------------------------------------------------------------------------------
   }
   if (event.target === spider) {
-    memeImage.src = 'imgs/meme1.png';
-    caixaTxtDoMeme.style.left = '10px';
-    caixaTxtDoMeme.style.top = '200px';
-    caixaTxtDoMeme.style.width = '200px';
-    caixaTxtDoMeme2.style.visibility = 'visible';
-    caixaTxtDoMeme2.style.left = '200px';
-    caixaTxtDoMeme2.style.top = '300px';
-    caixaTxtDoMeme2.style.width = '200px';
+    // verifica qual imagem foi clicada, se for o meme1...
+    memeImage.src = 'imgs/meme1.png'; // troca a imagem dentro do container para imagem clicada
+    caixaTxtDoMeme.style.left = '10px'; //-------------------------------------------------------------------------------
+    caixaTxtDoMeme.style.top = '200px'; //
+    caixaTxtDoMeme.style.width = '200px'; //
+    caixaTxtDoMeme2.style.visibility = 'visible'; // arruma posição dos text box de acordo com a imagem selecionada
+    caixaTxtDoMeme2.style.left = '200px'; //
+    caixaTxtDoMeme2.style.top = '300px'; //
+    caixaTxtDoMeme2.style.width = '200px'; //-------------------------------------------------------------------------------
   }
 }
 // eventListeners
-textInput.addEventListener('keyup', criaTxtDoMeme);
-textInput2.addEventListener('keyup', criaTxtDoMeme);
+textInput.addEventListener('keyup', criaTxtDoMeme); //listenr do input1 que adiciona texto no meme
+textInput2.addEventListener('keyup', criaTxtDoMeme); //listener do input2 que adiciona texto no meme
 
 imgInput.addEventListener('input', function () {
+  // listener do botão da imagem com funcao que troca para imagem selecionada no computado
   memeImage.src = URL.createObjectURL(this.files[0]);
 });
-fogo.addEventListener('click', trocaBorda);
-agua.addEventListener('click', trocaBorda);
-terra.addEventListener('click', trocaBorda);
-badluck.addEventListener('click', changePic);
-work.addEventListener('click', changePic);
-yellowsuit.addEventListener('click', changePic);
-spider.addEventListener('click', changePic);
+fogo.addEventListener('click', trocaBorda); // listener do botao fogo para trocar borda
+agua.addEventListener('click', trocaBorda); // listener do boao agua para trocar borda
+terra.addEventListener('click', trocaBorda); // listener do botao terra para trocar borda
+badluck.addEventListener('click', changePic); // listener da imagem meme4 para trocar imagem
+work.addEventListener('click', changePic);  // listener da imagem meme2 para trocar imagem
+yellowsuit.addEventListener('click', changePic); // listener da imagem meme3 para trocar imagem
+spider.addEventListener('click', changePic); // listener da imagem meme1 para trocar imagem
