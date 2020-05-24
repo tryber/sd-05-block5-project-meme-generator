@@ -18,13 +18,14 @@ h1{
     max-width: resolution 1366px;
     max-height: resolution 768;
     margin-bottom: 0px;
+    z-index: 0;
 }
 #meme-text{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: absolute;
     bottom: 250px;
     right: 500px;
-    width: 400px;
+    width: 500px;
     margin: auto;
     color: white;
     font-size: 30px;
