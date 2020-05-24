@@ -10,7 +10,7 @@ body {
 }
 
 .infoSection {
-  border-top: 3px dashed dodgerblue;
+  border-top: 2px dashed dodgerblue;
   padding: 10px;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 .buttonSection {
-  border-top: 3px dashed dodgerblue;
+  border-top: 2px dashed dodgerblue;
   padding: 10px;
 }
 
@@ -46,10 +46,10 @@ body {
   font-family: Impact, Haettenschweiler, Arial Bold, sans-serif;
   font-size: 30px;
   font-weight: 700;
-  left: 60px;
+  left: 500px;
   position: absolute;
   text-shadow: 5px 5px 5px black;
-  top: 450px;
+  top: 950px;
   width: 300px;
   word-wrap: break-word;
 }
@@ -82,7 +82,7 @@ body {
 }
 
 .famousMemes {
-  border-top: 3px dashed dodgerblue;
+  border-top: 2px dashed dodgerblue;
   padding: 10px;
 }
 
