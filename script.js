@@ -12,3 +12,12 @@ function memeText() {
   if (event.target === textoInput) {
     textoMeme.innerText = textoInput.value; 
   }
+
+//Interação com o usuário, adição dos eventos
+textoInput.addEventListener('keyup', textoMeme);
+
+//Função anônima para colocar a img selecionada do pc 
+//como a img de entrada
+inputImg.addEventListener('input', function () {
+  memeImage.src = URL.createObjectURL(this.files[0]);
+});
