@@ -30,6 +30,9 @@
   font-size: 30px;
   text-shadow: 5px 5px 5px black;
   position: absolute;
-  margin-left: 50px;
+  top: 450px;
+  left: 20px;
   text-align: center;
+  width: 360px;
+  word-wrap: break-word;
 }

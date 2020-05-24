@@ -10,10 +10,10 @@ let imageContainer = document.getElementById("meme-image-container");
 function insertMemeText() {
   memeText.innerText = textInput.value;
 }
-function insertMemeImage() {
-  memeImage.src=URL.createObjectURL(this.files[0]);
-}
+
 
 //Event Listners
 textInput.addEventListener("keyup", insertMemeText);
-imageInput.addEventListener("input", insertMemeImage);
+imageInput.addEventListener("input", function () {
+  memeImage.src=URL.createObjectURL(this.files[0]);
+});
