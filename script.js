@@ -5,6 +5,10 @@ inputText.addEventListener("keyup",function (){
     memeText.innerText = inputText.value
 })
 
-console.log(inputText)
-console.log(memeText)
+let memeInsert = document.getElementById("meme-insert")
+let memeImage = document.getElementById("meme-image")
 
+memeInsert.addEventListener("change", function(evento){
+    let imagem = evento.target.files[0]
+    memeImage.src=URL.createObjectURL(imagem)  
+})
