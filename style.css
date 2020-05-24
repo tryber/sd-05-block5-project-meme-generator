@@ -24,7 +24,7 @@ label {
     height: 450px;
     border: 1px solid black;
     border-radius: 5px;
-    background-color: white;
+    background-color:white;
 
     
 }
@@ -124,17 +124,17 @@ height: 50px;
 #fire {
     position: relative;
     bottom: 68px;
-    left: 45px;
+    left: 30px;
 } 
 #whater {
     position: relative;
     bottom: 68px;
-    left: 80px;
+    left: 40px;
 }
 #earth {
     position: relative;
     bottom: 67px;
-    left: 113px;
+    left: 50px;
 }
 
     
