@@ -49,22 +49,22 @@ const meme3 = document.getElementById('meme-3');
 const meme4 = document.getElementById('meme-4');
 
 function mudaMeme1() {
-  if(event.target === meme1);
+  if (event.target === meme1);
   memeImage.src = 'imgs/meme1.png';
 }
 
 function mudaMeme2() {
-  if(event.target === meme2);
+  if (event.target === meme2);
   memeImage.src = 'imgs/meme2.png';
 }
 
 function mudaMeme3() {
-  if(event.target === meme3);
+  if (event.target === meme3);
   memeImage.src = 'imgs/meme3.png';
 }
 
 function mudaMeme4() {
-  if(event.target === meme4);
+  if (event.target === meme4);
   memeImage.src = 'imgs/meme4.png';
 }
 
