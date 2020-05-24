@@ -65,7 +65,7 @@ p{
     bottom: 65px;
     left: 20px;
 }
-#memi1{
+#memi-1{
     position: relative;
     bottom: 70px;
     left: 25px;
@@ -75,7 +75,7 @@ p{
     border: 2px solid;
     margin-left: 10px;
 }
-#memi2{
+#memi-2{
     position: relative;
     bottom: 70px;
     left: 25px;
@@ -85,7 +85,7 @@ p{
     border: 2px solid;
     margin-left: 10px;
 }
-#memi3{
+#memi-3{
     position: relative;
     bottom: 70px;
     left: 25px;
@@ -95,7 +95,7 @@ p{
     border: 2px solid;
     margin-left: 10px;
 }
-#memi4 {
+#memi-4 {
     position: relative;
     bottom: 70px;
     left: 26px;
@@ -105,19 +105,23 @@ p{
     border: 2px solid;
     margin-left: 10px;
 }
-#memi1 img{
-width: 50px;
-height: 50px;
-}
-#memi2 img{
+#memi-1 img{
+    /*display: inline-block;*/
     width: 50px;
     height: 50px;
 }
-#memi3 img{
+#memi-2 img{
+   /* display: inline-block;*/
     width: 50px;
     height: 50px;
 }
-#memi4 img{
+#memi-3 img{
+    /*display: inline-block;*/
+    width: 50px;
+    height: 50px;
+}
+#memi-4 img{
+   /* display: inline-block;*/
     width: 50px;
     height: 50px;
 }
@@ -127,7 +131,7 @@ height: 50px;
     bottom: 68px;
     left: 30px;
     color: white;
-    border: 3px dashed rgb(255, 0, 0);
+    border: 3px solid rgb(255, 0, 0);
     background-color:red;
 } 
 #water {
@@ -135,7 +139,7 @@ height: 50px;
     bottom: 68px;
     left: 40px;
     width: 80px;
-    border: 5px double rgb(0, 0, 255);
+    border: 3px solid rgb(0, 0, 255);
    background-color:white;
 }
 #earth {
@@ -145,7 +149,7 @@ height: 50px;
     width: 80px;
     color: white;
     background-color: rgb(0, 128, 0);
-    border: 6px groove rgb(0, 128, 0)
+    border: 3px solid rgb(0, 128, 0)
     
 }
 
