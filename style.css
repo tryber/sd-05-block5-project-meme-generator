@@ -2,7 +2,6 @@ body{
     width: 100%;
     margin: auto;
     background-color: lightcyan;
-    z-index: 0;
 }
 h1{
     text-align: center;
@@ -10,51 +9,49 @@ h1{
     font-weight: bolder;
     font-size: 3em;
     font-style: italic;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    font-family: 'Lucida Sans';
+}
 #meme-image{
     position: relative;
     background-color: white;
     border: 2px solid black;
-    max-width: resolution 1366px;
-    max-height: resolution 768px;
-    z-index: 0;
+    margin-bottom: 0px;
 
 }
 #meme-text{
     position: absolute;
-    top: 350px;
+    bottom: 250px;
+    right: 500px;
+    width: 400px;
+    margin: auto;
     color: white;
     font-size: 30px;
     text-shadow: 5px 5px 5px black;
-    text-align: center;
-
+    text-align: right;
     z-index: 1;
 }
 #fimagem{
-    position:absolute;
+    position: absolute;
     right: 0px;
 }
 #ftexto{
-    position:absolute;
+    position: absolute;
     left: 0px;
 }
 #forms{
     position: relative;
-    max-width: 600px;
+    max-width: 550px;
     margin: auto;
-    background-color: rgb(100, 100, 35);
-    top: 70px;
+    top: 60px;
     z-index: 1;
-
 }
 #meme-image-container{
-    position: relative;
-    top: 50px;
     border: 1px solid black;
     background-color: white;
     max-width:fit-content;
-    max-height: fit-content;
     margin: auto;
+    min-width: 600px;
+    height: 430px;
     z-index: 0;
 }
 

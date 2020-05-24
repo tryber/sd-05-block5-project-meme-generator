@@ -23,6 +23,5 @@ function carregaImagem(e){
 // acessando as TAGs do html para fazer a ligacao
 function carregaTexto(e){
     textoSalvo.textContent = e.target.value;
-
 }
 }

@@ -9,18 +9,18 @@
 <body>
   <h1>Elisângelo's Meme's Generator</h1>
     <section id="meme-image-container">
-        <img id="meme-image" src="obama.jpg" alt="foto do obama fazendo discurso dizendo yes we can">
-        <div id="meme-text"></div>
+        <img id="meme-image">
+        <p id="meme-text"></p>
     </section>
     <section id="forms">
-      <form id="ftexto">
+      <div id="ftexto">
         <label for="text-input">Vamos criar um meme:</label><br>
-        <input placeholder="Escreva sua frase aqui" id="text-input" type="text" maxlength="60">
-      </form>
-      <form id="fimagem">
+        <input placeholder="Escreva sua frase aqui" id="text-input" type="text" maxlength="60" leng="40">
+      </div>
+      <div id="fimagem">
         <label for="meme-insert">Selecione um arquivo:</label><br>
         <input type="file" id="meme-insert">
-    </form>
+      </div>
     </section>
     <script src="script.js"></script>
 
