@@ -3,3 +3,11 @@ div.relative {
     left: 30px;
     border: 2px solid rgb(35, 43, 22)
   }
+  #meme-text {
+    position: absolute;
+  }
+  
+  .class a escolher {
+    word-wrap: break-word;
+    width: ;
+  }
