@@ -1,9 +1,11 @@
 #meme-image-container {
+    background-color: white;
     border: 1px;
     border: solid;
     margin: auto;
     width: 400px;
     height: 400px;
+    padding: 0px;
 }
 
 #meme-image {
