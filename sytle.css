@@ -1,0 +1,35 @@
+body {
+  background-color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1em;
+}
+
+#container {
+  background-color: white;
+}
+
+#meme-image-container {
+  width: 400px;
+  height: 350px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+#meme-image {
+  margin: 0;
+}
+
+#meme-text {
+  position: absolute;
+  font-size: 30px;
+  color: white;
+  text-shadow: black 5px 5px 5px;
+}
+
+#customize #preprontos {
+  font-size: 1.3em;
+}
+
+#fire {
+  background-color: red;
+}

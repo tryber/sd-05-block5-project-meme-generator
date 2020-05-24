@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme generator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>MEME GENERATOR</h1>
+  </header>
+  <article id="container">
+    <section>
+      <!--********INPUTS*********-->
+      <form>
+        <label> Texto:
+          <input type="text" id="text-input" maxlength="60" />
+        </label><br><br>
+        <label> Foto:
+          <input type="file" id="meme-insert" accept=".jpeg" />
+        </label><br><br>
+      </form>
+      <!--********MEME GENERATOR*********-->
+      <div id="meme-image-container">
+        <div id="meme-image">
+          <img src="#">
+          <div id="meme-text">
+            <p> <!--aqui entra o texto da variavel valor --></p>
+          </div>
+        </div>
+      </div>
+      <!--********CUSTOMIZACAO*********-->
+      <div id="customize">
+        <p id="preprontos">Estilos customizados</p>
+        <button id="fire">Fire &#x1F525;</button>
+        <button id="water">Water &#x1F4A6;</button>
+        <button id="earth">Earth &#x1F34F;</button>
+      </div>
+    </section>
+    <aside>
+      <div>
+        <p>Memes pré-prontos:</p>
+        <img src="#" id="meme-1">
+        <img src="#" id="meme-2">
+        <img src="#" id="meme-3">
+        <img src="#" id="meme-4">
+      </div>
+    </aside>
+  </article>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
