@@ -29,14 +29,14 @@ label {
     
 }
 #meme-text {
-    position: relative;
-    bottom: 55px;
-    margin-left: 25px;
+    position: absolute;
+    bottom: 180px;
+    left: 30px;
     width: 281px;
     height: 62px;
     text-shadow:  5px 5px 5px black;
     font-size: 30px;
-    color:white;
+    color:teal;
     /*background-color:black;*/
 }
 #meme-image{
@@ -62,12 +62,12 @@ label {
 }
 p{
     position: relative;
-    bottom: 65px;
+    bottom: 5px;
     left: 20px;
 }
 #memi-1{
     position: relative;
-    bottom: 70px;
+    bottom: 5px;
     left: 25px;
     display: inline-block;
     width: 50px;
@@ -77,7 +77,7 @@ p{
 }
 #memi-2{
     position: relative;
-    bottom: 70px;
+    bottom: 5px;
     left: 25px;
     display: inline-block;
     width: 50px;
@@ -87,7 +87,7 @@ p{
 }
 #memi-3{
     position: relative;
-    bottom: 70px;
+    bottom: 5px;
     left: 25px;
     display: inline-block;
     width: 50px;
@@ -97,7 +97,7 @@ p{
 }
 #memi-4 {
     position: relative;
-    bottom: 70px;
+    bottom: 5px;
     left: 26px;
     display: inline-block;
     width: 50px;
@@ -106,29 +106,25 @@ p{
     margin-left: 10px;
 }
 #memi-1 img{
-    /*display: inline-block;*/
     width: 50px;
     height: 50px;
 }
 #memi-2 img{
-   /* display: inline-block;*/
     width: 50px;
     height: 50px;
 }
 #memi-3 img{
-    /*display: inline-block;*/
     width: 50px;
     height: 50px;
 }
 #memi-4 img{
-   /* display: inline-block;*/
     width: 50px;
     height: 50px;
 }
 #fire {
     position: relative;
     width: 80px;
-    bottom: 68px;
+    bottom: 10px;
     left: 30px;
     color: white;
     border: 3px solid rgb(255, 0, 0);
@@ -136,7 +132,7 @@ p{
 } 
 #water {
     position: relative;
-    bottom: 68px;
+    bottom: 10px;
     left: 40px;
     width: 80px;
     border: 3px solid rgb(0, 0, 255);
@@ -144,7 +140,7 @@ p{
 }
 #earth {
     position: relative;
-    bottom: 67px;
+    bottom: 10px;
     left: 50px;
     width: 80px;
     color: white;
