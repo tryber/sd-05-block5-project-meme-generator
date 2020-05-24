@@ -34,20 +34,20 @@
   color: white;
   font-family: Impact, sans-serif;
   font-size: 30px;
-  text-align: center;
+  height: 2em;
   left: 40px;
   position: absolute;
+  text-align: center;
   text-shadow: 5px 5px 5px black;
   top: 80px;
   width: 120px;
-  height: 2em;
 }
 
 .meme-text__position-bottom {
+  height: 2em;
   left: 40px;
   top: 400px;
   width: 4em;
-  height: 2em;
 }
 
 .presetimg {
@@ -61,4 +61,3 @@
   border-style: double;
   border-width: 5px;
 }
-
