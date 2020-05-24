@@ -1,29 +1,28 @@
-  .meme-image-container {
-    background-color: white;
-    border: 1px solid black;
-    box-sizing: border-box;
-    height: 400px;
-    padding: 0;
-    width: 540px;
-  }
+.meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+  height: 400px;
+  padding: 0;
+  width: 540px;
+}
 
-  .meme-image {
-    height: 100%;
-    width: 100%;
-  }
+.meme-image {
+  height: 100%;
+  width: 100%;
+}
 
-  .meme-text {
-    color: white;
-    font-size: 30px;
-    left: 30px;
-    position: absolute;
-    text-shadow: 5px 5px 5px black;
-    top: 450px;
-    width: 500px;
-    word-wrap: break-word;
-  }
+.meme-text {
+  color: white;
+  font-size: 30px;
+  left: 30px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  top: 450px;
+  width: 500px;
+  word-wrap: break-word;
+}
 
-  input[type=text] {
-    width: 454px;
-  }
-  
+input[type=text] {
+  width: 454px;
+}
