@@ -1,8 +1,17 @@
-window.onload = function () {
-    let texto = document.querySelector('#meme-text');
-    let imagem = document.querySelector('#meme-image');
-    let textoEntrada = document.getElementsById('#text-input');
-    let imagemEntrada  = document.querySelector('#meme-insert');
+ window.onload {
+    const texto = document.getElementById('meme-text');
+    const imagem = document.getElementById('meme-image');
+    const textoEntrada = document.getElementsById('text-input');
+    const imagemEntrada  = document.getElementById('meme-insert');
 
-    
-}
+    texto.addEventListener('keyup1', printTexto)
+    imagem.addEventListener('input', printImg)
+
+    function printTexto (){
+        texto.innerHTML = textoEntrada.value;
+    }
+
+    function printImg (){
+        imagem.src = URL.createObjectURL(this.files[0]);
+    }
+ }
