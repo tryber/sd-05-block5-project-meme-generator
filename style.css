@@ -20,3 +20,17 @@ img{
   height: 300px;
   width: 300px;
 }
+#fire{
+  background-color: red;
+  border: none;
+
+}
+#water{
+  background-color: blue;
+  border: none
+
+}
+#earth{
+  background-color: green;
+  border: none
+}
