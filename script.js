@@ -1,8 +1,3 @@
-function inputText() {
-  let inputText = document.getElementById('text-input').innerText;
+  let valor = document.getElementById("text-input").value;
   
-}
-
-function changetext() {
-
-}
+  document.querySelector("#meme-text").innerText = valor;
