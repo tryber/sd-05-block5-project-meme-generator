@@ -13,21 +13,19 @@
   </header>
   <div>
     <form>
-      <label id="text-input">Texto:
-        <input type="text" name="text" id="text-input"><br>
-      </label>
-      <label id="choose-file">Foto:
-        <input type="file" name="file" id="meme-input">
-      </label>
-      
-      <input>
-
-
+      <label for="text-input">Texto:</label>
+//inserindo caixa de texto com id="text-input" limite de caracteres 60
+      <input type="text" id="text-input" maxlength="60" class="text-input"><br>
+      <label for="meme-insert">Foto:</label>
+      <input type="file" name="file" id="meme-insert" class="meme-insert">   
     </form>
-    <div id="meme-image-container">
-      <div id="meme-text">
-        
-      </div>
+
+//container para armazenar img e texto
+    <div id="meme-image-container" class="meme-image-container">
+//elemento para mostrar o texto digitado id="meme-text"
+      <div id="meme-text" class="meme-text"></div>
+//elemento para armazenar img inserida id="meme-image"
+      <img id="meme-image" src="" alt="meme add" class="meme-image">
 
     </div>
 

@@ -2,14 +2,22 @@ body {
 
 }
 
-#text-input {
+.text-input {
 
 }
 
-#meme-image-container {
+.meme-insert {
+
+}
+
+.meme-image-container {
   
 }
 
-#meme-text {
+.meme-text {
   position: absolute;
+}
+
+.meme-image {
+  
 }
