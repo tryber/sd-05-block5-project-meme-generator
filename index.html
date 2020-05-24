@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en, pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>GERADOR DE MEMES</h1>
+</header>
+<form id="text-selector" class="text-selector">
+  <label for="text-input">Texto do meme: </label>
+  <input id="text-input" class="text-input" type="text" size="45" maxlength="60" oninput="insert()" placeholder="digite aqui">
+</form>
+<form id="meme-selector" class="meme-selector">
+  <labe for="meme-insert">Imagem do meme: </labe>
+  <input type="file" id="meme-insert" class="meme-insert" accept="image/*" onchange="loadImage(event)">
+  <!-- Usei "onchange" porque ele acontece após a perda de focus do elemento, diferente do oninput que é imediato. -->
+  <!-- Para type "file" usei o atributo accept para definir os tipos de arquivo que o controle pode selecionar. -->
+</form>
+<fieldset id="meme-image-container" class="meme-image-container">
+    <div id="meme-text" class="meme-text"></div>
+    <img id="meme-image" class="meme-image"></img>
+</fieldset>
+<section class="borders-selector">
+  <h3>Bordas customizadas: </h3>
+  <button id="fire" class="fireButton">Fire</button>
+  <button id="water" class="waterButton">Water</button>
+  <button id="earth" class="earthButton">Earth</button>
+</section>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(247 , 247 , 247);
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  display: block;
+  margin: 20px;
+}
+
+.text-selector, .meme-selector, .borders-selector { margin: 20px; }
+
+/* display inline-block linha 16 para poder declarar o tamanho da box do container */
+.meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  height: 400px;
+  margin: 20px;
+  padding: 0;
+  width: 450px;
+}
+
+.meme-image {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.meme-text {
+  color: white;
+  font-size: 30px;
+  left: 50px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  top: 450px;
+  width: 420px;
+  word-wrap: break-word;
+}
