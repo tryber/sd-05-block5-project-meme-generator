@@ -6,18 +6,18 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Larissa Meme Generator</title>
         <link rel="stylesheet" href="style.css" type="text/css"/>
+        <script src="script.js"></script>
+    
     </head>
     <body>
-        <h1 class="titulo"> Meme Generator by Larissa</h1>
         <div class="entradas"></div>
             <div> Texto:<input id="text-input" type="text" name="Texto" size="60" maxlength="60" /></div>
-            <div> Selecione uma imagem<input id="meme-insert" type="file"></div>
+            <div> Selecione uma imagem<input id="meme-insert" type="file" name="fileToUpload" id="fileToUpload"></div>
         </div>
         <div id="meme-image-container">
-            <div id="meme-text"></div>
-            <img id="meme-image"></img>
+            <div id="meme-text"> </div>
+            <img id="meme-image" src="qualquerUma.jpg" alt="imagem usuario"></img>
         </div>
     </body>
     <script src="script.js"></script>
 </html>
-
