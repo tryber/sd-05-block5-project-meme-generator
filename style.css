@@ -1,0 +1,57 @@
+body {
+  font-family: Anton, sans-serif;
+}
+
+.text-input {
+  border: 1px solid black;
+  margin-left: 10px;
+  width: 250px;
+}
+
+.meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  height: 400px;
+  margin-left: 10px;
+  width: 400px;
+}
+
+.meme-image {
+  height: 100%;
+  width: 100%;
+}
+
+.meme-text {
+  bottom: 400px;
+  color: white;
+  font-family: Anton, sans-serif;
+  font-size: 30px;
+  left: 40px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+}
+
+.fire {
+  background-color: red;
+  color: white;
+}
+
+.water {
+  background-color: blue;
+  color: white;
+}
+
+.earth {
+  background-color: green;
+  color: white;
+}
+
+.buttons {
+  margin-left: 100px;
+}
+
+.imagens {
+  height: 100px;
+  width: 100px;
+}
