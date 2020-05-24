@@ -4,9 +4,9 @@ window.onload = function () {
     saida.src = URL.createObjectURL(event.target.files[0]);
     saida.onload = function () {
       URL.revokeObjectURL(saida.src);
-// libera a memoria depois que carregar - o onload carrega 
-// logo após ter sido carregado o arquivo todo.
-    }
+//libera a memoria depois que carregar - o onload carrega 
+//logo após ter sido carregado o arquivo todo.
+      }
   }
 
   function imprimeTexto() {
@@ -21,4 +21,4 @@ window.onload = function () {
 
   const textInput = document.getElementById('text-input');
   textInput.addEventListener('keyup', imprimeTexto);
-}
+  }
