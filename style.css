@@ -22,7 +22,7 @@ label {
     left: 200px;
     width: 320px;
     height: 450px;
-    border: 3px dashed rgb(255, 0, 0);
+    border: 1px solid black;
     border-radius: 5px;
     background-color:white;
 
@@ -45,7 +45,7 @@ label {
     left: 20px;
     width: 280px;
     height: 150px;
-    border: 1px solid teal;
+    border: 1px solid black;
     
 }
 /*Fim de conteiner/mensagem de texto*/
