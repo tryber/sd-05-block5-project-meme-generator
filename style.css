@@ -29,7 +29,8 @@ label {
     
 }
 #meme-text {
-    position: absolute;
+    
+    position: static absolute;
     bottom: 180px;
     left: 30px;
     width: 281px;
