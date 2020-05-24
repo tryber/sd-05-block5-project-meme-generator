@@ -7,21 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="meme-image-container">
-        <img id="meme-image">
-        <p id="meme-text"></p>
-    </div>
-    <section id="inputs">
-      <form >
-          <label for="meme-insert">Selecione um arquivo:</label><br>
-          <input type="file" id="meme-insert">
-      </form><br><br>
-      <form>
-          <label for="text-input">Digite uma Frase para criarmos um meme:<br></label>
-          <input placeholder="escreva sua frase aqui" id="text-input" type="text" maxlength="60">
-      </form>
+  <h1>Elisângelo's Meme's Generator</h1>
+    <section id="meme-image-container">
+        <img id="meme-image" src="obama.jpg" alt="foto do obama fazendo discurso dizendo yes we can">
+        <div id="meme-text"></div>
     </section>
-
+    <section id="forms">
+      <form id="ftexto">
+        <label for="text-input">Vamos criar um meme:</label><br>
+        <input placeholder="Escreva sua frase aqui" id="text-input" type="text" maxlength="60">
+      </form>
+      <form id="fimagem">
+        <label for="meme-insert">Selecione um arquivo:</label><br>
+        <input type="file" id="meme-insert">
+    </form>
+    </section>
     <script src="script.js"></script>
 
 </body>
