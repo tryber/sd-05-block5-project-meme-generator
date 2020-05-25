@@ -2,15 +2,20 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 #meme-image {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
   height: 100%;
   width: 100%;
   vertical-align: auto;
+  margin: 0cm;
 }
 #meme-image-container {
   width: 400px;
   height: 400px;
   margin-left: 10x;
-  border: solid black 1px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
   background-color:white/*config css exercício 3*/
   }
 #meme-text {
