@@ -23,8 +23,8 @@
     </header>
 
         <section id="meme-image-container">        
-            <div id="meme-text">Deus é  mais que Fiel</div>
             <img id="meme-image">
+            <div id="meme-text">Deus é  mais que Fiel</div>
         </section>
          <!--
        
@@ -98,19 +98,20 @@ brImage3.style.borderColor='mediumseagreen'
 
 })
 
-
+-->
+<script>
 let loadFile = function(event){
 let reader = new FileReader();
 reader.onload = function(){
-let output = document.getElementById('output')
+let output = document.getElementById('meme-image')
     output.src = reader.result
 }
 reader.readAsDataURL(event.target.files[0])
 
 }
+</script>
 
-
-
+<!--
 let camiho = document.getElementById('output')
 let pegarDiv1 = document.getElementById('meme-1')
 let pegarDiv2 = document.getElementById('meme-2')
