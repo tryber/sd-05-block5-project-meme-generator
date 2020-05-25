@@ -15,24 +15,22 @@ function initializeElements() {
   buttons = [
     document.querySelector('#btn-fire'),
     document.querySelector('#btn-water'),
-    document.querySelector('#btn-earth')
+    document.querySelector('#btn-earth'),
   ];
 }
 function setBorder(element) {
   const container = document.querySelector('#meme-image-container');
   const border = element.target.id;
   container.className = `image-container ${border.split('-')[1]}-border`;
-  console.log(element.target.style)
   container.style.borderColor = element.target.style.backgroundColor;
 }
 window.onload = function () {
   initializeElements();
   fileInput.addEventListener('change', process);
-  textInput.addEventListener('keyup', function(el) {
-    let txt = (el.target.value);
-    memeText.innerText = txt;
+  textInput.addEventListener('keyup', function (el) {
+    memeText.innerText = el.target.value;
   });
   buttons.forEach((button) => {
-    button.addEventListener("click", setBorder);
+    button.addEventListener('click', setBorder);
   });
 }
