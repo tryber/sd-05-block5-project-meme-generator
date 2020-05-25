@@ -48,6 +48,23 @@ document.getElementById('meme-insert').addEventListener('change', event => {
   reader.readAsDataURL(file);
   console.log(file);
 });
-function test() {
-  console.log("h: " + document.getElementById('meme-image').clientHeight + " w:" + document.getElementById('meme-image').clientWidth)
-}
+let container_image = document.getElementById('meme-image');
+let b_water= document.getElementById('water').addEventListener('click',function () {
+    container_image.className='button_water'
+    document.getElementById('meme-image-container').style.width='fit-content';
+  
+});
+
+let b_fire=document.getElementById('fire').addEventListener('click',function () {
+  
+  
+    container_image.className='button_fire'
+    document.getElementById('meme-image-container').style.width='fit-content';
+
+});
+let b_earth=document.getElementById('earth').addEventListener('click',function () {
+  
+    container_image.className='button_earth'
+    document.getElementById('meme-image-container').style.width='fit-content';
+  
+});

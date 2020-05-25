@@ -11,7 +11,8 @@
   border: 1px solid black;
   position: relative;
   width: 500px;
-  height: 100px;
+  height: 300px;
+  margin: 8px;
 }
 
 .location_text_meme {
@@ -36,6 +37,14 @@ img {
 #meme-text{
   font-size: 30px;
   color: white;
-  size: 30px;
-  
+  size: 30px; 
+}
+.button_water{
+  border: 5px double blue;
+}
+.button_earth{
+  border: 6px groove green;
+}
+.button_fire{
+  border: 3px dashed red;
 }
