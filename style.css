@@ -63,10 +63,9 @@ body{
 }
 
 #meme-image-container #meme-image{
-    position: absolute;
     height: 496px;
     width: 396px;
-    top: 318px;
+    top: 330px;
     left: 434px;
     border: 1px solid black;
     background-color: white;
