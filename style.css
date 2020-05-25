@@ -67,3 +67,30 @@ h3{
     width: 50px;
     height: 50px;
 }
+/*Fim do estilo para o canteiner e seu filhos*/
+
+#stCostumizados{
+    position: relative;
+    top: 12px;
+    
+}
+#stCostumizados p{
+    position: relative;
+    left: 25px;
+    bottom: 14px;
+}
+#fire{
+    position: relative;
+    bottom: 20px;
+    left: 53px;
+}
+#water {
+    position: relative;
+    bottom: 20px;
+    left: 99px;
+}
+#earth {
+    position: relative;
+    bottom: 20px;
+    left: 150px;
+}
