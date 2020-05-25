@@ -7,17 +7,17 @@ body {
     border-style: solid;
     border-color: black;
     background-color: white;
-    height: 800px;
-    width: 800px;
+    height: 400px;
+    width: 400px;
 }
 
 .meme-text{
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     height: 1em;
     position: absolute;
     text-align: center;
-    text-shadow: 2px 2px 2px blue;
+    text-shadow: 5px 5px 5px black;
     width: 100px;
     top: 70px;
 }
