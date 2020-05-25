@@ -53,9 +53,8 @@
     </section>
     <!-- Fim da seção dos memes prontos -->
     </div>
-
-<script>
-    /*Função que modifica o texto encima da imagem */
+<!-- Função que modifica o texto encima da imagem -->
+<script> 
 let textoVl = document.getElementById('text-input');
 let resposta = document.getElementById('meme-text');
 
@@ -64,7 +63,7 @@ textoVl.addEventListener("keyup",function(){
 })
 </script>
 
-
+<!--Funções que mudam a cor da borda do retrato através dos botões-->
 <script>
 let brImage = document.getElementById('meme-image')
 let btnFire = document.getElementById('fire')
@@ -76,8 +75,7 @@ btnFire.addEventListener('click',function(){
       brImage.style.borderColor='crimson'
 
     })
-</script>
-<script>
+
 let brImage2 = document.getElementById('meme-image')
 let btnwhater = document.getElementById('water')
 
@@ -88,9 +86,7 @@ btnwhater.style.borderColor='royalblue'
   brImage2.style.borderColor='royalblue'
 
 })
-</script>
 
-<script>
 let brImage3 = document.getElementById('meme-image')
 let btnearth = document.getElementById('earth')
 
@@ -102,6 +98,8 @@ brImage3.style.borderColor='mediumseagreen'
 
 })
 </script>
+<!--Fim do estilo das bordas -->
+
 
 <script>
 let loadFile = function(event){
@@ -115,8 +113,8 @@ reader.readAsDataURL(event.target.files[0])
 }
 </script>
 
-<!--
-let camiho = document.getElementById('output')
+<script>
+let camiho = document.getElementById('meme-image')
 let pegarDiv1 = document.getElementById('meme-1')
 let pegarDiv2 = document.getElementById('meme-2')
 let pegarDiv3 = document.getElementById('meme-3')
@@ -152,6 +150,6 @@ pegarDiv4.addEventListener('click',function(){
 
 </script>
 
--->
+
 </body>
 </html>
