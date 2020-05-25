@@ -20,6 +20,9 @@ label{
     height: 12px;
     margin-bottom: 5px;
 }
+h3{
+    margin-left: 35px;
+}
 /*fim da parte relativa ao label*/
 
 
@@ -51,4 +54,6 @@ label{
     height: 64px;
     margin: 0;
     z-index: 3;
+    color: white;
+    text-shadow: 5px 5px 5px black;
 }
