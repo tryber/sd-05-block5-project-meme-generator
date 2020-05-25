@@ -10,7 +10,7 @@ body{
 
 #cabecalho{
     background-color: #FFB351;
-    height: 230px;
+    height: 200px;
 }
 
 #cabecalho .tituloMeme{
@@ -30,15 +30,15 @@ body{
 #cabecalho .github{
     position: absolute;
     width: 24px;
-    top:200px;
-    right: 675px;
+    top:100px;
+    right: 230px;
 }
 
 #cabecalho .linkedin{
     position: absolute;
     width: 24px;
-    top:200px;
-    right: 575px;
+    top:100px;
+    right: 140px;
 }
 
 #rodape{
