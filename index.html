@@ -15,15 +15,15 @@
   </header>
 
   <div id="texto_foto">
-    <td><strong>Texto: </strong></td>
+    <td><label><strong>Texto: </strong></label></td>
     <input id="text-input" type="text" placeholder="Digite aqui" maxlength=60/><br> <!--Caixa de Texto-->
     <br>
-    <td><strong>Foto: </strong></td>
+    <td><label><strong>Foto: </strong></label></td>
     <input type="file" id="meme-insert" name="Image upload" accept="image/*"/> <!--Botão para inserir imagem-->
   </div>
   <br>
     <div id="meme-image-container"> <!--Container para imagem e texto-->
-    <img src="" id="meme-image" type="image" type="text"/>
+    <img src="" id="meme-image" alt="Imagem-nova" type="image"/>
     <div id="meme-text"></div>
     </div>
     <section>
@@ -32,10 +32,10 @@
 
   <section class="imagens"> <!--Memes prontos-->
     <h3>Imagens para serem usadas: </h3>
-    <img id="image1" src="meme1.jpeg">
-    <img id="image2" src="meme2.jpeg">
-    <img id="image3" src="meme3.png">
-    <img id="image4" src="meme4.jpg">
+    <img id="image1" src="meme1.jpeg" alt="meme1">
+    <img id="image2" src="meme2.jpeg" alt="meme2">
+    <img id="image3" src="meme3.png" alt="meme3">
+    <img id="image4" src="meme4.jpg" alt="meme4">
   </section>
 
   <script src="script.js"></script>

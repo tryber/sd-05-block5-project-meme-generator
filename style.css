@@ -1,6 +1,6 @@
 #cabecalho {
+  font-family: cursive;
   font-size: large;
-  font-family: "Courier New", Courier, monospace;
 }
 
 #meme-image-container {
@@ -12,13 +12,13 @@
 
 #meme-text {
   background-color: slategrey;
+  bottom: 10px;
   color: white;
   font-size: 30px;
   position: absolute;
   text-shadow: black 5px 5px 5px;
   width: 280px;
-  word-wrap: break-word;
-  bottom: 10px;
+  word-wrap: break-word; 
 }
 
 #meme-image {
@@ -28,10 +28,6 @@
 }
 
 .imagens {
-  padding-top: 20px;
   padding-bottom: 50px;
-}
-
-#image1, #image2, #image3, #image4 {
-  width: 80px;
+  padding-top: 20px;
 }
