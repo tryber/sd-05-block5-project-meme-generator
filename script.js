@@ -17,3 +17,4 @@ function addNovoMeme() {
   caixaImagem.src = window.URL.createObjectURL(memeNovo.files[0]); // Colocando o local de onde a imagem será selecionada
 }
 memeNovo.addEventListener('change', addNovoMeme);
+

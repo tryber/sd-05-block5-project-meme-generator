@@ -16,15 +16,17 @@
   color: white;
   font-size: 30px;
   position: absolute;
+  text-align: center;
   text-shadow: black 5px 5px 5px;
   width: 280px;
   word-wrap: break-word;
 }
 
 #meme-image {
+  background-size: cover;
+  display: block;
   height: 300px;
-  position: relative;
-  width: 280px;
+  width: 280.99px;
 }
 
 #fire {
