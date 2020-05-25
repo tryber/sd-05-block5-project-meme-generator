@@ -2,21 +2,30 @@ let memeImage = document.getElementById('meme-image');
 let memeInput = document.getElementById('meme-insert');
 let textInput = document.getElementById('text-input');
 let memeText = document.getElementById('meme-text');
-let fireButton = document.getElementById('fire');
-let waterButton = document.getElementById('water');
-let earthButton = document.getElementById('earth');
+let fogo = document.getElementById('fire');
+let agua = document.getElementById('water');
+let terra = document.getElementById('earth');
 let memeContainer = document.getElementById('meme-image-container');
 
 
-function trocaBorda(event) {
-  if (event.target === fireButton){
-    memeContainer.style.border = '3px dashed red'
+function trocaBorda() {
+  if (event.target === fogo) {
+    
+    memeContainer.style.borderColor = 'red'; 
+    memeContainer.style.borderWidth = '3px'; 
+    memeContainer.style.borderStyle = 'dashed'; 
   }
-  if (event.target === waterButton){
-    memeContainer.style.border = '5px double blue'
+  if (event.target === agua) {
+    // se o botao clicado foi o agua
+    memeContainer.style.borderColor = 'blue'; 
+    memeContainer.style.borderWidth = '5px'; 
+    memeContainer.style.borderStyle = 'double'; 
   }
-  if (event.target === earthButton){
-    memeContainer.style.border = '6px groove green'
+  if (event.target === terra) {
+    // se o botao clicado foi o terra
+    memeContainer.style.borderColor = 'green'; 
+    memeContainer.style.borderWidth = '6px'; 
+    memeContainer.style.borderStyle = 'groove'; 
   }
 }
 
@@ -39,7 +48,7 @@ function readURL(input) {
   }
 }
 
-fireButton.addEventListener('click', trocaBorda);
-waterButton.addEventListener('click', trocaBorda);
-earthButton.addEventListener('click', trocaBorda);
+fogo.addEventListener('click', trocaBorda);
+agua.addEventListener('click', trocaBorda);
+terra.addEventListener('click', trocaBorda);
 textInput.addEventListener('keyup', readText);
