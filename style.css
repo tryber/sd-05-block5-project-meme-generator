@@ -27,6 +27,15 @@
   width: 280px;
 }
 
+.imagens {
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+#image1 {
+  size: 100px;
+}
+
 #fire {
   border: 3px dashed red;
 }
@@ -37,9 +46,4 @@
 
 #earth {
   border: 6px groove green;
-}
-
-.imagens {
-  padding-bottom: 50px;
-  padding-top: 20px;
 }
