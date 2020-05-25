@@ -1,8 +1,8 @@
 /* css do label e  da caixa de texto*/
 
 #armazenaTudo {
-    width: 352px;
-    height: 480px;
+    width: 350px;
+    height: 494px;
     border: 1px solid;
     border-radius: 5px;
     position: relative;
@@ -102,3 +102,54 @@ h3{
     border:6px groove rgb(0, 128, 0);
 }
 /*Fim da seção dos botões*/
+
+/*Inicio dos memes prontos*/
+#meme-1{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border:2px solid;
+}
+#m1{
+    width: 59px;
+    height: 59px;
+}
+
+#meme-2{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border:2px solid;
+}
+#m2{
+    width: 59px;
+    height: 59px;
+}
+
+#meme-3{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border:2px solid;
+}
+#m3{
+    width: 59px;
+    height: 59px;
+}
+
+#meme-4{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border:2px solid;
+}
+#m4{
+    width: 59px;
+    height: 59px;
+}
+
+#alinhamento{
+    position: relative;
+    left: 40px;
+    bottom: 10px;
+}
