@@ -13,25 +13,30 @@
     <h1>Meme Generator</h1>
     <form>
       <p>
-        Meu texto: <input type="text" id="text-input"maxlength="60"  oninput="update_text()">
+        Meu texto: <input type="text" id="text-input" class="break-word" maxlength="60" oninput="update_text()">
       <p>
-     
+
         Selecionar imagem <input type="file" id="meme-insert" onchange="update_image()">
-   
+
     </form>
 
-     <div id="meme-image-container">
-    <div id="meme-text">&nbsp;</div>
-      <div id="meme-image"> <img src="" height="497" width="598"></div>
-    <p>
+    <div id="meme-image-container">
+      <div>
+        <p id="meme-text"></p>
+      </div>
+      <div id="meme-image"> <img src="" height="402" width="529"></div>
+      <p>
   </header>
-</div> <br><br>
-
-  <button class="btn btn-red" >Fire</button>
-  <button class="btn btn-blue" >Walter</button>
-  <button class="btn btn-green" >Eaert</button>
+  </div> <br><br>
+  <h2>
+    <p><strong>Estilos costumizados:</strong></p>
+  </h2>
+  <div id="button">
+    <button class="btn btn-red">Fire</button>
+    <button class="btn btn-blue">Water</button>
+    <button class="btn btn-green">Earth</button>
+  </div>
   <footer>
-  &copy; 
   </footer>
   <script src="script.js"></script>
 </body>
