@@ -1,22 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meme Generator</title>
   <link rel="stylesheet" href="style.css">
+  <title>Gerador de memes</title>
 </head>
+
 <body>
   <header>
-    <h1> Meme Generator</h1>
+    <h1>Meme Generator</h1>
     <form>
-      Texto <input type="text" name="" id="text-input" placeholder="Digite seu texto">
+      <p>
+        Meu texto: <input type="text" id="text-input"maxlength="60"  oninput="update_text()">
+      <p>
+     
+        Selecionar imagem <input type="file" id="meme-insert" onchange="update_image()">
+   
     </form>
 
+     <div id="meme-image-container">
+    <div id="meme-text">&nbsp;</div>
+      <div id="meme-image"> <img src="" height="497" width="598"></div>
+    <p>
   </header>
-  <section>
+</div> <br><br>
 
-  </section>
+  <button class="btn btn-red" >Fire</button>
+  <button class="btn btn-blue" >Walter</button>
+  <button class="btn btn-green" >Eaert</button>
+  <footer>
+  &copy; 
+  </footer>
   <script src="script.js"></script>
 </body>
+
 </html>
