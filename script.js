@@ -23,7 +23,7 @@ function initializeElements() {
     document.querySelector('#meme-2'),
     document.querySelector('#meme-3'),
     document.querySelector('#meme-4'),
-  ]
+  ];
 }
 function setBorder(element) {
   const container = document.querySelector('#meme-image-container');
@@ -45,5 +45,5 @@ window.onload = function () {
   });
   examples.forEach((example) => {
     example.addEventListener('click', setMeme);
-  })
+  });
 };
