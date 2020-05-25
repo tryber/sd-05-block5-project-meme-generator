@@ -53,6 +53,7 @@ button {
   width: 380px;
   text-size-adjust: auto;
   z-index: 1;
+  text-align: center;
 }
 
 #fire{
