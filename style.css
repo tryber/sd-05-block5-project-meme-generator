@@ -6,7 +6,7 @@ body {
 border: 1px solid black;
 }
 
-#meme-image-container {  
+.meme-image-container {  
 width: 225px;
 height: auto;
 border: 1px solid black;
@@ -32,10 +32,13 @@ text-shadow: 5px 5px 5px black;
 height: max-content;
 width: fit-content;
 word-break: break-all;
+position: absolute;
+}
+
+#meme-image {
 
 }
 
-.meme {
-  width: 50px;
-  position: relative;
+.meme-insert {
+
 }
