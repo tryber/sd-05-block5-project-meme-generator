@@ -3,21 +3,48 @@ text_input.addEventListener("keyup", function () {
   let text = text_input.value;
   if (text.length > 60) {
     alert("texto muito grande");
-    text_input.value=text.substr(0,60);
+    text_input.value = text.substr(0, 60);
   }
   document.getElementById("meme-text").innerHTML = text_input.value
 });
 
-// The image uploaded by the user is loaded inside the container
-function readImage(event) {
-  alert("Opa")
-  console.log(event.target.files);// +"- "+event.target.files[0])
-  if (event.target.files && event.target.files[0]) {
-    const file = new FileReader();
-    file.onload = function (e) {
-      document.getElementById('meme-image').src = e.target.result;
-    };
-    file.readAsDataURL(event.target.files[0]);
+/*
+function loadFile() {
+  const preview = document.getElementById('meme-image');
+  const file = document.getElementById('meme-insert').files[0];
+  const reader = new FileReader();
+  console.log(reader.result)
+  console.log(file)
+  // convert image file to base64 string
+  reader.addEventListener("load", function () {
+    // convert image file to base64 string
+    preview.src = reader.result;
+  }, false);
+
+  if (file) {
+    reader.readAsDataURL(file);
   }
 }
-document.getElementById('meme-insert').addEventListener('click', readImage, false);
+document.getElementById("meme-insert").addEventListener("onchange", loadFile,false);
+*/
+
+const output = document.getElementById('meme-image');
+document.getElementById('meme-insert').addEventListener('change', event => {
+  output.src = '';
+  //status.textContent = '';
+  const file = event.target.files[0];
+
+  if (!file.type.match('image.*')) {
+    status.textContent = 'Error: The selected file does not appear to be an image.'
+    return;
+  }
+  const reader = new FileReader();
+  reader.addEventListener('load', event => {
+    output.src = event.target.result;
+  });
+  reader.readAsDataURL(file);
+  console.log(file);
+});
+function test() {
+  console.log("h: " + document.getElementById('meme-image').clientHeight + " w:" + document.getElementById('meme-image').clientWidth)
+  }
