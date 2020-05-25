@@ -11,12 +11,13 @@
     <body>
         <div class="entradas"></div>
             <div> Texto:<input id="text-input" type="text" name="Texto" size="60" maxlength="60" /></div>
-            <div> Selecione uma imagem<input id="meme-insert" type="file" name="fileToUpload"></div>
+            <div> Selecione uma imagem<input id="meme-insert" type="file" accept="image/*" onchange="loadFile(event)"></div>
         </div>
         <div id="meme-image-container">
             <div id="meme-text"> </div>
-            <img id="meme-image" src="qualquerUma.jpg" alt="imagem usuario"></img>
+            <img id="meme-image" alt="imagem usuario"></img>
         </div>
     </body>
     <script src="script.js"></script>
 </html>
+
