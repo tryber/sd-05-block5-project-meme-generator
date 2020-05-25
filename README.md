@@ -141,7 +141,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 - A imagem deve estar totalmente contida dentro do elemento identificado como `meme-image-container` ~~("totalmente contida" quer dizer que não deve sobrar espaço entre o container e a imagem, e a imagem não deve ultrapassar o tamanho do container)~~;
 
-- O texto inserido no elemento `text-input` deve ser inserido sobre a imagem escolhida `meme-image`.
+<!--OK-->- O texto inserido no elemento `text-input` deve ser inserido sobre a imagem escolhida `meme-image`.
 
 ### 3 - O site deve ter uma moldura no container. A moldura deve ter 1 pixel de largura, deve ser preta e do tipo 'solid'. A área onde a imagem aparecerá deve ter fundo branco.
 

@@ -12,16 +12,23 @@
 
 #meme-text {
   color: white;
-  background-color: teal;
   font-size: 30px;
   position: absolute;
   text-shadow: black 5px 5px 5px;
   width: 280px;
   word-wrap: break-word;
+  bottom: 10px;
+}
+
+#meme-image {
+  height: 300px;
+  width: 280px;
+  position: relative;
 }
 
 .imagens {
   padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 #image1, #image2, #image3, #image4 {
