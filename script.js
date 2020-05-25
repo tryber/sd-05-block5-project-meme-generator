@@ -1,25 +1,18 @@
 let textInput = document.getElementById("text-input");
 let memeText = document.getElementById("meme-text");
-let memeImageIn = document.getElementaryById("meme-insert")
 let memeImage = document.getElementById("meme-image")
 let memeInsert = document.getElementById("meme-insert")
-
-memeInsert.addEventListener("input", function() {
-memeImage.src = URL.createObjectURL(this.files[0]);
-})
-
+let memeImageContainer = document.getElementById("meme-image-container");
 
 function inputText() {
 memeText.innerText = textInput.value;
 }
 
-
-textInput.addEventListener("keyup", inputText);
-memeInput.addEventListener("keyup", function() {
-memeText.innerText = inputText.value;
+memeInsert.addEventListener("input", function() {
+memeImageContainer.src = window.URL.createObjectURL(this.files[0]);
 })
 
-
-memeInput.addEventListener("input", function(){
-memeImage.src = URL.createObjectURL(this.files[0]);
-})
+function addNovoMeme (){
+   memeImage.src = window.URL.createObjectURL(memeNovo.files[0])
+  }
+  memeInsert.addEventListener('click', memeInsert)	new_meme.addEventListener('change', addNovoMeme);
