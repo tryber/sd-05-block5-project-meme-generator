@@ -41,13 +41,13 @@ document.getElementById('meme-insert').addEventListener('change', event => {
   const reader = new FileReader();
   reader.addEventListener('load', event => {
     output.src = event.target.result;
-    if (false) {
-
-    }
+    output.style.width= new Image.src(output.src).onload().width;
+    output.style.height= new Image.src(output.src).onload().height;
   });
   reader.readAsDataURL(file);
   console.log(file);
 });
 function test() {
-  console.log("h: " + document.getElementById('meme-image').clientHeight + " w:" + document.getElementById('meme-image').clientWidth)
+
+  document.getElementById('meme-image-container').style.width=document.getElementById('meme-image').style.width+"px"; 
 }
