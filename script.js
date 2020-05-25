@@ -10,6 +10,8 @@ text_input.addEventListener("keyup", function () {
 
 // The image uploaded by the user is loaded inside the container
 function readImage(event) {
+  alert("Opa")
+  console.log(event.target.files);// +"- "+event.target.files[0])
   if (event.target.files && event.target.files[0]) {
     const file = new FileReader();
     file.onload = function (e) {
@@ -18,4 +20,4 @@ function readImage(event) {
     file.readAsDataURL(event.target.files[0]);
   }
 }
-document.querySelector('#meme-insert').addEventListener('change', readImage, false);
+document.getElementById('meme-insert').addEventListener('click', readImage, false);
