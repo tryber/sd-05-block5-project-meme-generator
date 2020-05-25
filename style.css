@@ -9,9 +9,9 @@
 .tamanho_conteiner_imagem_e_texto {
   background-color: white;
   border: 1px solid black;
-  height: auto;
   position: relative;
-  width: 600px;
+  width: 500px;
+  height: 100px;
 }
 
 .location_text_meme {

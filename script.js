@@ -41,10 +41,13 @@ document.getElementById('meme-insert').addEventListener('change', event => {
   const reader = new FileReader();
   reader.addEventListener('load', event => {
     output.src = event.target.result;
+    if (false) {
+
+    }
   });
   reader.readAsDataURL(file);
   console.log(file);
 });
 function test() {
   console.log("h: " + document.getElementById('meme-image').clientHeight + " w:" + document.getElementById('meme-image').clientWidth)
-  }
+}
