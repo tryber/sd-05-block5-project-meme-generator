@@ -7,11 +7,13 @@
   </head>
   <body>
     <h1>Gerador de memes</h1>
-    <h3>Texto do seu meme <input type="text" id="text-input">
+    <h3>Texto do seu meme <input type="text" id="text-input"> </h3>
+    <h3>Selecione uma imagem <input type="file" accept="image/*" onchange="loadFile(event)"></h3>
     <button id="criar">Criar</button>
         <section>
-            <div>
-                <p id="meme-image-container"></p>
+            <div class="larg" id="meme-image-container">
+                <img id="meme-image"/>
+                <p class="larg" id="meme-text"></p>
             </div>
         </section>
     <script src="script.js"></script>
