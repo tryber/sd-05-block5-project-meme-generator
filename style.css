@@ -7,12 +7,20 @@ body {
     border-style: solid;
     border-color: black;
     background-color: white;
-    height: 300px;
-    width: 350px;
+    height: 500px;
+    width: 500px;
 }
 
 #meme-text{
-    color: cornsilk;
+    color: white;
     font-size: 40px;
-
+    height: 1em;
+    position: absolute;
+    text-align: center;
+    text-shadow: 2px 2px 2px blue;
+    width: 100px;
+    top: 70px;
+}
+#meme-insert {
+    width: 100px;
 }
