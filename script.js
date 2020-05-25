@@ -7,24 +7,22 @@ let waterButton = document.getElementById('water');
 let earthButton = document.getElementById('earth');
 let memeContainer = document.getElementById('meme-image-container');
 
-function fire(){
-  memeContainer.style.border = '3px dashed red'
-}
 
-function water(){
-  memeContainer.style.border = '5px double blue'
+function trocaBorda(event) {
+  if (event.target === fireButton){
+    memeContainer.style.border = '3px dashed red'
+  }
+  if (event.target === waterButton){
+    memeContainer.style.border = '5px double blue'
+  }
+  if (event.target === earthButton){
+    memeContainer.style.border = '6px groove green'
+  }
 }
-
-function earth(){
-  memeContainer.style.border = '6px groove green'
-}
-
 
 function readText() {
   memeText.innerHTML = textInput.value;
 }
-
-
 memeInput.addEventListener('change', function() {
   readURL(this);
 });
@@ -41,7 +39,7 @@ function readURL(input) {
   }
 }
 
-fireButton.addEventListener('click', fire);
-waterButton.addEventListener('click', water);
-earthButton.addEventListener('click', earth);
+fireButton.addEventListener('click', trocaBorda);
+waterButton.addEventListener('click', trocaBorda);
+earthButton.addEventListener('click', trocaBorda);
 textInput.addEventListener('keyup', readText);
