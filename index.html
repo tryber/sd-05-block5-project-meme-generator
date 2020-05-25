@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/style.css"> 
+    
+    <title>Projeto gerador de Memes</title>
+  </head>
+<body>
+ <!--Começo do armazena tudo-->
+ <div id="armazenaTudo">
+    <header>
+    <h3>MEME GENERATOR</h3>
+
+    <label>
+        Texto: 
+        <input type="text" id="text-input" maxlength="60" placeholder="Digite aqui">
+    </label>
+    <label>
+        Foto:
+        <input type="file" id="meme-insert" accept="/*" onchange="loadFile(event)">
+    </label>
+    </header>
+    <!--Fim da parte  do cabeçalho -->
+        <section id="meme-image-container">        
+            <img id="meme-image">
+            <div id="meme-text">Deus é  mais que Fiel</div>
+        </section>
+    <!-- Começo da seção dos botoes-->   
+       <section id="stCostumizados">
+         <p>Estilos Customizads:</p>
+         <input id="fire" type="button" value="Fire">
+         <input id="water" type="button"  value="Whater">
+         <input id="earth" type="button"  value="Earth">
+         <p>Memes pré prontos:</p>
+       </section>
+    <!--Fim da seção dos botoes -->
+
+    <!--Inicio dos memes protos -->
+       <section id="alinhamento">
+        <div id="meme-1">
+            <img id="m1" src="/imgs/meme1.png" alt="Foto">
+        </div>
+        <div id="meme-2">
+            <img id="m2" src="/imgs/meme2.png" alt="Foto">
+        </div>
+        <div id="meme-3">
+            <img id="m3" src="/imgs/meme3.png" alt="Foto">
+        </div>
+        <div id="meme-4">
+            <img id="m4" src="/imgs/meme4.png" alt="Foto">
+        </div>
+    </section>
+    <!-- Fim da seção dos memes prontos -->
+    </div>
+<!-- Função que modifica o texto encima da imagem -->
+<script> 
+let textoVl = document.getElementById('text-input');
+let resposta = document.getElementById('meme-text');
+
+textoVl.addEventListener("keyup",function(){
+   resposta.innerHTML = textoVl.value;       
+})
+</script>
+
+<!--Funções que mudam a cor da borda do retrato através dos botões-->
+<script>
+let brImage = document.getElementById('meme-image-container')
+let btnFire = document.getElementById('fire')
+
+    
+btnFire.addEventListener('click',function(){
+      btnFire.style.borderColor='pink'
+      brImage.style.border='3px dashed'
+      brImage.style.borderColor= 'rgb(255, 0, 0)'
+
+    })
+
+let brImage2 = document.getElementById('meme-image-container')
+let btnwhater = document.getElementById('water')
+
+
+btnwhater.addEventListener('click',function(){
+btnwhater.style.borderColor='royalblue'
+  brImage2.style.border='5px double'
+  brImage2.style.borderColor='rgb(0, 0, 255)'
+
+})
+
+let brImage3 = document.getElementById('meme-image-container')
+let btnearth = document.getElementById('earth')
+
+
+btnearth.addEventListener('click',function(){
+btnearth.style.borderColor='pink'
+brImage3.style.border='6px groove'
+brImage3.style.borderColor='rgb(0, 128, 0)'
+
+})
+</script>
+<!--Fim do estilo das bordas -->
+
+
+<script>
+let loadFile = function(event){
+let reader = new FileReader();
+reader.onload = function(){
+let output = document.getElementById('meme-image')
+    output.src = reader.result
+}
+reader.readAsDataURL(event.target.files[0])
+
+}
+</script>
+
+<script>
+let camiho = document.getElementById('meme-image')
+let pegarDiv1 = document.getElementById('meme-1')
+let pegarDiv2 = document.getElementById('meme-2')
+let pegarDiv3 = document.getElementById('meme-3')
+let pegarDiv4 = document.getElementById('meme-4')
+
+pegarDiv1.addEventListener('click',function(){
+    let idImg1 = document.getElementById('m1')
+        camiho.src = idImg1.src
+        console.log(idImg1)
+
+})
+
+pegarDiv2.addEventListener('click',function(){
+    let idImg2 = document.getElementById('m2')
+        camiho.src = idImg2.src
+        console.log(idImg2)
+
+})
+
+pegarDiv3.addEventListener('click',function(){
+    let idImg3 = document.getElementById('m3')
+        camiho.src = idImg3.src
+        console.log(idImg3)
+
+})
+
+pegarDiv4.addEventListener('click',function(){
+    let idImg4 = document.getElementById('m4')
+        camiho.src = idImg4.src
+        console.log(idImg4)
+
+})
+</script>
+</body>
+</html>
