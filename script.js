@@ -13,15 +13,15 @@ function initializeElements() {
   textInput = document.getElementById('text-input');
   // Initialize Buttons
   buttons = [
-    document.querySelector('#btn-fire'),
-    document.querySelector('#btn-water'),
-    document.querySelector('#btn-earth'),
+    document.querySelector('#fire'),
+    document.querySelector('#water'),
+    document.querySelector('#earth'),
   ];
 }
 function setBorder(element) {
   const container = document.querySelector('#meme-image-container');
   const border = element.target.id;
-  container.className = `image-container ${border.split('-')[1]}-border`;
+  container.className = `image-container ${border}-border`;
   container.style.borderColor = element.target.style.backgroundColor;
 }
 window.onload = function () {
@@ -33,4 +33,4 @@ window.onload = function () {
   buttons.forEach((button) => {
     button.addEventListener('click', setBorder);
   });
-}
+};
