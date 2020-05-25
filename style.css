@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#cabecalho{
+    background-color: #FFB351;
+    height: 210px;
+}
+
+#cabecalho .tituloMeme{
+    position: absolute;
+    top: 160px;
+    left:500px;
+}
+
+#cabecalho .imagem {
+    position: absolute;
+    top: 20px;
+    left:500px;
+    right: 0;
+    bottom: 0;
+}
+
+#rodape{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#rodape .bhmanu{
+    font-size: 11px;
+    text-align:center;
+}
