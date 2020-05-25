@@ -1,6 +1,6 @@
-let botaoCriar = document.getElementById("criar");
+let barra = document.getElementById("text-input");
 
-botaoCriar.addEventListener("click", function() {
+    barra.addEventListener("input", function() {
     let texto = document.getElementById("text-input").value;
     let textoimg = document.getElementById("meme-text");
     textoimg.innerHTML = texto;
