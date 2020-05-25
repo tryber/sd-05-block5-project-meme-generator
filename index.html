@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
   <meta charset="UTF-8">
   <title>Gerador de Memes</title>
   <link rel="stylesheet" href="style.css"/>
-  
+
 
 </head>
+
 <body>
 
   <header id="cabecalho">
@@ -15,22 +17,26 @@
   </header>
 
   <div id="texto_foto">
-    <td><label><strong>Texto: </strong></label></td>
-    <input id="text-input" type="text" placeholder="Digite aqui" maxlength=60/><br> <!--Caixa de Texto-->
+    <td><label><strong>Texto: </strong></label></td><!--Caixa de Texto-->
+    <input id="text-input" type="text" placeholder="Digite aqui" maxlength=60 /><br>
     <br>
-    <td><label><strong>Foto: </strong></label></td>
-    <input type="file" id="meme-insert" name="Image upload" accept="image/*"/> <!--Botão para inserir imagem-->
+    <td><label><strong>Foto: </strong></label></td><!--Botão para inserir imagem-->
+    <input type="file" id="meme-insert" name="Image upload" accept="image/*" />   
   </div>
   <br>
-    <div id="meme-image-container"> <!--Container para imagem e texto-->
-    <img src="" id="meme-image" alt="Imagem-nova" type="image"/>
+  <div id="meme-image-container"> <!--Container para imagem e texto-->
+    <img src="" id="meme-image" alt="Imagem-nova" type="image" />
     <div id="meme-text"></div>
-    </div>
-    <section>
-      <p>Estilize a borda :P</p> <!--Estilizar bordas-->
-    </section>
+  </div>
 
-  <section class="imagens"> <!--Memes prontos-->
+  <section>
+    <p>Estilize a borda :P</p> <!--Estilizar bordas--> 
+    <button id="fire">Fire</button>
+    <button id="water">Water</button>
+    <button id="earth">Earth</button>
+  </section>
+
+  <section class="imagens"> <!--Memes prontos--> 
     <h3>Imagens para serem usadas: </h3>
     <img id="image1" src="meme1.jpeg" alt="meme1">
     <img id="image2" src="meme2.jpeg" alt="meme2">
@@ -41,4 +47,5 @@
   <script src="script.js"></script>
 
 </body>
+
 </html>

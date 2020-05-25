@@ -18,13 +18,25 @@
   position: absolute;
   text-shadow: black 5px 5px 5px;
   width: 280px;
-  word-wrap: break-word; 
+  word-wrap: break-word;
 }
 
 #meme-image {
   height: 300px;
-  width: 280px;
   position: relative;
+  width: 280px;
+}
+
+#fire {
+  border: 3px dashed red;
+}
+
+#water {
+  border: 5px double blue;
+}
+
+#earth {
+  border: 6px groove green;
 }
 
 .imagens {

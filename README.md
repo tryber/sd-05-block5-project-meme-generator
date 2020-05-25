@@ -123,7 +123,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 ##### As seguintes verificações serão feitas:
 
-<!--OK--> - A caixa onde o texto é inserido deve ter um `id` denominado `text-input`; 
+<!--OK--> - A caixa onde o texto é inserido deve ter um `id` denominado `text-input`;
 
 <!--OK--> - Você deve criar um elemento para servir de _"container"_ para a **imagem** e para o **texto** do meme. Este elemento deve ter um `id` denominado `meme-image-container`;
 
