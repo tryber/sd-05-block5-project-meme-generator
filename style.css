@@ -17,7 +17,8 @@ body{
   width: 529px;
   height: 402px;
   border: 1px solid #000;
-  word-break: break-word;
+  
+
   
 
 }
@@ -31,7 +32,8 @@ body{
   width: 598px;
   position: absolute;
   left: 15px;
-  top:400px
+  top:400px;
+
 }
 
 
