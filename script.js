@@ -13,6 +13,6 @@ memeImageContainer.src = window.URL.createObjectURL(this.files[0]);
 })
 
 function addNovoMeme (){
-   memeImage.src = window.URL.createObjectURL(memeNovo.files[0])
-  }
-  memeInsert.addEventListener('click', memeInsert)	new_meme.addEventListener('change', addNovoMeme);
+memeImage.src = window.URL.createObjectURL(memeNovo.files[0])
+}
+memeInsert.addEventListener('click', memeInsert)	new_meme.addEventListener('change', addNovoMeme);
