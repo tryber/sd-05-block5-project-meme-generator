@@ -1,18 +1,29 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#meme-image {
+  height: 100%;
+  width: 100%;
+  vertical-align: auto;
+}
 #meme-image-container {
   width: 400px;
   height: 400px;
+  margin-left: 10x;
   border: solid black 1px;
   background-color:white/*config css exercício 3*/
   }
 #meme-text {
+  font-family: Arial, Helvetica, sans-serif;
   position: absolute;
-  margin-left: 200px;	  
+  margin-left: 200px;	
+  margin-bottom: 10px;  
   top: 200px;
   left: 30px;
   width: 90px;
   font-size: 30px;
   border: black;
-  text-shadow: black 5px, 5px, 5px;  
+  text-shadow: 5px 5px 5px black;  
   text-decoration: white;
   color: white;
   overflow: hidden;
