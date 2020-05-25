@@ -1,10 +1,12 @@
 window.onload = function(){
   
-    let botao1 = document.getElementById("fire");
-    let botao2 = document.getElementById("water");
-    let botao3 = document.getElementById("earth");
-    let caixaColorida = document.getElementById("meme-text");
-    let caixaTexto = document.getElementById("text-input");
+    let botao1 = document.getElementById("fire");//botao muda cor 
+    let botao2 = document.getElementById("water");//botao muda cor
+    let botao3 = document.getElementById("earth");//botao muda cor
+    let caixaColorida = document.getElementById("meme-image-container");//elemento para servir de "container" para a imagem e para o texto do meme
+    let caixaTexto = document.getElementById("text-input");//caixa onde o texto é inserido 
+    let takePicture = document.getElementById("meme-insert");//botao para selecionar a imagem
+    let caixaTextoConteiner = document.getElementById("meme-text");
 
     botao1.addEventListener("click", mudaCor1);
     botao2.addEventListener("click", mudaCor2);
@@ -25,25 +27,9 @@ window.onload = function(){
     caixaTexto.addEventListener('keyup', incluiTexto)
     
     function incluiTexto(){
-        caixaColorida.innerText = caixaTexto.value;
+        caixaTextoConteiner.innerText = caixaTexto.value;
     }
-}
 
-
-
-
-
-
-
-
-
-
-//var p = document.createElement('p');
-//p.innerHTML = 'Texto:';
-//document.getElementById("meme-image-container").appendChild(p);
-
-
-
-
+    takePicture.addEventListener('click', incluiImagem);
     
-//document.querySelector("#text-input")
+}
