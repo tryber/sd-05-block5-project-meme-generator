@@ -3,25 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Meme Generator!</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<section id="meme-image-container">
-    <event class="target">    </event>
-    <h1>
-   
-        
-    </h1>
-    <h2 id="text-input"> 
-        Texto:
-    </h2>
-<p id="meme-text">
-</p>
-<img src="" alt="Imagem_do_Meme" id="meme-image">
+<section>
+<event class="target"></event>
+<input id="text-input"> <!--caixa onde o texto é inserido deve ter um id denominado text-input-->
+  <div id="meme-image-container" class="meme-image-container"> <!--elemento para servir de "container" para a imagem e para o texto do meme--> <!--DÚVIDA - QUAL FUNÇÃO DEVERÁ SER UTILIZADA PARA ISSO?? - exercício 2 - A imagem deve estar totalmente contida dentro do elemento identificado como meme-image-container-->
+    <div id="meme-text" class="meme-text"></div> <!--elemento de texto deve estar totalmente contido dentro do container-->
+    <div id="meme-image"></div> <!--outro elemento para mostrar a imagem selecionada--> <!--DÚVIDA - Qual função?? - Exercício 2 texto inserido no elemento text-input deve ser inserido sobre a imagem escolhida meme-image-->
 </section>
-
-
-
+<div id="meme-insert"></div> <!--DÚVIDA - por nao precisa estar no container, posso colocar fora da section?? - elemento onde é feito o upload da imagem deve ser identificado com o id denominado meme-insert-->
 </body>
 <script src="script.js">
 </script>

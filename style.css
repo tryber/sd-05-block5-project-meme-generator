@@ -1,13 +1,21 @@
-div.relative {
-    position: absolute;
-    left: 30px;
-    border: 2px solid rgb(35, 43, 22)
+
+#meme-text {
+  position: absolute;
+  margin-left: 200px;	  
+  top: 200px;
+  left: 30px;
+  font-size: 30px;
+  border: black;
+  text-shadow: black, 5px, 5px, 5px;  
+  text-decoration: white;
+  word-wrap: break-word; /*exercício 1 ele deve ser inserido e estar visível dentro do container vazio onde a imagem aparecerá*/
   }
-  #meme-text {
-    position: absolute;
+  #meme-image-container {
+  width: 100%;
+  height: 100%;
+  border: solid black 1px;
+  background-color:white /*config css exercício 3*/
   }
-  
-  .class a escolher {
-    word-wrap: break-word;
-    width: ;
+  #meme-insert {
+  width: 90px;
   }
