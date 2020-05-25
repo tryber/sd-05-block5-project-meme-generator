@@ -9,7 +9,8 @@ body {
   border-radius: 3%;
   height: 500px;
   margin: auto;
-  padding: 15px 5px;
+  padding: 25px 5px;
+  padding-bottom: 48px;
   text-align: center;
   width: 600px;
 }
@@ -23,7 +24,6 @@ input[type=text]{
 
 .image-container {
   background-color: white;
-  border: black solid 1px;
   height: 400px;
   margin: 15px auto;
   overflow: hidden;
@@ -31,18 +31,53 @@ input[type=text]{
   width: 400px;
 }
 
-.meme-text{
+.simple-border {
+  border: black solid 1px;
+}
+
+.fire-border {
+  border: red dashed 3px;
+}
+
+.water-border {
+  border: blue double 5px;
+}
+
+.earth-border {
+  border: green groove 6px;
+}
+
+.meme-text {
   color: white;
   font-family: 'Holtwood One SC', serif;
   font-size: 30px;
-  height: 160px;
+  height: 150px;
   position: absolute;
   text-align: center;
-  text-shadow: 5px 5px 5px black; 
+  text-shadow: 5px 5px 5px black;
   top: 400px;
-  width: 360px;
+  width: 400px;
 }
 
-.meme-image{
+.meme-image {
   height: 400px;
+}
+
+.button {
+  border-radius: 5px;
+  color: aliceblue;
+  font-family: 'Holtwood One SC', serif;
+  padding: 8px 36px;
+}
+
+.button-fire {
+  background-color: red;
+}
+
+.button-water {
+  background-color: blue;
+}
+
+.button-earth {
+  background-color: green;
 }
