@@ -1,11 +1,20 @@
 .larg {
     width: 50%;
 }
+#placeH {
+    width: 50%;
+    height: auto;
+}
 #meme-text {
+    color: white;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    bottom: 70px;
+    bottom: 30px;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px black;
+    width: 90%;
+    height: auto;
 }
 #meme-image-container {
     background-color: black;

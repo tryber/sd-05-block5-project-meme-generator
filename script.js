@@ -10,6 +10,11 @@ let barra = document.getElementById("text-input");
     var output = document.getElementById('meme-image');
     output.src = URL.createObjectURL(event.target.files[0]);
     output.onload = function() {
-      URL.revokeObjectURL(output.src) // free memory
+    URL.revokeObjectURL(output.src);
     }
   };
+   
+  if (output.src = undefined) {
+    let placeHolder = document.createElement("div");
+    placeHolder.id = "placeH";
+  }
