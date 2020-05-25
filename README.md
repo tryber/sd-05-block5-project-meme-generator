@@ -139,7 +139,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 <!--OK-->- O elemento onde é feito o upload da imagem deve ser identificado com o `id` denominado `meme-insert`. Este elemento não precisa estar dentro do elemento de container;
 
-- A imagem deve estar totalmente contida dentro do elemento identificado como `meme-image-container` ~~("totalmente contida" quer dizer que não deve sobrar espaço entre o container e a imagem, e a imagem não deve ultrapassar o tamanho do container)~~;
+<!--OK-->- A imagem deve estar totalmente contida dentro do elemento identificado como `meme-image-container` ~~("totalmente contida" quer dizer que não deve sobrar espaço entre o container e a imagem, e a imagem não deve ultrapassar o tamanho do container)~~;
 
 <!--OK-->- O texto inserido no elemento `text-input` deve ser inserido sobre a imagem escolhida `meme-image`.
 
@@ -151,7 +151,7 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 <!--OK-->- O elemento que serve de container para a imagem deve ter uma borda preta, sólida, com 1 pixel de largura;
 
-- A imagem deve estar totalmente contida dentro do elemento identificado como `meme-image-container` ~~("totalmente contida" quer dizer que não deve sobrar espaço entre o container e a imagem, e a imagem não deve ultrapassar o tamanho do container)~~.
+<!--OK-->- A imagem deve estar totalmente contida dentro do elemento identificado como `meme-image-container` ~~("totalmente contida" quer dizer que não deve sobrar espaço entre o container e a imagem, e a imagem não deve ultrapassar o tamanho do container)~~.
 
 ### 4 - O texto que será inserido sobre a imagem deve ter uma cor, sombra e tamanho específicos.
 
