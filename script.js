@@ -1,8 +1,9 @@
-let text = document.getElementById("text-input")
-let memeImage = document.getElementaryById("meme-text")
+let text = document.getElementById("text-text")
+let memeImageIn = document.getElementaryById("meme-insert")
+let memeImageOut = document.getElementById("meme-image")
+memeInput.addEventListener("keyup", function() {
+    memeText.Inner.HTML = inputText.valu;
+    })
 function createMeme() {
     boxDoMeme.innerText = textInput.value;
-    }
-    memeInput.addEventListener("Input, function()") {
-    memeImage.src=URL.createObjectURL(this.memeImage[0]);
     }

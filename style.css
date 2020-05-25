@@ -1,6 +1,9 @@
-section {
-  padding: 5px;
-}
+#meme-image-container {
+  width: 400px;
+  height: 400px;
+  border: solid black 1px;
+  background-color:white/*config css exercício 3*/
+  }
 #meme-text {
   position: absolute;
   margin-left: 200px;	  
@@ -9,13 +12,13 @@ section {
   width: 90px;
   font-size: 30px;
   border: black;
-  text-shadow: black 5px 5px 5px;  
+  text-shadow: black 5px, 5px, 5px;  
   text-decoration: white;
-  word-wrap: break-word; /*exercício 1 ele deve ser inserido e estar visível dentro do container vazio onde a imagem aparecerá*/
+  color: white;
+  overflow: hidden;
+  word-wrap: break-word;/*exercício 1 ele deve ser inserido e estar visível dentro do container vazio onde a imagem aparecerá*/
   }
-  #meme-image-container {
-  width: 400px;
-  height: 400px;
-  border: solid black 1px;
-  background-color:white /*config css exercício 3*/
+  section {
+    padding: 5px;
+    height: 1366 px, 768 px;
   }
