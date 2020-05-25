@@ -1,21 +1,19 @@
 body {
   background-color: darkslategrey;
   margin : 0;
-  padding: 70px;
+  padding: 30px;
 }
 
 .meme-container {
   background-color: white;
   border-radius: 3%;
-  height: 500px;
   margin: auto;
   padding: 25px 5px;
-  padding-bottom: 48px;
   text-align: center;
   width: 600px;
 }
 
-input#text-input {
+input.insert {
   font-size: 22px;
   height: 28px;
   margin: 5px 15px;
@@ -80,4 +78,15 @@ input#text-input {
 
 .button-earth {
   background-color: green;
+}
+
+.meme-examples-container {
+  padding: 32px 0;
+}
+
+.meme-examples-container .meme-image {
+  border-radius: 50%;
+  display: inline-block;
+  height: 128px;
+  width: 128px;
 }
