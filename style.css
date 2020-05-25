@@ -85,17 +85,20 @@ h3{
     bottom: 20px;
     left: 53px;
     background-color: rgb(255, 0, 0);
+    border:3px dashed rgb(255, 0, 0)
 }
 #water {
     position: relative;
     bottom: 20px;
     left: 102px;
     background-color: rgb(0, 0, 255);
+    border:5px double rgb(0, 0, 255);
 }
 #earth {
     position: relative;
     bottom: 20px;
     left: 150px;
     background-color: rgb(0, 128, 0);
+    border:6px groove rgb(0, 128, 0);
 }
 /*Fim da seção dos botões*/
