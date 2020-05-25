@@ -2,16 +2,16 @@ body {
     background-color: #8b0000;
     color: white;
 }
-#meme-image-container{
+.meme-image-container{
     border-width: 1px;
     border-style: solid;
     border-color: black;
     background-color: white;
-    height: 500px;
-    width: 500px;
+    height: 800px;
+    width: 800px;
 }
 
-#meme-text{
+.meme-text{
     color: white;
     font-size: 40px;
     height: 1em;
@@ -21,6 +21,11 @@ body {
     width: 100px;
     top: 70px;
 }
-#meme-insert {
-    width: 100px;
+.meme-image {
+    width: 100%;
+    height: 100%;
+}
+
+.meme-insert {
+    width: 95px;
 }
