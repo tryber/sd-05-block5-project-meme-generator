@@ -17,15 +17,3 @@ function addNovoMeme() {
   caixaImagem.src = window.URL.createObjectURL(memeNovo.files[0]); // Colocando o local de onde a imagem será selecionada
 }
 memeNovo.addEventListener('change', addNovoMeme);
-
-// Selecionando imagem pronta para o container
-
-// let meme1 = document.getElementById("image1");
-// let meme2 = document.getElementById("image2");
-// let meme3 = document.getElementById("image3");
-// let meme4 = document.getElementById("image4");
-
-// function addMemePronto() {
-//   caixaImagem.src = meme1.value
-// }
-// meme1.addEventListener('onclick', addMemePronto);
