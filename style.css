@@ -1,0 +1,123 @@
+body{
+  background-color: rgb(240, 240, 240);
+  font-family: "fira-code";
+
+}
+
+.container {
+  font-family: Impact;
+  font-size: 1.8em;
+  letter-spacing: 0.1em;
+ 
+}
+#meme-image-container {
+  display: flex;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  width: 529px;
+  height: 402px;
+  border: 1px solid #000;
+  
+
+  
+
+}
+
+#meme-text{
+  background-color: transparent;
+  font-size:30px;
+  font-family: "impact";
+  color:white;
+  text-shadow:black 5px 5px 5px;
+  width: 598px;
+  position: absolute;
+  left: 15px;
+  top:400px;
+
+}
+
+
+
+.btn{
+  font-family: arial;
+  font-size:14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border:nome;
+  padding: 10px;
+  cursor: pointer;
+  display:inline-block;
+  text-align: center;
+}
+
+.btn-red{
+  background: rgb(197, 0, 0);
+  color: white;
+
+}
+.btn-red:hover{
+  background: rgb(54, 54, 54);
+  color: white;
+  
+}
+
+.btn-red:hover{
+  background: rgb(54, 54, 54);
+  color: white;
+  
+}
+
+.btn-red:active{
+  position: relative;
+  top:5px;
+  box-shadow: none;
+  
+}
+
+.btn-blue{
+  background: rgb(20, 0, 197);
+  color: white;
+
+}
+.btn-blue:hover{
+  background: rgb(54, 54, 54);
+  color: white;
+  
+}
+
+.btn-blue:hover{
+  background: rgb(54, 54, 54);
+  color: white;
+  
+}
+
+.btn-blue:active{
+  position: relative;
+  top:5px;
+  box-shadow: none;
+  
+}
+
+.btn-green{
+  background: rgb(0, 82, 34);
+  color: white;
+
+}
+.btn-green:hover{
+  background: rgb(54, 54, 54);
+  color: white;
+  
+}
+
+.btn-green:hover{
+  background: rgb(54, 54, 54);
+  color: white;
+  
+}
+
+.btn-green:active{
+  position: relative;
+  top:5px;
+  box-shadow: none;
+  
+}

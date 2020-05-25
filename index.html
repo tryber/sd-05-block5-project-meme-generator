@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Gerador de memes</title>
+</head>
+
+<body>
+  <header>
+    <h1>Meme Generator</h1>
+    <form>
+      <p>
+        Meu texto: <input type="text" id="text-input" class="break-word" maxlength="60" oninput="update_text()">
+      <p>
+
+        Selecionar imagem <input type="file" id="meme-insert" onchange="update_image()">
+
+    </form>
+
+    <div id="meme-image-container">
+      <div>
+        <p id="meme-text" style="width: fit-content;"></p>
+      </div>
+      <div id="meme-image"> <img src="" height="402" width="529"></div>
+      <p>
+  </header>
+  </div> <br><br>
+  <h2>
+    <p><strong>Estilos costumizados:</strong></p>
+  </h2>
+  <div id="button">
+    <button class="btn btn-red">Fire</button>
+    <button class="btn btn-blue">Water</button>
+    <button class="btn btn-green">Earth</button>
+  </div>
+  <footer>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
