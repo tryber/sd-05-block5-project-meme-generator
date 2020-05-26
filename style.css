@@ -45,7 +45,7 @@ body {
 }
 .meme-tex {
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   left: 450px;
   margin-top: 400px;
   position: absolute;
@@ -66,12 +66,12 @@ body {
 .meme{
   background-color: white;
   border: 1px solid black;
-  height: 490px;
-  left: 434px;
+  height: 485px;
+  left: 480px;
   position: absolute;
-  top: 330px;
+  top: 335px;
   z-index: 1;
-  width: 396px;
+  width: 370px;
 }
 .pre img{
   display: inline-block;

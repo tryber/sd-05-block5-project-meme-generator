@@ -9,36 +9,25 @@ window.onload = function () {
   const imagem1 = document.getElementById('prePronta1');
   const imagem2 = document.getElementById('prePronta2');
   const imagem3 = document.getElementById('prePronta3');
-  const imagem4 = document.getElementById('prePronta4');
-  
+  const imagem4 = document.getElementById('prePronta4');  
   function mudaCor1(){
     caixaColorida.style.borderColor = 'red';
     botao1.style.borderColor = 'red';
   }
-  
   botao1.addEventListener('click', mudaCor1);
-  
   function mudaCor2 () {
     caixaColorida.style.borderColor = 'blue';
     botao2.style.borderColor = 'blue';
-  }
-  
+  }  
   botao2.addEventListener('click', mudaCor2);
-  
   function mudaCor3 () {
     caixaColorida.style.borderColor = 'green';
     botao3.style.borderColor = 'green';
   }
   botao3.addEventListener('click', mudaCor3);
-  
-  function incluiTexto () {
+  function incluiTexto (obj) {
     caixaTextoConteiner.innerText = caixaTexto.value;
-  }
-  
+    obj.value = obj.value.substring(0,60);
+  }  
   caixaTexto.addEventListener('keyup', incluiTexto);
-  
-
-  
-
 }
-
