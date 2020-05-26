@@ -1,0 +1,45 @@
+#cabecalho {
+  font-family: cursive;
+  font-size: large;
+}
+
+#meme-image-container {
+  background-color: white;
+  border: 1px black solid;
+  height: 400px;
+  width: 380px;
+}
+
+#meme-text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  left: 10px;
+  top: 350px;
+  text-align: center;
+  text-shadow: black 5px 5px 5px;
+  width: 280px;
+  word-wrap: break-word;
+}
+
+#meme-image {
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+#fire {
+  background-color: rgb(255, 0, 0);
+  border: 3px dashed red;
+}
+
+#water {
+  background-color: rgb(0, 0, 255);
+  border: 5px double blue;
+}
+
+#earth {
+  background-color: rgb(0, 128, 0);
+  border: 6px groove green;
+}

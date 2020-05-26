@@ -123,51 +123,51 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 ##### As seguintes verificações serão feitas:
 
-- A caixa onde o texto é inserido deve ter um `id` denominado `text-input`;
+<!--OK--> - A caixa onde o texto é inserido deve ter um `id` denominado `text-input`;
 
-- Você deve criar um elemento para servir de _"container"_ para a **imagem** e para o **texto** do meme. Este elemento deve ter um `id` denominado `meme-image-container`;
+<!--OK--> - Você deve criar um elemento para servir de _"container"_ para a **imagem** e para o **texto** do meme. Este elemento deve ter um `id` denominado `meme-image-container`;
 
-- Dentro do elemento de container, você deve criar um outro elemento para mostrar o texto digitado. O elemento de texto deve estar totalmente contido dentro do container e ter o `id` denominado `meme-text`;
+<!--OK--> - Dentro do elemento de container, você deve criar um outro elemento para mostrar o texto digitado. O elemento de texto deve estar totalmente contido dentro do container e ter o `id` denominado `meme-text`;
 
-- Se não houver imagem inserida, ele deve ser inserido e estar visível dentro do container vazio onde a imagem aparecerá.
+<!--OK--> Se não houver imagem inserida, ele deve ser inserido e estar visível dentro do container vazio onde a imagem aparecerá.
 
 ### 2 - O site deve permitir que quem usa faça upload de uma imagem de seu computador.
 
 ##### As seguintes verificações serão feitas:
 
-- Dentro do elemento de container, você deve criar um outro elemento para mostrar a imagem selecionada. Este elemento deve possuir um `id` denominado `meme-image`;
+<!--OK--> - Dentro do elemento de container, você deve criar um outro elemento para mostrar a imagem selecionada. Este elemento deve possuir um `id` denominado `meme-image`;
 
-- O elemento onde é feito o upload da imagem deve ser identificado com o `id` denominado `meme-insert`. Este elemento não precisa estar dentro do elemento de container;
+<!--OK--> - O elemento onde é feito o upload da imagem deve ser identificado com o `id` denominado `meme-insert`. Este elemento não precisa estar dentro do elemento de container;
 
-- A imagem deve estar totalmente contida dentro do elemento identificado como `meme-image-container` ~~("totalmente contida" quer dizer que não deve sobrar espaço entre o container e a imagem, e a imagem não deve ultrapassar o tamanho do container)~~;
+<!--OK--> - A imagem deve estar totalmente contida dentro do elemento identificado como `meme-image-container` ~~("totalmente contida" quer dizer que não deve sobrar espaço entre o container e a imagem, e a imagem não deve ultrapassar o tamanho do container)~~;
 
-- O texto inserido no elemento `text-input` deve ser inserido sobre a imagem escolhida `meme-image`.
+<!--OK--> - O texto inserido no elemento `text-input` deve ser inserido sobre a imagem escolhida `meme-image`.
 
 ### 3 - O site deve ter uma moldura no container. A moldura deve ter 1 pixel de largura, deve ser preta e do tipo 'solid'. A área onde a imagem aparecerá deve ter fundo branco.
 
 ##### As seguintes verificações serão feitas:
 
-- O elemento que serve de container para a imagem deve ter o a cor de fundo branca;
+<!--OK--> - O elemento que serve de container para a imagem deve ter o a cor de fundo branca;
 
-- O elemento que serve de container para a imagem deve ter uma borda preta, sólida, com 1 pixel de largura;
+<!--OK--> - O elemento que serve de container para a imagem deve ter uma borda preta, sólida, com 1 pixel de largura;
 
-- A imagem deve estar totalmente contida dentro do elemento identificado como `meme-image-container` ~~("totalmente contida" quer dizer que não deve sobrar espaço entre o container e a imagem, e a imagem não deve ultrapassar o tamanho do container)~~.
+<!--OK--> - A imagem deve estar totalmente contida dentro do elemento identificado como `meme-image-container` ~~("totalmente contida" quer dizer que não deve sobrar espaço entre o container e a imagem, e a imagem não deve ultrapassar o tamanho do container)~~.
 
 ### 4 - O texto que será inserido sobre a imagem deve ter uma cor, sombra e tamanho específicos.
 
 ##### As seguintes verificações serão feitas:
 
-- O texto do elemento `meme-text` deve ter uma sombra preta, de 5 pixels na horizontal, 5 pixels na vertical e um raio de desfoque de 5 pixels;
+<!--OK--> - O texto do elemento `meme-text` deve ter uma sombra preta, de 5 pixels na horizontal, 5 pixels na vertical e um raio de desfoque de 5 pixels;
 
-- O texto do elemento `meme-text` deve ter a fonte com o tamanho de 30 pixels;
+<!--OK--> - O texto do elemento `meme-text` deve ter a fonte com o tamanho de 30 pixels;
 
-- O texto do elemento `meme-text` deve estar na cor branca;
+<!--OK--> - O texto do elemento `meme-text` deve estar na cor branca;
 
 ### 5 - Limite o tamanho do texto que o usuário pode inserir.
 
 ##### As seguintes verificações serão feitas:
 
--  A quantidade máxima de caracteres digitáveis no elemento `text-input` deve ser 60.
+<!--OK--> - A quantidade máxima de caracteres digitáveis no elemento `text-input` deve ser 60.
 
 
 ## Requisitos Bônus:
