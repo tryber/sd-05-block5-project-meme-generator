@@ -1,31 +1,33 @@
-window.onload = function (){
-    let botao1 = document.getElementById('fire');
-    let botao2 = document.getElementById('water');
-    let botao3 = document.getElementById('earth');
-    let caixaColorida = document.getElementById('meme-image-container');
-    let caixaTexto = document.getElementById('text-input');
-    let takePicture = document.getElementById('meme-insert');
-    let caixaTextoConteiner = document.getElementById('meme-text');
-
-    botao1.addEventListener("click", mudaCor1);
-    botao2.addEventListener("click", mudaCor2);
-    botao3.addEventListener("click", mudaCor3);
-
-    function mudaCor1(){
+window.onload = function() {
+    const botao1 = document.getElementById('fire');
+    const botao2 = document.getElementById('water');
+    const botao3 = document.getElementById('earth');
+    const caixaColorida = document.getElementById('meme-image-container');
+    const caixaTexto = document.getElementById('text-input');
+    //const takePicture = document.getElementById('meme-insert');
+    const caixaTextoConteiner = document.getElementById('meme-text');
+    
+    function mudaCor1() {
         caixaColorida.style.borderColor = 'red';
     }
 
-    function mudaCor2(){
+    botao1.addEventListener('click', mudaCor1);
+    
+    function mudaCor2() {
         caixaColorida.style.borderColor = 'blue';
     }
 
-    function mudaCor3(){
+    botao2.addEventListener('click', mudaCor2);
+    
+    function mudaCor3() {
         caixaColorida.style.borderColor = 'green';
     }
 
-    caixaTexto.addEventListener('keyup', incluiTexto)
+    botao3.addEventListener('click', mudaCor3);
     
-    function incluiTexto(){
+    function incluiTexto() {
         caixaTextoConteiner.innerText = caixaTexto.value;
     }
-}
+
+    caixaTexto.addEventListener('keyup', incluiTexto);
+};
