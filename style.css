@@ -15,8 +15,10 @@
     color: white;
     position: absolute;
     margin-bottom: 14px;
+    z-index: 1;
 }
 #meme-image {
     width: 500px;
     height: 500px;
+    z-index: 0;
 }
