@@ -41,6 +41,7 @@ body {
   margin-top: 50px;
   text-align: center;
   width: 400px;
+  z-index: -1;
 }
 .meme-tex {
   color: white;
