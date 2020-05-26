@@ -5,3 +5,11 @@ let loadFile = function(event) {
       URL.revokeObjectURL(output.src) // free memory
     }
   };
+
+let texto = document.getElementById("text-input");
+texto.addEventListener("keypress", function() {
+    let textoMeme = document.getElementById("text-input").value;
+    let textoImagem = document.getElementById("meme-text");
+    textoImagem.innerHTML = textoMeme;
+
+})
