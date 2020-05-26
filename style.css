@@ -1,37 +1,37 @@
-#borders li {
+.borders li {
   display: inline-block;
 }
 
-#earth {
+.earth {
   background-color: green;
 }
 
-#fire {
+.fire {
   background-color: red;
 }
 
-#memes li {
+.memes li {
   display: inline-block;
 }
 
-#meme-1 , #meme-2 , #meme-3 , #meme-4 {
+.meme-1 , .meme-2 , .meme-3 , .meme-4 {
   width: 50px;
 }
 
-#meme-image {
+.meme-image {
   display: block;
   height: 100%;
   width: 100%;
 }
 
-#meme-image-container {
+.meme-image-container {
   background-color: white;
   border: 1px solid black;
   height: 300px;
   width: 20%;
 }
 
-#meme-text {
+.meme-text {
   color: white;
   font-size: 30px;
   position: absolute;
@@ -39,6 +39,6 @@
   z-index: 1;
 }
 
-#water {
+.water {
   background-color: blue;
 }
