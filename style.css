@@ -1,41 +1,37 @@
-
 body {
   background-color: floralwhite;
   color: black;
-  font-family: sans-serif;
-  text-align: center;
 }
 
 h1 {
   margin: 30px;
+  text-align: center;
 }
 
 img {
   height: 500px;
   width: 500px;
-  z-index: 0;
 }
 
 .text-input {
-  width: 300px;
-  word-wrap: break-word;
+  width: 200px;
 }
 
 .meme-image-container {
   background-color: white;
   border: solid 1px black;
+  margin: 20px auto;
   height: 500px;
-  margin: 30px 30%;
   width: 500px;
 }
 
 .meme-text {
   color: white;
   font-size: 30px;
+  max-width: 460px;
   padding: 20px;
   position: absolute;
   text-shadow: 5px 5px 5px black;
   top: 80%;
   word-wrap: break-word;
-  z-index: 1;
 }
