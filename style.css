@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: sans-serif;
   background-color: rgb(59 , 227 , 174);
@@ -5,21 +10,16 @@ body {
   z-index: 0;
 }
 
-* {
-  padding: 0%;
-  margin: 0%;
-}
-
 h1 {
   margin: 30px;
   text-align: center;
 }
 
-#text-input {
+.text-input {
   margin: 30px;
 }
 
-#meme-image-container {
+.meme-image-container {
   border: solid 1px black;
   height: 400px;
   width: 400px;
@@ -27,11 +27,11 @@ h1 {
   margin: 30px;
 }
 
-#meme-insert {
+.meme-insert {
   z-index: 2;
 }
 
-#meme-text {
+.meme-text {
   position: absolute;
   top: 550px;
   text-shadow: 5px 5px 5px black;
