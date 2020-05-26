@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+}
+.cabecalho {
+  background-color: #ffb351;
+  height: 190px;
+}
+.tituloMeme {
+  font-size: 30px;
+  left: 500px;
+  position: absolute;
+  top: 108px;
+}
+.imagem {
+  left: 500px;
+  position: absolute;
+  top: 20px;
+}
+.github {
+  position: absolute;
+  right: 230px;
+  top: 100px;
+  width: 24px;
+}
+.linkedin {
+  position: absolute;
+  right: 140px;
+  top: 100px;
+  width: 24px;
+}
+.meme-image-cont {
+  background-color: white;
+  border: 1px solid black;
+  display: block;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  text-align: center;
+  width: 400px;
+  z-index: -1;
+}
+.meme-tex {
+  color: white;
+  font-size: 30px;
+  left: 485px;
+  margin-top: 400px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  z-index: 3;
+}
+.text-inpu{
+  font-size: 25px;
+}
+.meme-imag {
+  background-color: white;
+  border: 1px solid black;
+  height: 490px;
+  left: 434px;
+  top: 330px;
+  width: 396px;
+}
+.meme{
+  background-color: white;
+  border: 1px solid black;
+  height: 470px;
+  left: 480px;
+  position: absolute;
+  top: 335px;
+  z-index: 1;
+  width: 345px;
+}
+.pre img{
+  display: inline-block;
+}
+.pre1{
+  display: inline-block;
+  margin: 0px 0px;
+  width: 110px;
+}
+.pre2{
+  display: inline-block;
+  width: 110px;
+}
+.pre3{
+  display: inline-block;
+  margin: 0px 0px;
+  width: 110px;
+}
+.pre4{
+  display: inline-block;
+  margin: 0px 0px;
+  width: 110px;
+}
+.pre .pre1 img{
+  display: inline-block;
+  width: 100px;
+}
+.pre .pre2 img{
+  display: inline-block;
+  width: 100px;
+}
+.pre .pre3 img{
+  display: inline-block;
+  width: 100px;
+}
+.pre .pre4 img{
+  display: inline-block;
+  width: 100px;
+}
+.rodap {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.bhmanu {
+  font-size: 11px;
+  text-align: center;
+}

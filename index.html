@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <header class="cabecalho"></header>
+    <div>
+        <h5 class="tituloMeme">MEME GENERATOR</h5>
+        <img class="imagem" src="/imagens/memes2.png" alt="Imagem de vários memes juntos." width="285px">
+        <a target="_blank" href="https://www.linkedin.com/in/hugo-costa-9b032831/"><img class="linkedin" src="/imagens/linkedin.png" alt="Icone do linkedin"></a>
+        <a target="_blank" href="https://github.com/hleoc"><img class="github" src="/imagens/github2.png" alt="Icone do github"></a>
+    </div>
+    <p>
+        <label for="text-input">Texto: </label>
+        <input type="text" maxlength="60" id="text-input" class="text-inpu" tabindex="1" placeholder="Digite aqui"/>
+    </p>
+    <p>
+        <label for="meme-insert">Foto: </label>
+        <button id="meme-insert">Choose File</button>
+    </p>
+    
+    <div id="meme-text" class="meme-tex"></div>
+    <div id="meme-image-container" class="meme-image-cont"></div>
+    <div id="meme-image" class="meme"><img class="meme-imag" alt="Será inserida uma imagem de meme."></div>
+    
+    <label>Estilos Customizados:<br></label>
+    <button id="fire" type="button">Fire</button>
+    <button id="water" type="button">Water</button>
+    <button id="earth" type="button">Earth</button>
+    
+    <label><br><br><br>Memes pré prontos:<br><br></label>
+    <section class="pre">
+        <div class="pre1">
+            <img id="prePronta1" src="/imagens/imagem1.jpg" alt="Imagem pré pronta 1 para meme">
+        </div>
+        <div class="pre2">
+            <img id="prePronta2" src="/imagens/imagem2.jpg" alt="Imagem pré pronta 2 para meme">
+        </div>
+        <div class="pre3">
+            <img id="prePronta3" src="/imagens/imagem3.jpg" alt="Imagem pré pronta 3 para meme">
+        </div>
+        <div class="pre4">
+            <img id="prePronta4" src="/imagens/imagem4.jpg" alt="Imagem pré pronta 4 para meme">
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    
+    <footer id="rodape" class="rodap">
+        <div class="bhmanu">
+            <h3>Copyright © - BH Manutenção de Computadores e Desenvolvimento de Sistemas</h3>
+            <a href="#minhafoto">Topo</a>
+        </div>
+    </footer>
+</body>
+</html>
