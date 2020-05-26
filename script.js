@@ -31,11 +31,5 @@ window.onload = function () {
   function incluiTexto () {
     caixaTextoConteiner.innerText = caixaTexto.value;
   }  
-  caixaTexto.addEventListener('keyup', incluiTexto);
-
-  function insereImagem () {
-    takePicture.innerHTML = imagem1.value;
-  }
-
-  imagem1.addEventListener('click', insereImagem);
+  caixaTexto.addEventListener('keyup', incluiTexto);  
 }
