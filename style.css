@@ -1,4 +1,4 @@
-#meme-image-container{
+#meme-image{
     height: 400px;
     width: 400px;
     border: solid 1px black;
@@ -11,5 +11,7 @@
     color: white;
     text-align: center;
     text-shadow: 5px 5px 5px black;
+    height: 400px;
+    width: 400px;
 
 }
