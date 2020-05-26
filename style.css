@@ -24,8 +24,8 @@
 #meme-image {
   background-size: cover;
   display: block;
-  height: 300px;
-  width: 280.99px;
+  height: 100%;
+  width: 100%;
 }
 
 #fire {
