@@ -49,15 +49,66 @@ body {
   margin-top: 400px;
   position: absolute;
   text-shadow: 5px 5px 5px black;
-  z-index: 2;
+  z-index: 3;
+}
+.text-inpu{
+  font-size: 25px;
 }
 .meme-imag {
   background-color: white;
   border: 1px solid black;
-  height: 496px;
+  height: 490px;
   left: 434px;
   top: 330px;
   width: 396px;
+}
+.meme{
+  background-color: white;
+  border: 1px solid black;
+  height: 490px;
+  left: 434px;
+  position: absolute;
+  top: 330px;
+  z-index: 1;
+  width: 396px;
+}
+.pre img{
+  display: inline-block;
+}
+.pre1{
+  display: inline-block;
+  margin: 0px 0px;
+  width: 110px;
+}
+.pre2{
+  display: inline-block;
+  width: 110px;
+}
+.pre3{
+  display: inline-block;
+  margin: 0px 0px;
+  width: 110px;
+}
+.pre4{
+  display: inline-block;
+  margin: 0px 0px;
+  width: 110px;
+}
+.pre .pre1 img{
+  display: inline-block;
+  width: 100px;
+}
+.pre .pre2 img{
+  display: inline-block;
+  width: 100px;
+}
+.pre .pre3 img{
+  display: inline-block;
+  width: 100px;
+}
+.pre .pre4 img{
+  display: inline-block;
+  width: 100px;
 }
 .rodap {
   margin-bottom: 20px;
