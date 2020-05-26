@@ -15,16 +15,16 @@ let meme4 = document.getElementById('meme-4');
 function presetImg() {
   let target = event.target;
   if (target === meme1) {
-    memeImage.src = "/img/meme1.png";
+    memeImage.src = "/imgs/meme1.png";
   }
   if (target === meme2) {
-    memeImage.src = "/img/meme2.png";
+    memeImage.src = "/imgs/meme2.png";
   }
   if (target === meme3) {
-    memeImage.src = "/img/meme3.png";
+    memeImage.src = "/imgs/meme3.png";
   }
   if(target === meme4) {
-    memeImage.src = "/img/meme4.png";
+    memeImage.src = "/imgs/meme4.png";
   }
 }
 
