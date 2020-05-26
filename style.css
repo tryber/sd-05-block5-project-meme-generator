@@ -2,10 +2,6 @@ body {
   background: white;
 }
 
-button {
-
-}
-
 #container {
   padding: 10px;
 }
@@ -14,36 +10,30 @@ button {
   margin: 10px 0;
 }
 
-#text-input, #meme-insert {
+#text-input,
+#meme-insert {
   margin: 5px 0;
 }
 
-#text-input {
-
-}
-
-#meme-insert{
-
-}
-
-#meme-image-container{
+#meme-image-container {
   width: 400px;
   height: 350px;
   background: white;
   border: 1px solid black;
 }
 
-#meme-image{
-  width:400px;
-  height:350px;
+#meme-image {
+  width: 400px;
+  height: 350px;
   box-sizing: border-box;
-
 }
 
-#meme-text{
+#meme-text {
   font-size: 30px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  text-shadow: 5px 5px 5px black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-shadow: 5px 0px 5px black, -5px 0px 5px black, 0px 5px 5px black,
+    0px -5px 5px black;
   position: absolute;
   top: 350px;
   left: 30px;
@@ -56,7 +46,7 @@ button {
   text-align: center;
 }
 
-#fire{
+#fire {
   background: red;
 }
 
@@ -68,7 +58,10 @@ button {
   background: green;
 }
 
-#meme-1, #meme-2, #meme-3, #meme-4 {
+#meme-1,
+#meme-2,
+#meme-3,
+#meme-4 {
   width: 60px;
   height: 50px;
   margin-right: 20px;
