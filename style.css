@@ -11,6 +11,7 @@ h1 {
 img {
   height: 500px;
   width: 500px;
+  z-index: 0;
 }
 
 .text-input {
@@ -20,8 +21,8 @@ img {
 .meme-image-container {
   background-color: white;
   border: solid 1px black;
-  margin: 20px auto;
   height: 500px;
+  margin: 20px auto;
   width: 500px;
 }
 
@@ -34,4 +35,5 @@ img {
   text-shadow: 5px 5px 5px black;
   top: 80%;
   word-wrap: break-word;
+  z-index: 1;
 }
