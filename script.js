@@ -10,4 +10,4 @@ textInput.addEventListener('keyup', function() {
     
 memeInsert.addEventListener("input", function() {
 memeImage.src = URL.createObjectURL(this.files[0]);
-})
+})//função completa para requisito mínimo//
