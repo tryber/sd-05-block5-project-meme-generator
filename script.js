@@ -1,5 +1,4 @@
-let textoInput = document.getElementById("text-input");
-alert(textoInput)
+const textoInput = document.getElementById("text-input");
 const textoMeme = document.getElementById("meme-text")
 
 textoInput.addEventListener("keyup", function(){
