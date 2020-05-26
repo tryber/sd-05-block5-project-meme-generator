@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <header id="cabecalho"></header>
+    <header class="cabecalho"></header>
     <div>
         <h5 class="tituloMeme">MEME GENERATOR</h5>
         <img class="imagem" src="/imagens/memes2.png" alt="Imagem de vários memes juntos." width="285px">
@@ -19,22 +19,23 @@
         <label for="text-input">Texto: </label>
         <input type="text" id="text-input" tabindex="1" placeholder="Digite aqui"/>
     </p>
-    <h5>Foto:</h5>
-    <button id="meme-insert">Choose File</button>
-    
-    <div id="meme-image-container">
-        <div id="meme-text"></div>
-        <img id="meme-image" alt="Será inserida uma imagem de meme.">
+    <p>
+        <label for="meme-insert">Foto: </label>
+        <button id="meme-insert">Choose File</button>
+    </p>    
+    <div id="meme-image-container" class="meme-image-cont">
+        <div id="meme-text" class="meme-tex"></div>
+        <img id="meme-image" class="meme-imag" alt="Será inserida uma imagem de meme.">
     </div>
-    
-    <h5>Estilos Customizados:</h5>
+        
+    <label>Estilos Customizados:<br></label>
     <button id="fire" type="button">Fire</button>
     <button id="water" type="button">Water</button>
     <button id="earth" type="button">Earth</button>
     
     <script src="script.js"></script>
     
-    <footer id="rodape">
+    <footer id="rodape" class="rodap">
         <div class="bhmanu">
             <h3>Copyright © - BH Manutenção de Computadores e Desenvolvimento de Sistemas</h3>
             <a href="#minhafoto">Topo</a>

@@ -1,82 +1,69 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
 }
-
-#cabecalho {
-    background-color: #ffb351;
-    height: 200px;
+.cabecalho {
+  background-color: #ffb351;
+  height: 190px;
 }
-
 .tituloMeme {
-    font-size: 30px;
-    left: 500px;
-    position: absolute;
-    top: 160px;
+  font-size: 30px;
+  left: 500px;
+  position: absolute;
+  top: 108px;
 }
-
 .imagem {
-    left: 500px;
-    position: absolute;
-    top: 20px;
+  left: 500px;
+  position: absolute;
+  top: 20px;
 }
-
 .github {
-    position: absolute;
-    right: 230px;
-    top: 100px;
-    width: 24px;
+  position: absolute;
+  right: 230px;
+  top: 100px;
+  width: 24px;
 }
-
 .linkedin {
-    position: absolute;
-    right: 140px;
-    top: 100px;
-    width: 24px;
+  position: absolute;
+  right: 140px;
+  top: 100px;
+  width: 24px;
 }
-
-#meme-image-container {
-   background-color: white;
-   border: 1px solid black;
-   display: block;
-   height: 500px;
-   margin-left: auto;
-   margin-top: 50px;
-   margin-right: auto;
-   text-align: center;
-   width: 400px;
+.meme-image-cont {
+  background-color: white;
+  border: 1px solid black;
+  display: block;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  text-align: center;
+  width: 400px;
 }
-
-#meme-text {
-    position: absolute;
-    margin-top: 400px;
-    left: 450px;
-    z-index: 2;
-    color: white;
-    font-size: 25px;
-    text-shadow: 5px 5px 5px black;
+.meme-tex {
+  color: white;
+  font-size: 25px;
+  left: 450px;
+  margin-top: 400px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  z-index: 2;
 }
-
-#meme-image {
-    background-color: white;
-    border: 1px solid black;
-    height: 496px;
-    left: 434px;
-    top: 330px;
-    width: 396px;
+.meme-imag {
+  background-color: white;
+  border: 1px solid black;
+  height: 496px;
+  left: 434px;
+  top: 330px;
+  width: 396px;
 }
-
-#rodape {
-    margin-bottom: 20px;
-    margin-top: 20px;
+.rodap {
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
-
-#rodape .bhmanu {
-    font-size: 11px;
-    text-align: center;
+.bhmanu {
+  font-size: 11px;
+  text-align: center;
 }
