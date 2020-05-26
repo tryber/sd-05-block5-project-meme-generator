@@ -7,21 +7,24 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <header id="cabecalho">
-        <h1 class="tituloMeme">MEME GENERATOR</h1>
-        <img class="imagem" src="/imagens/memes2.png" alt="Imagem de vários memes juntos." width="285px">
-        <a target="_blank" href="https://www.linkedin.com/in/hugo-costa-9b032831/"><img  class="linkedin" src="/imagens/linkedin.png" alt="Icone do linkedin"></a>
-        <a target="_blank" href="https://github.com/hleoc"><img  class="github" src="/imagens/github2.png" alt="Icone do github"></a>
-    </header>
-    <h5>Texto:</h5>
-    <input type="text" id="text-input" placeholder="Digite aqui">
 
+    <header id="cabecalho"></header>
+    <div>
+        <h5 class="tituloMeme">MEME GENERATOR</h5>
+        <img class="imagem" src="/imagens/memes2.png" alt="Imagem de vários memes juntos." width="285px">
+        <a target="_blank" href="https://www.linkedin.com/in/hugo-costa-9b032831/"><img class="linkedin" src="/imagens/linkedin.png" alt="Icone do linkedin"></a>
+        <a target="_blank" href="https://github.com/hleoc"><img class="github" src="/imagens/github2.png" alt="Icone do github"></a>
+    </div>
+    <p>
+        <label for="text-input">Texto: </label>
+        <input type="text" id="text-input" tabindex="1" placeholder="Digite aqui"/>
+    </p>
     <h5>Foto:</h5>
-    <button id="meme-insert" >Choose File</button>
+    <button id="meme-insert">Choose File</button>
     
     <div id="meme-image-container">
         <div id="meme-text"></div>
-        <img id="meme-image">
+        <img id="meme-image" alt="Será inserida uma imagem de meme.">
     </div>
     
     <h5>Estilos Customizados:</h5>
