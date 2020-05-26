@@ -66,12 +66,12 @@ body {
 .meme{
   background-color: white;
   border: 1px solid black;
-  height: 485px;
+  height: 470px;
   left: 480px;
   position: absolute;
   top: 335px;
   z-index: 1;
-  width: 370px;
+  width: 345px;
 }
 .pre img{
   display: inline-block;

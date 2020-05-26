@@ -13,21 +13,29 @@ window.onload = function () {
   function mudaCor1(){
     caixaColorida.style.borderColor = 'red';
     botao1.style.borderColor = 'red';
+    takePicture.style.borderColor = 'red';
   }
   botao1.addEventListener('click', mudaCor1);
   function mudaCor2 () {
     caixaColorida.style.borderColor = 'blue';
     botao2.style.borderColor = 'blue';
+    takePicture.style.borderColor = 'blue';
   }  
   botao2.addEventListener('click', mudaCor2);
   function mudaCor3 () {
     caixaColorida.style.borderColor = 'green';
     botao3.style.borderColor = 'green';
+    takePicture.style.borderColor = 'green';
   }
   botao3.addEventListener('click', mudaCor3);
-  function incluiTexto (obj) {
+  function incluiTexto () {
     caixaTextoConteiner.innerText = caixaTexto.value;
-    obj.value = obj.value.substring(0,60);
   }  
   caixaTexto.addEventListener('keyup', incluiTexto);
+
+  function insereImagem () {
+    takePicture.innerHTML = imagem1.value;
+  }
+
+  imagem1.addEventListener('click', insereImagem);
 }
