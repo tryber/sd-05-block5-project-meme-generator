@@ -5,11 +5,13 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <p>Digite aqui o seu texto: <input type="text" maxlength="60" id="text-input"></p>
-        <p>Escolha sua imagem: <input type="file" accept="image/*" alt="Imagem do usuario" onchange="loadFile(event)" id="meme-insert"></p>
+        <div>
+            <p>Digite aqui o seu texto: <input type="text" maxlength="60" id="text-input"></p>
+            <p>Escolha sua imagem: <input type="file" accept="image/*" alt="Imagem do usuario" onchange="loadFile(event)" id="meme-insert"></p>
+        </div>
         <div id="meme-image-container">
             <img id="meme-image">
-            <p id="meme-text"></p>
+            <div id="meme-text"></div>
         </div>
         <script src="script.js"></script>
     </body>
