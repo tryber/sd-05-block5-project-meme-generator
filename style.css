@@ -1,5 +1,23 @@
+body {
+  font-family: Geomanist, sans-serif;
+}
+
 .borders li {
   display: inline-block;
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 20%;
+}
+
+.borders button {
+  width: 60px;
+}
+
+.borders {
+  margin: auto;
+  padding-left: 0;
+  text-align: center;
 }
 
 .earth {
@@ -10,12 +28,25 @@
   background-color: red;
 }
 
+.water {
+  background-color: blue;
+}
+
 .memes li {
   display: inline-block;
+  margin-top: 15px;
+}
+
+.memes {
+  margin: auto;
+  padding-left: 0;
+  text-align: center;
 }
 
 .meme-1 , .meme-2 , .meme-3 , .meme-4 {
-  width: 50px;
+  border: 1px solid black;
+  height: 50px;
+  width: 40px;
 }
 
 .meme-image {
@@ -28,6 +59,7 @@
   background-color: white;
   border: 1px solid black;
   height: 300px;
+  margin: auto;
   width: 20%;
 }
 
@@ -39,6 +71,17 @@
   z-index: 1;
 }
 
-.water {
-  background-color: blue;
+h1 {
+  text-align: center;
+}
+
+.inputs {
+  list-style: none;
+  margin-left: 40%;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+
+.inputs li {
+  margin-bottom: 10px;
 }
