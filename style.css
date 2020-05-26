@@ -34,7 +34,7 @@ height: max-content;
 width: fit-content;
 word-break: break-all;
 position: absolute;
-z-index: 1;
+top: 90px;
 }
 
 #meme-image {
