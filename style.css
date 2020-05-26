@@ -16,7 +16,7 @@
     position: absolute;
     margin-bottom: 14px;
     z-index: 1;
-    max-width: 450px;
+    max-width: 100%;
 }
 #meme-image {
     width: 99%;
