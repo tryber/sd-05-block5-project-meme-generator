@@ -2,18 +2,22 @@
     <head>
         <title > Meme generator</title>
         <meta charset="utf-8">
-        <style src="style.css"></style>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <h1> Faca seu meme aqui !!</h1>
         <div>
             <form>
                 <label for="text-input"> Colque o seu texto aqui !!! ---></label>
-                <input tybe="text" name="text-input"id="text-input">
-                <label for="image-input"> Slecione a imagem ! --></label>
-                <input type="file" name="image-input" value="image-input" id="image-input">
-                <input type="image" src="/wp-content/uploads/sendform.png">
+                <input tybe="text" name="text-input"id="text-input" size="60"><br>
+                <label> Slecione a imagem ! --></label>
+                <input type="file" id="meme-insert" accept=".png, .jpg, .jpeg">
             </form>
+            <div id="meme-image-container">
+                <div id="meme-text"></div>
+                <img id="meme-image"></img>
+            </div>
+
         </div>
         <script src="script.js"></script>
     </body>
