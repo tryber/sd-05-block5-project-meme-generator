@@ -58,7 +58,7 @@ document.getElementById('earth').addEventListener('click', bterra);
 const fundo = document.getElementById('meme-image');
 
 function fmeme1() {
-  fundo.src= 'imgs/meme1.png';
+  fundo.src = 'imgs/meme1.png';
 }
 
 document.getElementById('meme-1').addEventListener('click', fmeme1);

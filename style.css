@@ -29,10 +29,10 @@ header {
   align-content: center;
   color: white;
   font-size: 30px;
-  text-align: center;
-  text-shadow: 5px 5px 5px black;
   padding: 20px;
   position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
   vertical-align: middle;
 }
 
