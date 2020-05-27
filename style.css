@@ -9,6 +9,8 @@
   border-style: solid;
   position: relative;
   text-align: center;
+  width: 1366px;
+  height: 768px;
 }
 
 #meme-text {

@@ -12,7 +12,7 @@ function changeImage(input) {
     reader = new FileReader();
 
     reader.onload = function(e) {
-      preview.setAttribute('src', e.target.result);
+      preview.setAttribute("src", e.target.result);
     }
 
     reader.readAsDataURL(input.files[0]);
