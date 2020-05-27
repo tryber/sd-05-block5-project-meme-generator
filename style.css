@@ -7,10 +7,16 @@
   border-color: black;
   border-width: "1px";
   border-style: solid;
+  position: relative;
+  text-align: center;
 }
 
 #meme-text {
   text-shadow: "5px" "5px" "5px";
   font-size: "30px";
   color: white;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
