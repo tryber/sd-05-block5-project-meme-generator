@@ -18,8 +18,8 @@ function trocaFoto(event) {
 
   const imgtag = document.getElementById('meme-image');
   reader.onload = function (event) {
-   imgtag.src = event.target.result;
-    };
+    imgtag.src = event.target.result;
+  };
 
   reader.readAsDataURL(selectedFile);
 }
@@ -30,28 +30,28 @@ document.getElementById('meme-insert').addEventListener('change', trocaFoto);
 const bobo = document.getElementById('meme-image-container');
 
 function bfire() {
-  bobo.style.borderStyle= 'dashed';
-  bobo.style.borderColor= 'red';
+  bobo.style.borderStyle = 'dashed';
+  bobo.style.borderColor = 'red';
   bobo.style.borderWidth = '3px';
 }
 
 document.getElementById('fire').addEventListener('click', bfire);
 
 function bwater() {
-  bobo.style.borderStyle= 'double';
-  bobo.style.borderColor= 'blue';
+  bobo.style.borderStyle = 'double';
+  bobo.style.borderColor = 'blue';
   bobo.style.borderWidth = '5px';
 }
-  
+
 document.getElementById('water').addEventListener('click', bwater);
 
 function bterra() {
-  bobo.style.borderStyle= 'groove';
-  bobo.style.borderColor= 'green';
+  bobo.style.borderStyle = 'groove';
+  bobo.style.borderColor = 'green';
   bobo.style.borderWidth = '6px';
 }
-    
-  document.getElementById('earth').addEventListener('click', bterra);
+
+document.getElementById('earth').addEventListener('click', bterra);
 
 // botões de colocar fundo
 
@@ -64,20 +64,19 @@ function fmeme1() {
 document.getElementById('meme-1').addEventListener('click', fmeme1);
 
 function fmeme2() {
-  fundo.src= 'imgs/meme2.png';
+  fundo.src = 'imgs/meme2.png';
 }
 
 document.getElementById('meme-2').addEventListener('click', fmeme2);
-  
+
 function fmeme3() {
-  fundo.src= 'imgs/meme3.png';
+  fundo.src = 'imgs/meme3.png';
 }
 
 document.getElementById('meme-3').addEventListener('click', fmeme3);
-  
+
 function fmeme4() {
-  fundo.src= 'imgs/meme4.png';
+  fundo.src = 'imgs/meme4.png';
 }
 
 document.getElementById('meme-4').addEventListener('click', fmeme4);
-
