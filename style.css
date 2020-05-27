@@ -1,4 +1,4 @@
-.meme-image-container {
+.image {
   background-color: white;
   border: 1px solid black;
   height: 400px;
@@ -6,7 +6,7 @@
   width: 400px;
 }
 
-.meme-text {
+.text {
   color: white;
   font-size: 30px;
   height: 50px;
