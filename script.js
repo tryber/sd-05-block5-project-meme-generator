@@ -25,6 +25,26 @@ memeInsert.addEventListener('change', changeImg, false);
 // Evento do botão fire
 const btnFire = document.querySelector('#fire');
 btnFire.addEventListener('click', function () {
-  const areaMeme = document.querySelector('#meme-image');
+  const areaMeme = document.querySelector('#meme-image-container');
+  areaMeme.classList.remove('water');
+  areaMeme.classList.remove('earth');
   areaMeme.classList.add('fire');
+})
+
+// Evento do botão Water
+const btnWater = document.querySelector('#water');
+btnWater.addEventListener('click', function () {
+  const areaMeme = document.querySelector('#meme-image-container');
+  areaMeme.classList.remove('fire');
+  areaMeme.classList.remove('earth');
+  areaMeme.classList.add('water');
+})
+
+// Evento do botão Earth
+const btnEarth = document.querySelector('#earth');
+btnEarth.addEventListener('click', function () {
+  const areaMeme = document.querySelector('#meme-image-container');
+  areaMeme.classList.remove('fire');
+  areaMeme.classList.remove('water');
+  areaMeme.classList.add('earth');
 })
