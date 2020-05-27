@@ -7,10 +7,18 @@
   </head>
   <body>
     <h1>MEME GENERATOR</h1>
-    <label for="fname">Text:</label>
-    <input type="text" id="text-input">
+    <form>
+      <div class="confirm-text">
+        <label for="text-input">Text:</label>
+        <input type="text" id="text-input">
+        <button id="confirm-button">Enter</button>
+      </div><br></br>
+      <label for="meme-insert">Upload image:</label>
+      <input type="file" id="meme-insert">
+    </form>
     <div id="meme-image-container">
       <p id="meme-text"></p>
+      <img id="meme-image" src="">
     </div>
 
 
