@@ -63,4 +63,4 @@ const memePronto = document.querySelector('.memes-prontos');
 memePronto.addEventListener('click', function (event) {
   const trocaMeme = event.target.src;
   document.getElementById('meme-image').src = trocaMeme;
-})
+});

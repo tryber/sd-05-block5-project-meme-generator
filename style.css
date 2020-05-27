@@ -23,8 +23,8 @@ header {
 
 .meme-image-container {
   background-color: white;
-  bottom: 5%;
   border: black solid 1px;
+  bottom: 5%;
   height: 400px;
   left: 50%;
   margin: 15px;
