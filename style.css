@@ -8,3 +8,9 @@
   border-width: "1px";
   border-style: solid;
 }
+
+#meme-text {
+  text-shadow: "5px" "5px" "5px";
+  font-size: "30px";
+  color: white;
+}
