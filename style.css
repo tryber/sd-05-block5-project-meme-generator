@@ -1,4 +1,5 @@
 body {
+  background-color: burlywood;
   font-size: 15px;
   height: 100%;
   position: absolute;
@@ -14,18 +15,18 @@ header {
 }
 
 .meme-container {
-  position: absolute;
   left: 50%;
+  position: absolute;
   top: 15%;
   transform: translateX(-50%);
 }
 
 .meme-image-container {
   background-color: white;
+  bottom: 5%;
   border: black solid 1px;
   height: 400px;
   left: 50%;
-  bottom: 5%;
   margin: 15px;
   position: absolute;
   transform: translateX(-50%);
@@ -45,12 +46,47 @@ header {
   position: absolute;
   text-align: center;
   text-shadow: 5px 5px 5px black;
-  transform: translateX(-50%);  
+  transform: translateX(-50%);
 }
 
 .meme-image {
   height: 400px;
   width: 400px;
+}
+
+.memes-prontos {
+  bottom: 7%;
+  height: 400px;
+  position: absolute;
+  right: 6%;
+  width: 100px;
+}
+
+.meme-1 {
+  height: 24%;
+
+}
+
+.meme-2 {
+  height: 24%;
+
+}
+
+.meme-3 {
+  height: 24%;
+
+}
+
+.meme-4 {
+  height: 24%;
+
+}
+
+.deleta-borda {
+  bottom: -7%;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
 }
 
 .btn-fire {
@@ -70,9 +106,9 @@ header {
 
 .btn-earth {
   background-color: green;
+  bottom: 20%;
   left: -15%;
   position: absolute;
-  bottom: 20%;
   transform: translateX(-20%);
 }
 

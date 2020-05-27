@@ -29,7 +29,7 @@ btnFire.addEventListener('click', function () {
   areaMeme.classList.remove('water');
   areaMeme.classList.remove('earth');
   areaMeme.classList.add('fire');
-})
+});
 
 // Evento do botão Water
 const btnWater = document.querySelector('#water');
@@ -38,7 +38,7 @@ btnWater.addEventListener('click', function () {
   areaMeme.classList.remove('fire');
   areaMeme.classList.remove('earth');
   areaMeme.classList.add('water');
-})
+});
 
 // Evento do botão Earth
 const btnEarth = document.querySelector('#earth');
@@ -47,4 +47,20 @@ btnEarth.addEventListener('click', function () {
   areaMeme.classList.remove('fire');
   areaMeme.classList.remove('water');
   areaMeme.classList.add('earth');
+});
+
+// Evento do botão sem borda
+const btnDel = document.querySelector('#deleta');
+btnDel.addEventListener('click', function () {
+  const areaMeme = document.querySelector('#meme-image-container');
+  areaMeme.classList.remove('fire');
+  areaMeme.classList.remove('water');
+  areaMeme.classList.remove('earth');
+});
+
+// Evento que troca image-meme pelo meme pronto
+const memePronto = document.querySelector('.memes-prontos');
+memePronto.addEventListener('click', function (event) {
+  const trocaMeme = event.target.src;
+  document.getElementById('meme-image').src = trocaMeme;
 })
