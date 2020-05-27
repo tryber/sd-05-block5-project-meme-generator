@@ -1,19 +1,39 @@
 body {
   font-size: 15px;
-  margin: 30px;
+  height: 100%;
+  position: absolute;
+  width: 100%;
 }
 
 header {
-  font-size: 50px;
-  margin: 30px;
+  font-size: 35px;
+  left: 50%;
+  margin-top: 30px;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.meme-container {
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  transform: translateX(-50%);
 }
 
 .meme-image-container {
   background-color: white;
   border: black solid 1px;
   height: 400px;
+  left: 50%;
+  bottom: 5%;
   margin: 15px;
+  position: absolute;
+  transform: translateX(-50%);
   width: 400px;
+}
+
+.space {
+  margin: 5px;
 }
 
 .meme-text {
@@ -31,4 +51,39 @@ header {
   position: absolute;
   width: 400px;
   z-index: 0;
+}
+
+.btn-fire {
+  background-color: red;
+  left: -15%;
+  position: absolute;
+  top: 10%;
+}
+
+.btn-water {
+  background-color: blue;
+  left: -15%;
+  position: absolute;
+  top: 40%;
+  transform: translateX(-20%);
+}
+
+.btn-earth {
+  background-color: green;
+  left: -15%;
+  position: absolute;
+  bottom: 20%;
+  transform: translateX(-20%);
+}
+
+.fire {
+  border: 3px dashed red;
+}
+
+.water {
+  border: 5px double blue;
+}
+
+.earth {
+  border: groove green 6px;
 }
