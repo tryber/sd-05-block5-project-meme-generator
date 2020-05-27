@@ -1,11 +1,7 @@
-let textInput = document.getElementById("text-input"),
-    textMeme = document.getElementById("meme-text"),
-    memeInsert = document.getElementById("meme-insert"),
-    memeImage = document.getElementById("meme-image"),
-
-function insertText() {
-  textMeme.innerText = textInput.value;
-}
+const textInput = document.getElementById("text-input");
+const memeText = document.getElementById("meme-text");
+const memeInsert = document.getElementById("meme-insert");
+const memeImage = document.getElementById("meme-image");
 
 function showImage(evento) {
   let image = evento.target.files[0];
@@ -13,4 +9,6 @@ function showImage(evento) {
 }
 
 memeInsert.addEventListener("change", showImage);
-textInput.addEventListener("keyup", insertText);
+textInput.addEventListener("keyup", function(){
+  memeText.innerText = this.value;
+});
