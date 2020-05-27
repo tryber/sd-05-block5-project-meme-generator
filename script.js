@@ -1,68 +1,65 @@
-let memeImage = document.getElementById('meme-image');
-let memeInput = document.getElementById('meme-insert');
-let textInput = document.getElementById('text-input');
-let memeText = document.getElementById('meme-text');
-let fogo = document.getElementById('fire');
-let agua = document.getElementById('water');
-let terra = document.getElementById('earth');
-let memeContainer = document.getElementById('meme-image-container');
-let meme1 = document.getElementById('meme-1');
-let meme2 = document.getElementById('meme-2');
-let meme3 = document.getElementById('meme-3');
-let meme4 = document.getElementById('meme-4');
-
+const memeImage = document.getElementById('meme-image');
+const memeInput = document.getElementById('meme-insert');
+const textInput = document.getElementById('text-input');
+const memeText = document.getElementById('meme-text');
+const fogo = document.getElementById('fire');
+const agua = document.getElementById('water');
+const terra = document.getElementById('earth');
+const memeContainer = document.getElementById('meme-image-container');
+const meme1 = document.getElementById('meme-1');
+const meme2 = document.getElementById('meme-2');
+const meme3 = document.getElementById('meme-3');
+const meme4 = document.getElementById('meme-4');
 
 function presetImg() {
-  let target = event.target;
+  const target = event.target;
   if (target === meme1) {
-    memeImage.src = "/imgs/meme1.png";
+    memeImage.src = '/imgs/meme1.png';
   }
   if (target === meme2) {
-    memeImage.src = "/imgs/meme2.png";
+    memeImage.src = '/imgs/meme2.png';
   }
   if (target === meme3) {
-    memeImage.src = "/imgs/meme3.png";
+    memeImage.src = '/imgs/meme3.png';
   }
-  if(target === meme4) {
-    memeImage.src = "/imgs/meme4.png";
+  if (target === meme4) {
+    memeImage.src = '/imgs/meme4.png';
   }
 }
 
-
 function trocaBorda() {
   if (event.target === fogo) {
-    
-    memeContainer.style.borderColor = 'red'; 
-    memeContainer.style.borderWidth = '3px'; 
-    memeContainer.style.borderStyle = 'dashed'; 
+    memeContainer.style.borderColor = 'red';
+    memeContainer.style.borderWidth = '3px';
+    memeContainer.style.borderStyle = 'dashed';
   }
   if (event.target === agua) {
-    memeContainer.style.borderColor = 'blue'; 
-    memeContainer.style.borderWidth = '5px'; 
-    memeContainer.style.borderStyle = 'double'; 
+    memeContainer.style.borderColor = 'blue';
+    memeContainer.style.borderWidth = '5px';
+    memeContainer.style.borderStyle = 'double';
   }
   if (event.target === terra) {
-    memeContainer.style.borderColor = 'green'; 
-    memeContainer.style.borderWidth = '6px'; 
-    memeContainer.style.borderStyle = 'groove'; 
+    memeContainer.style.borderColor = 'green';
+    memeContainer.style.borderWidth = '6px';
+    memeContainer.style.borderStyle = 'groove';
   }
 }
 
 function readText() {
   memeText.innerHTML = textInput.value;
 }
-memeInput.addEventListener('change', function() {
+memeInput.addEventListener('change', function () {
   readURL(this);
 });
 
 function readURL(input) {
-  if(input.files && input.files[0]) {
-    let reader = new FileReader();
-    
-    reader.onload = function(event) {
+  if (input.files && input.files[0]) {
+    const reader = new FileReader();
+
+    reader.onload = function (event) {
       memeImage.setAttribute('src', event.target.result);
-    }
-    
+    };
+
     reader.readAsDataURL(input.files[0]);
   }
 }

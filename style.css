@@ -1,52 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body{
-  font-family:'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
-#meme-image-container {
-  background-color: #ffffff;
+.meme-image-container {
+  background-color: white;
+  border:1px solid black;
+  height: 300px;
   margin-top: 20px;
   width: 400px;
-  height: 300px;
-  border:1px solid black;
 }
 
-#meme-text {
-  top:300px;
-  position: absolute;
-  z-index: 1;
-  padding:0 20px;
-  width: 400px;
-  display: block;
+.meme-text {
   box-sizing: border-box;
   color: #ffffff;
-  text-shadow: 5px 5px 5px black;
+  display: block;
   font-size: 30px;
+  padding:0 20px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
   text-transform: uppercase;
+  top:300px;
+  width: 400px;
+  z-index: 1;
 }
 
-#meme-image {
-  width: 100%;
+.meme-image {
   height: 100%;
+  width: 100%;
 }
 
-#fire {
+.fire {
   background-color: red;
 }
 
-#water {
+.water {
   background-color: blue;
 }
 
-#earth {
+.earth {
   background-color: green;
 }
 
 .presetimg {
   border: 1px solid black;
-  height: 10%;
   border-radius: 5px;
+  height: 10%;
   padding: 5px;
   width: 10%;
 }
