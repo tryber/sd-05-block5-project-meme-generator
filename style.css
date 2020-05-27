@@ -1,0 +1,21 @@
+.container {
+  background-color: white;
+  border: 1px solid black;
+  height: 400px;
+  margin: 15px;
+  width: 400px;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  height: 50px;
+  position: absolute;
+  text-shadow: black 5px 5px 5px;
+  width: 400px;
+}
+
+.image {
+  height: 400px;
+  width: 400px;
+}
