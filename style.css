@@ -14,12 +14,9 @@
 }
 
 #meme-text {
-  text-shadow: 5px 5px 5px;
+  text-shadow: 5px 5px 5px black;
   font-size: 30px;
   color: white;
-  position: absolute;
-  left: 380px;
-  bottom: 100px;
 }
 
 #meme-image {
