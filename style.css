@@ -1,4 +1,4 @@
-.image {
+.container {
   background-color: white;
   border: 1px solid black;
   height: 400px;
@@ -15,7 +15,7 @@
   width: 400px;
 }
 
-img#meme-image {
+.image {
   height: 400px;
   width: 400px;
 }
