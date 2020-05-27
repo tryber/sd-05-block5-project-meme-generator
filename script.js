@@ -21,10 +21,11 @@ function changeImage(input) {
 
 let textInsert = document.getElementById("text-input"),
     textShow = document.getElementById("meme-text"),
+    confirmButton = document.getElementById("confirm-button");
 
 function memeText() {
   textShow.innerHTML = textInsert.value;
 }
 
-textShow.addEventListener("keyup", memeText);
+confirmButton.addEventListener("click", memeText);
 
