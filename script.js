@@ -1,10 +1,10 @@
 let textInput = document.getElementById("text-input"),
-  textMeme = document.getElementById("meme-text"),
-  memeInsert = document.getElementById("meme-insert"),
-  memeImage = document.getElementById("meme-image"),
+    textMeme = document.getElementById("meme-text"),
+    memeInsert = document.getElementById("meme-insert"),
+    memeImage = document.getElementById("meme-image"),
 
 function insertText() {
-  textMeme.innerHTML = textInput.value;
+  textMeme.innerText = textInput.value;
 }
 
 function showImage(evento) {
