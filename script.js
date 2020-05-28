@@ -43,4 +43,20 @@ window.onload = function () {
 
   const earthButton = document.getElementById('earth');
   earthButton.addEventListener('click', trocaMolduraEarth);
-};
+
+  const galeria = [
+    document.querySelector('#meme-1'),
+    document.querySelector('#meme-2'),
+    document.querySelector('#meme-3'),
+    document.querySelector('#meme-4'),
+  ];
+
+  function setaImgGaleria(element) {
+    const saida = document.getElementById('meme-image');
+    saida.src = element.target.src
+  }
+
+  galeria.forEach((item) => {
+    item.addEventListener('click', setaImgGaleria);
+  });
+}

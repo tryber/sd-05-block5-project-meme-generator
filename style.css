@@ -49,3 +49,9 @@ input[ type = 'text' ] {
   font-weight: 550;
   border: 2px solid black;
 }
+
+.galeriaMemes .meme-image {
+  width: 120px;
+  height: 120px;
+  border: 1px solid black;
+}
