@@ -27,3 +27,29 @@
   word-wrap: break-word;
   z-index: 1;
 }
+
+button {
+  border: 1px solid;
+  color: white;
+  margin-top: 520px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fire {
+  background-color: red;
+  border: 1px solid #FF0000;
+}
+
+.water {
+  background-color: blue;
+  border: 1px solid blue;
+}
+
+.earth {
+  background-color: green;
+  border: 1px solid green;
+}
