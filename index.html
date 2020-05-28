@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Gerador Meme</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+
+    <body>
+        <header>
+            <section>
+                <h1>Gerador de Meme</h1>
+            </section>
+            <section>
+                <label id="titleImg">Escolha sua Imagem: </label>
+                <input type="file" accept="image/*" name="image" id="meme-insert">
+            </section>
+            <section>
+                <label>Digite seu meme aqui:</label>
+                <input type="text" id='text-input' class='text-input' maxlength='60'>
+            </section>
+        </header>
+        <div id='meme-image-container' class='meme-image-container'>
+            <img id='meme-image' class="meme-image" alt="Campo que receberá uma imagem">
+            <p id='meme-text' class='meme-text'></p>
+        </div>
+        <section class="buttons">
+            <button id="fire" class="fire">Fire</button>
+            <button id="water" class="water">Water</button>
+            <button id="earth" class="earth">Earth</button>
+        </section>
+    </body>
+    <script type="text/javascript" src="script.js"></script>
+
+</html>
