@@ -29,29 +29,30 @@ input[ type = 'text' ] {
 
 .water {
   background-color: blue;
-  font-size: 18px;
-  color: white;
-  font-weight: 550;
   border: 2px solid black;
+  color: white;
+  font-size: 18px;
+  font-weight: 550;
 }
+
 .earth {
   background-color: green;
-  font-size: 18px;
-  color: white;
-  font-weight: 550;
   border: 2px solid black;
+  color: white;
+  font-size: 18px;
+  font-weight: 550;
 }
 
 .fire {
   background-color: red;
-  font-size: 18px;
-  color: white;
-  font-weight: 550;
   border: 2px solid black;
+  color: white;
+  font-size: 18px;
+  font-weight: 550;
 }
 
 .galeriaMemes .meme-image {
-  width: 120px;
-  height: 120px;
   border: 1px solid black;
+  height: 120px;
+  width: 120px;
 }
