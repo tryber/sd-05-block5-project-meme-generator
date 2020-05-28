@@ -19,4 +19,28 @@ window.onload = function () {
 
   const textInput = document.getElementById('text-input');
   textInput.addEventListener('keyup', imprimeTexto);
+
+  function trocaMolduraFire() {
+    const pegaMoldura = document.getElementById('meme-image-container');
+    pegaMoldura.style.border = '3px dashed red';
+  }
+
+  function trocaMolduraWater() {
+    const pegaMoldura = document.getElementById('meme-image-container');
+    pegaMoldura.style.border = '5px double blue';
+  }
+
+  function trocaMolduraEarth() {
+    const pegaMoldura = document.getElementById('meme-image-container');
+    pegaMoldura.style.border = '6px groove green';
+  }
+
+  const fireButton = document.getElementById('fire');
+  fireButton.addEventListener('click', trocaMolduraFire);
+
+  const waterButton = document.getElementById('water');
+  waterButton.addEventListener('click', trocaMolduraWater);
+
+  const earthButton = document.getElementById('earth');
+  earthButton.addEventListener('click', trocaMolduraEarth);
 };

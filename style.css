@@ -26,3 +26,26 @@
 input[ type = 'text' ] {
   width: 454px;
 }
+
+.water {
+  background-color: blue;
+  font-size: 18px;
+  color: white;
+  font-weight: 550;
+  border: 2px solid black;
+}
+.earth {
+  background-color: green;
+  font-size: 18px;
+  color: white;
+  font-weight: 550;
+  border: 2px solid black;
+}
+
+.fire {
+  background-color: red;
+  font-size: 18px;
+  color: white;
+  font-weight: 550;
+  border: 2px solid black;
+}
