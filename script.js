@@ -1,6 +1,8 @@
-const textInput = document.getElementById('text-input');
+const textInput = document.getElementById('text-input-bottom');
+const textInputTop = document.getElementById('text-input-top');
 const memeInput = document.getElementById('meme-insert');
 const memeText = document.getElementById('meme-text');
+const memeTextTop = document.getElementById('meme-text-top');
 const memeImage = document.getElementById('meme-image');
 const fireButton = document.getElementById('fire');
 const waterButton = document.getElementById('water');
@@ -13,8 +15,10 @@ const memeFour = document.getElementById('meme-4');
 
 function getText() {
   memeText.innerHTML = textInput.value;
+  memeTextTop.innerHTML = textInputTop.value;
 }
 textInput.addEventListener('keyup', getText);
+textInputTop.addEventListener('keyup', getText);
 
 memeInput.addEventListener('input', function () {
   memeImage.src = URL.createObjectURL(this.files[0]);
