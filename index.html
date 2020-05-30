@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link href="style.css" href="script.js" />
+    <link href="style.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meme Generator</title>
   </head>
   <body>
+      <input id="text-input" />
+      <input id="meme-insert" type="file" />
       <div id="meme-image-container">
-        <input id="text-input" maxlength="60" />
-        <input id="meme-insert" />
-      <div id="meme-image">
-        <p id="meme-text">
-          teste
-        </p>
-      </div>
+      <img id="meme-image">
+    </img>
+            <div id="meme-text">
+              teste
+            </div>
     </div>
-  </body>
+    <script src="script.js"></script>
+</body>
 </html>
