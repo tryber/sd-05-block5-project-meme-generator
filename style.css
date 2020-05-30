@@ -1,16 +1,16 @@
-.meme-insert {
+#meme-insert {
 }
-.meme-image-container {
+#meme-image-container {
   border: 1px solid rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
   width: 50%;
   margin: auto;
   position: relative;
 }
-.text-input {
+#text-input {
   max-width: 60ch;
 }
-.meme-text {
+#meme-text {
   text-align: center;
   font-size: 30px;
   color: rgb(255, 255, 255);
@@ -22,7 +22,7 @@
   text-overflow: ellipsis;
   word-break: break-all;
 }
-.meme-image {
+#meme-image {
   width: 100%;
   position: static;
 }
