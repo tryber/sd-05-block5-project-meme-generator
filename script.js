@@ -64,5 +64,5 @@ bordaTerra.addEventListener('click', function borda3() {
 });
 
 function setImage() {
- sendImg.src = URL.createObjectURL(event.target.files[0]);
+    sendImg.src = URL.createObjectURL(event.target.files[0]);
 };
