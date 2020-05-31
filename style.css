@@ -1,12 +1,7 @@
-* {
-  padding: 0;
-  margin: 0;
-}
-
 body {
-  font-family: sans-serif;
-  background-color: rgb(59 , 227 , 174);
+  background-color: antiquewhite;
   color: black;
+  font-family: helvetica, sans-serif;
   z-index: 0;
 }
 
@@ -16,15 +11,15 @@ h1 {
 }
 
 .text-input {
-  margin: 30px;
+  margin: 15px;
 }
 
 .meme-image-container {
+  background-color: white;
   border: solid 1px black;
   height: 400px;
-  width: 400px;
-  background-color: white;
   margin: 30px;
+  width: 400px;
 }
 
 .meme-insert {
@@ -32,10 +27,10 @@ h1 {
 }
 
 .meme-text {
-  position: absolute;
-  top: 550px;
-  text-shadow: 5px 5px 5px black;
-  font-size: 30px;
   color: white;
+  font-size: 30px;
+  position: absolute;
+  text-shadow: 5px 5px 5px black;
+  top: 550px;
   z-index: 3;
 }
