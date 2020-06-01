@@ -35,18 +35,18 @@
 
 .fire {
   background-color: red;
-  border: 6px dashed rgb(255,0,170);
+  border: 6px dashed rgb(255 , 0 , 170);
   width: 80px;
 }
 
 .water {
   background-color: blue;
-  border: 6px double rgb(0,132,255);
+  border: 6px double rgb(0 , 132 , 255);
   width: 80px;
 }
 
 .earth {
   background-color: green;
-  border: 6px groove rgb(0,255,13);
+  border: 6px groove rgb(0 , 255 , 13);
   width: 80px;
 }
