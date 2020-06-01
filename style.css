@@ -23,19 +23,19 @@
 }
 
 #fire {
-  background-color:red;
+  background-color: red;
   border: 6px dashed rgb(255, 0, 170);
   width: 80px;
 }
 
 #water {
-  background-color:blue;
-  border: 6px double  rgb(0, 132, 255);
+  background-color: blue;
+  border: 6px double rgb(0, 132, 255);
   width: 80px;
 }
 
 #earth {
-  background-color:green ;
+  background-color: green;
   border: 6px groove rgb(0, 255, 13);
   width: 80px;
 }
@@ -43,9 +43,10 @@
 .memes {
   width: 100px;
   height: 100px;
-  margin-right:15px;
+  margin-right: 15px;
 }
 
-#suggestion-container, #buttons-container {
+#suggestion-container,
+#buttons-container {
   margin-top: 15px;
 }
