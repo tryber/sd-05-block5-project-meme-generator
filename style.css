@@ -1,5 +1,3 @@
-main {
-}
 
 
 #meme-text {
@@ -14,8 +12,9 @@ main {
   background-color: white;
 }
 
-.u-center#buttons{
+button {
   justify-content: space-between;
+  margin: 2em;
 }
 
 #fire{
