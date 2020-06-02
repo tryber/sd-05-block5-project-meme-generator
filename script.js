@@ -15,3 +15,26 @@ function textoDeEntrada() {
   if (event.target === textoEntrada)
     textoMeme.innerHTML = textoEntrada.value;
 }
+
+function selecionaBordas() {
+  if (event.target === fire)
+  {
+    containerPrincipal.style.borderColor = 'red';
+    containerPrincipal.style.borderWidth = '3px';
+    containerPrincipal.style.borderStyle = 'dashed';
+  }
+
+  if (event.target === water)
+  {
+    containerPrincipal.style.borderColor = 'blue';
+    containerPrincipal.style.borderWidth = '5px';
+    containerPrincipal.style.borderStyle = 'double';
+  }
+
+  if (event.target === earth)
+  {
+    containerPrincipal.style.borderColor = 'green';
+    containerPrincipal.style.borderWidth = '6px';
+    containerPrincipal.style.borderStyle = 'groove';
+  }
+}

@@ -12,6 +12,15 @@
   width: 100%;
 }
 
+.meme-insert {
+  wirth: 120px;
+}
+
+.memes {
+  height: 100px;
+  width: 120px; 
+}
+
 .meme-text {
   color: white;
   font-family: Arial, serif;
@@ -40,4 +49,11 @@
   border-color: rgb(100, 220, 100);
   border-style: groove;
   border-width: 6px;
+}
+
+.posicao-botoes {
+  height: 50px;
+  left: 50px;
+  top: 500px;
+  width: 350px;
 }
