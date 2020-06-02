@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Meme Generator</title>
+    <link href='https://unpkg.com/cirrus-ui' rel='stylesheet' type='text/css'>
+    <link href='style.css' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+
+    <input type="text" id='text-input' name='text-input' maxlength='60'>
+    <input id='meme-insert' type='file' accept='.jpg, .jpeg, .png'>
+
+    <div id='meme-image-container'>
+      <img id='meme-image' src="#"/>
+      <p id='meme-text'></p>
+    </div>
+
+    <div id='buttons'>
+      <button id='fire' class='btn-dark'>Fire</button>
+      <button id='water' class='btn-dark'>Water</button>
+      <button id='earth' class='btn-dark'>Earth</button>
+    </div>
+
+    <div id='examples'>
+      <img id='meme-1' src='/imgs/meme1.png'>
+      <img id='meme-2' src='/imgs/meme2.png'>
+      <img id='meme-3' src='/imgs/meme3.png'>
+      <img id='meme-4' src='/imgs/meme4.png'>
+    </div>
+
+  <script src='script.js'></script>
+  </body>
+</html>
