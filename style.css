@@ -18,7 +18,7 @@
 
 .memes {
   height: 100px;
-  width: 120px; 
+  width: 120px;
 }
 
 .meme-text {
@@ -34,7 +34,6 @@
   border-color: rgb(220, 160, 10);
   border-style: dashed;
   border-width: 3px;
-  
 }
 
 .water {

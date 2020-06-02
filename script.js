@@ -12,8 +12,9 @@ const meme3 = document.getElementById('meme_3');
 const meme4 = document.getElementById('meme_4');
 
 function textoDeEntrada() {
-  if (event.target === textoEntrada)
+  if (event.target === textoEntrada) {
     textoMeme.innerHTML = textoEntrada.value;
+}
 }
 
 function selecionaBordas() {
@@ -44,7 +45,7 @@ function selecionaMeme1() {
   textoMeme.style.left = '40px';
   textoMeme.style.top = '80px';
   textoMeme.style.width = '340px';
-  textoMeme.style.visibility = 'hidden'; 
+  textoMeme.style.visibility = 'hidden';
 }
 
 function selecionaMeme2() {
