@@ -1,4 +1,4 @@
-#meme-image-container {
+.meme-image-container {
   background-color: white;
   border-color: black;
   border-style: solid;
@@ -7,36 +7,37 @@
   width: 450px;
 }
 
-#meme-image {
+.meme-image {
   height: 100%;
   width: 100%;
 }
 
-#meme-text {
+.meme-text {
   color: white;
-  font-size: 30px;
   font-family: Arial, serif;
+  font-size: 30px;
   position: absolute;
   text-shadow: 5px 5px 5px black;
 }
 
-#fire {
+.fire {
   background-color: red;
+  border-color: rgb(220, 160, 10);
   border-style: dashed;
   border-width: 3px;
-  border-color: rgb(220, 160, 10);
+  
 }
 
-#water {
+.water {
   background-color: blue;
+  border-color: rgb(70, 150, 225);
   border-style: double;
   border-width: 5px;
-  border-color: rgb(70, 150, 225);
 }
 
-#earth {
+.earth {
   background-color: green;
+  border-color: rgb(100, 220, 100);
   border-style: groove;
   border-width: 6px;
-  border-color: rgb(100, 220, 100);
 }
