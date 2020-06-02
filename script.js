@@ -38,3 +38,51 @@ function selecionaBordas() {
     containerPrincipal.style.borderStyle = 'groove';
   }
 }
+
+function selecionaMeme1() {
+  imgSelecionada.src = 'imgs/meme_1.jpg';
+  textoMeme.style.left = '40px';
+  textoMeme.style.top = '80px';
+  textoMeme.style.width = '340px';
+  textoMeme.style.visibility = 'hidden'; 
+}
+
+function selecionaMeme2() {
+  imgSelecionada.src = 'imgs/meme_2.jpg';
+}
+
+function selecionaMeme3() {
+  imgSelecionada.src = 'imgs/meme_3.jpg';
+}
+
+function selecionaMeme4() {
+  imgSelecionada.src = 'imgs/meme_4.jpg';
+}
+
+function imgClicada() {
+  if (event.target === meme_1)
+    selecionaMeme1();
+
+  if (event.target === meme_2)
+    selecionaMeme2();
+
+  if (event.target === meme_3)
+  selecionaMeme3();
+
+  if (event.target === meme_4)
+  selecionaMeme4();
+}
+
+textoEntrada.addEventListener('keyup', textoMeme);
+
+imgInserida.addEventListener('input', function() {
+  imgSelecionada.src = URL.createObjectURL(this.files[0]);
+});
+
+fire.addEventListener('click', selecionaBordas);
+water.addEventListener('click', selecionaBordas);
+earth.addEventListener('click', selecionaBordas);
+meme1.addEventListener('click', imgClicada);
+meme2.addEventListener('click', imgClicada);
+meme3.addEventListener('click', imgClicada);
+meme4.addEventListener('click', imgClicada);
