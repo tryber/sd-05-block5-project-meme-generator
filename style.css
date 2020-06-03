@@ -23,13 +23,13 @@
 
 #meme-image {
   display: block;
-  max-height: 400px;
-  max-width: 400px;
+  max-height: 399px;
+  max-width: 399px;
 }
 
 
-.u-center#buttons{
-  justify-content: space-between;
+.u-center button{
+  margin: 2em;
 }
 
 #fire{
