@@ -19,9 +19,6 @@ main {
   text-align: center;
   border: 1px solid black;
   background-color: white;
-  width: 400px;
-  height: 400px;
-  margin-top: 2em;
 }
 
 #meme-image {
@@ -30,8 +27,8 @@ main {
   max-width: 400px;
 }
 
-#text-input, #meme-insert {
-  width: 25%;
+.u-center#buttons{
+  justify-content: space-between;
 }
 
 button {
