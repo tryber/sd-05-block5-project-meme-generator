@@ -8,7 +8,7 @@ function text(){
 
 let image_input = document.getElementById('meme-insert');
 let image_output = document.getElementById('meme-image')
-
+let container = document.getElementById('meme-image-container');
 
 image_input.addEventListener('change', image);
 function image(event){
@@ -16,6 +16,8 @@ function image(event){
   read_img.onload = function () {
     let image_output = document.getElementById('meme-image');
     image_output.src = read_img.result;
+    container.style.width = 'auto';
+    container.style.height = 'auto';
   }
   read_img.readAsDataURL(event.target.files[0]);
 }
