@@ -1,6 +1,3 @@
-main {
-}
-
 #meme-text {
   position: absolute;
   /* top: 0; */
@@ -18,6 +15,8 @@ main {
   /*text-align: center;*/
   border: 1px solid black;
   background-color: white;
+  width: 400px;
+  height: 400px;
 }
 
 
