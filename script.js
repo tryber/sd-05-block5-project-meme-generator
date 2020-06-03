@@ -3,19 +3,13 @@ const textoEntrada = document.getElementById('text-input');
 const containerPrincipal = document.getElementById('meme-image-container');
 const textoMeme = document.getElementById('meme-text');
 const imgInserida = document.getElementById('meme-insert');
-//const btnFire = document.getElementById('fire');
-//const btnWater = document.getElementById('water');
-//const btnEarth = document.getElementById('earth');
+const fire = document.getElementById('fire');
+const water = document.getElementById('water');
+const earth = document.getElementById('earth');
 const meme1 = document.getElementById('meme-1');
 const meme2 = document.getElementById('meme-2');
 const meme3 = document.getElementById('meme-3');
 const meme4 = document.getElementById('meme-4');
-
-/*function textoDeEntrada() {
-  if (event.target === textoEntrada) {
-    textoMeme.innerHTML = textoEntrada.value;
-  }
-}*/
 
 function selecionaBordas() {
   if (event.target === fire) {
@@ -54,17 +48,21 @@ function selecionaMeme4() {
 }
 
 function imgClicada() {
-  if (event.target === meme1)
+  if (event.target === meme1) {
     selecionaMeme1();
+  }
 
-  if (event.target === meme2)
+  if (event.target === meme2) {
     selecionaMeme2();
+  }
 
-  if (event.target === meme3)
-  selecionaMeme3();
+  if (event.target === meme3) {
+    selecionaMeme3();
+  }
 
-  if (event.target === meme4)
+  if (event.target === meme4) {
     selecionaMeme4();
+  }
 }
 
 textoEntrada.addEventListener('keyup', function () {
