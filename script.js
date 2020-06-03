@@ -22,3 +22,10 @@ function image(event){
   read_img.readAsDataURL(event.target.files[0]);
 }
 
+let fire = document.getElementById('fire');
+let water = document.getElementById('water');
+let earth = document.getElementById('earth');
+
+fire.addEventListener('click', function a(){container.style.border = '3px dashed red'});
+water.addEventListener('click', function b(){container.style.border = '5px double blue' });
+earth.addEventListener('click', function c(){container.style.border = '6px groove green' });
