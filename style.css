@@ -1,39 +1,35 @@
-
 main {
 }
 
 #meme-text {
   position: absolute;
-  top: 0;
+  /* top: 0; */
   text-shadow: 5px 5px 5px black;
   font-size: 30px;
   color: white;
-  word-wrap: break-word;  
+  /*word-wrap: break-word;  
   max-width: 300px;
   max-height: 300px;
   padding: 0.4em;
-  text-align: center;
+  text-align: center;*/
 }
 
 #meme-image-container {
-  text-align: center;
+  /*text-align: center;*/
   border: 1px solid black;
   background-color: white;
 }
 
+/*
 #meme-image {
   display: block;
   max-height: 400px;
   max-width: 400px;
 }
+*/
 
 .u-center#buttons{
   justify-content: space-between;
-}
-
-button {
-  justify-content: space-between;
-  margin: 1em;
 }
 
 #fire{
