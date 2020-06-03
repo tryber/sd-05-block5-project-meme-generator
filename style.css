@@ -5,9 +5,9 @@
   text-shadow: 5px 5px 5px black;
   font-size: 30px;
   color: white;
-  /*word-wrap: break-word;  
-  max-width: 300px;
-  max-height: 300px;
+  word-wrap: break-word;  
+  max-width: 350px;
+  /*max-height: 300px;
   padding: 0.4em;
   text-align: center;*/
 }
@@ -23,8 +23,8 @@
 
 #meme-image {
   display: block;
-  max-height: 399px;
-  max-width: 399px;
+  height: 100%;
+  width: 100%;
 }
 
 
