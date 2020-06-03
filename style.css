@@ -28,12 +28,13 @@ main {
   border: 1px solid black;
   background-color: white;
   width: 300px;
+  max-width: 300px;
   min-width: 300px;
   height: 300px;
   margin-top: 2em;
 }
 
-#container-container, #button-container, #input-container, #example-container {
+#meme-image-container, #button-container, #input-container, #example-container {
     flex: 0 0 auto;
     width: 40%;
     margin: 10px;
