@@ -16,8 +16,8 @@ function image(event){
   read_img.onload = function () {
     let image_output = document.getElementById('meme-image');
     image_output.src = read_img.result; 
-    container.style.width = 'auto';
-    container.style.height = 'auto';
+    // container.style.width = 'auto';
+    // container.style.height = 'auto';
   }
   read_img.readAsDataURL(event.target.files[0]);
 }
