@@ -41,23 +41,19 @@ function selecionaBordas() {
 }
 
 function selecionaMeme1() {
-  imgSelecionada.src = 'imgs/meme_1.jpg';
-  textoMeme.style.left = '40px';
-  textoMeme.style.top = '80px';
-  textoMeme.style.width = '340px';
-  textoMeme.style.visibility = 'hidden';
+  imgSelecionada.src = 'imgs/meme_1.png';
 }
 
 function selecionaMeme2() {
-  imgSelecionada.src = 'imgs/meme_2.jpg';
+  imgSelecionada.src = 'imgs/meme_2.png';
 }
 
 function selecionaMeme3() {
-  imgSelecionada.src = 'imgs/meme_3.jpg';
+  imgSelecionada.src = 'imgs/meme_3.png';
 }
 
 function selecionaMeme4() {
-  imgSelecionada.src = 'imgs/meme_4.jpg';
+  imgSelecionada.src = 'imgs/meme_4.png';
 }
 
 function imgClicada() {
@@ -74,7 +70,9 @@ function imgClicada() {
   selecionaMeme4();
 }
 
-textoEntrada.addEventListener('keyup', textoMeme);
+textoEntrada.addEventListener('keyup', function() {
+  textoMeme.innerHTML = textoEntrada.value;
+});
 
 imgInserida.addEventListener('input', function() {
   imgSelecionada.src = URL.createObjectURL(this.files[0]);
