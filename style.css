@@ -11,7 +11,6 @@ main {
   flex-wrap: wrap;
 }
 
-
 #meme-text {
   position: absolute;
   width: 300px;
@@ -34,20 +33,14 @@ main {
   margin-top: 2em;
 }
 
-#meme-image-container, #button-container, #input-container, #example-container {
-    flex: 0 0 auto;
-    width: 40%;
-    margin: 10px;
-}
-
 
 #text-input, #meme-insert {
-  width: 50%;
+  width: 25%;
 }
 
 button {
   justify-content: space-between;
-  margin: 2em;
+  margin: 1em;
 }
 
 #fire{
