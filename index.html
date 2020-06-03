@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Meme Generator</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <h1>Crie Seu Meme</h1>
+
+    <p>Insira aqui seu texto:</p>
+    <input type="text" id="text-input" class="text-input" maxlength="60"/>
+    <p>Insira sua imagem aqui:</p>
+    <input type="file" id="meme-insert" class="meme-insert"/>
+  <div id="meme-image-container" class="meme-image-container">
+    <div id="meme-text" class="meme-text"></div>
+    <img id="meme-image" class="meme-image"></img>
+  </div>
+  <div class="posicao-botoes">
+    <button id="fire" class="fire">Fire</button>
+    <button id="water" class="water">Water</button>
+    <button id="earth" class="earth">Earth</button>
+  </div>
+  <p>Você também pode usar uma dessas quatro imagens para construir seu meme:</p>
+  <img id="meme-1" class="memes" src="imgs/meme1.png">
+  <img id="meme-2" class="memes" src="imgs/meme2.png">
+  <img id="meme-3" class="memes" src="imgs/meme3.png">
+  <img id="meme-4" class="memes" src="imgs/meme4.png">
+</body>
+<script src="script.js"></script>
+</html>
