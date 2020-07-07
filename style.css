@@ -24,7 +24,7 @@ label {
   padding: 30px;
 }
 
-.text-input-top, .text-input-bottom {
+.text-input-top , .text-input-bottom {
   margin: 10px;
   width: 300px;
 }
@@ -47,7 +47,7 @@ label {
 .meme-text-top {
   bottom: 420px;
   color: white;
-  font-family: Impact, Arial Bold, sans-serif;
+  font-family: Impact, Haettenschweiler, Arial Narrow Bold, sans-serif;
   font-size: 30px;
   font-weight: 700;
   left: 40px;
@@ -61,7 +61,7 @@ label {
 
 .meme-text {
   color: white;
-  font-family: Impact, Arial Bold, sans-serif;
+  font-family: Impact, Haettenschweiler, Arial Narrow Bold, sans-serif;
   font-size: 30px;
   font-weight: 700;
   left: 20px;
