@@ -7,17 +7,44 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <h1>Bem Vindo ao Gerador de Memes</h1>
-    <form>
-      <label for='text-input'>Crie sua frase:</label>
-      <input type="text" id="text-input" class='text-input' name="text-input" maxlength="60" /><br/>
-      <label for="meme-insert">Selecione a Imagem:</label>
-      <input type="file" id="meme-insert" name="meme-insert" class="meme-insert"/>
+    <h1>Meme Generator</h1>
+    <form class="container">
+      <label for="">Texto superior:</label>
+      <input
+        type="text"
+        id="text-input-top"
+        class="text-input-top"
+        placeholder="Escreva o seu texto aqui"
+        maxlength="30"
+      />
+      <label for="">Texto inferior:</label>
+      <input
+        type="text"
+        id="text-input"
+        class="text-input-bottom"
+        placeholder="Escreva o seu texto aqui"
+        maxlength="60"
+      />
+      <label for="">Selecione a Imagem:</label>
+      <input type="file" id="meme-insert" class="meme-insert" />
     </form>
-
+    <section class="famousMemes">
+      <p>Ainda não tem uma imagem?<br> Divirta-se com as opções de MEMES famosos abaixo!</p>
+      <img id="meme-1" class="pic" src="meme1.jpeg">
+      <img id="meme-2" class="pic" src="meme2.png">
+      <img id="meme-3" class="pic" src="meme3.png">
+      <img id="meme-4" class="pic" src="meme4.png">
+    </section>
+    <section class="buttonSelect">
+      <label>Selecione a borda: </label>
+      <button id="fire" class="fireButton">Fire</button>
+      <button id="water" class="waterButton">Water</button>
+      <button id="earth" class="earthButton">Earth</button>
+    </section>
     <section id="meme-image-container" class="meme-image-container">
-      <img id="meme-image" src="" alt="meme image" />
-      <p id="meme-text" class="meme-text"></p>
+      <img id="meme-image" class="meme-image" alt="meme image" />
+      <div><p id="meme-text-top" class="meme-text-top"></p></div>
+      <div><p id="meme-text" class="meme-text"></p></div>
     </section>
 
     <script src="script.js"></script>
