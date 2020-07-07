@@ -1,0 +1,125 @@
+body {
+  background-color: purple;
+  color: white;
+  font-family: helvetica, sans-serif;
+}
+
+h1 {
+  background-color: chartreuse;
+  color: purple;
+  margin: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+label {
+  text-align: center;
+}
+
+.container {
+  border-bottom: chartreuse 4px dotted;
+  border-top: chartreuse 4px dotted;
+  display: flex;
+  margin: 10px 30px;
+  padding: 30px;
+}
+
+.text-input-top , .text-input-bottom {
+  margin: 10px;
+  width: 300px;
+}
+
+.meme-insert {
+  position: relative;
+  top: 10px;
+}
+
+.meme-image-container {
+  background-color: white;
+  border: solid 1px black;
+  bottom: 220px;
+  height: 500px;
+  margin: 20px 50%;
+  position: relative;
+  width: 500px;
+}
+
+.meme-text-top {
+  bottom: 420px;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  left: 40px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  text-transform: uppercase;
+  width: 400px;
+  word-wrap: break-word;
+}
+
+.meme-text {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  left: 20px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  text-transform: uppercase;
+  top: 365px;
+  width: 450px;
+  word-wrap: break-word;
+}
+
+.meme-image {
+  height: 100%;
+  width: 100%;
+}
+
+.famousMemes {
+  left: 80px;
+  padding: 10px;
+  position: relative;
+  top: 140px;
+}
+
+.pic {
+  border: 1px solid black;
+  height: 100px;
+  margin-top: 10px;
+  width: 100px;
+}
+
+.buttonSelect {
+  left: 90px;
+  position: relative;
+  top: 140px;
+}
+
+.fireButton {
+  background-color: red;
+  border: 5px solid red;
+  color: white;
+  height: 30px;
+  margin-top: 10px;
+  width: 60px;
+}
+
+.waterButton {
+  background-color: blue;
+  border: 5px solid blue;
+  color: white;
+  height: 30px;
+  margin-top: 10px;
+  width: 60px;
+}
+
+.earthButton {
+  background-color: green;
+  border: 5px solid green;
+  color: white;
+  height: 30px;
+  margin-top: 3px;
+  width: 60px;
+}
