@@ -47,7 +47,6 @@ label {
 .meme-text-top {
   bottom: 420px;
   color: white;
-  font-family: Impact, Haettenschweiler, Arial Narrow Bold, sans-serif;
   font-size: 30px;
   font-weight: 700;
   left: 40px;
@@ -61,7 +60,6 @@ label {
 
 .meme-text {
   color: white;
-  font-family: Impact, Haettenschweiler, Arial Narrow Bold, sans-serif;
   font-size: 30px;
   font-weight: 700;
   left: 20px;
