@@ -47,7 +47,7 @@ label {
 .meme-text-top {
   bottom: 420px;
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 700;
   left: 40px;
   position: absolute;
@@ -67,7 +67,7 @@ label {
   text-align: center;
   text-shadow: 5px 5px 5px black;
   text-transform: uppercase;
-  top: 350px;
+  top: 365px;
   width: 450px;
   word-wrap: break-word;
 }
@@ -117,7 +117,7 @@ label {
 
 .earthButton {
   background-color: green;
-  border: 6px groove green;
+  border: 5px solid green;
   color: white;
   height: 30px;
   margin-top: 3px;

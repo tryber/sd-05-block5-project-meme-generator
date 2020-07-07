@@ -27,16 +27,16 @@ imgInsert.addEventListener('input', function () {
 });
 // Selecionando Memes
 memeOne.addEventListener('click', function () {
-  image.src = 'meme1.png';
+  image.src = '/imgs/meme1.png';
 });
 memeTwo.addEventListener('click', function () {
-  image.src = 'meme2.png';
+  image.src = '/imgs/meme2.png';
 });
 memeThree.addEventListener('click', function () {
-  image.src = 'meme3.png';
+  image.src = '/imgs/meme3.png';
 });
 memeFour.addEventListener('click', function () {
-  image.src = 'meme4.png';
+  image.src = '/imgs/meme4.png';
 });
 // Selecionando bordas
 function changeBorderF() {
