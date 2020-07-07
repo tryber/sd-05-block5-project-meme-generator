@@ -27,7 +27,7 @@ imgInsert.addEventListener('input', function () {
 });
 // Selecionando Memes
 memeOne.addEventListener('click', function () {
-  image.src = 'meme1.jpeg';
+  image.src = 'meme1.png';
 });
 memeTwo.addEventListener('click', function () {
   image.src = 'meme2.png';
